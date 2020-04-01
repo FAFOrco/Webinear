@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Webinear"
+      id="3455b388-14c9-413d-aee2-f0a876aa757f"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Webinear"
+      id="3455b388-14c9-413d-aee2-f0a876aa757f"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
