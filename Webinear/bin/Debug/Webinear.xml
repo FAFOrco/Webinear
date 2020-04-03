@@ -4,27 +4,27 @@
         <name>Webinear</name>
     </assembly>
     <members>
-        <member name="T:Webinear.CloseBrowser">
+        <member name="T:Webinear.Generales.CloseBrowser">
              <summary>
             The CloseBrowser recording.
              </summary>
         </member>
-        <member name="F:Webinear.CloseBrowser.repo">
+        <member name="F:Webinear.Generales.CloseBrowser.repo">
             <summary>
-            Holds an instance of the WebinearRepository repository.
+            Holds an instance of the global::Webinear.WebinearRepository repository.
             </summary>
         </member>
-        <member name="M:Webinear.CloseBrowser.#ctor">
+        <member name="M:Webinear.Generales.CloseBrowser.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="M:Webinear.CloseBrowser.Start">
+        <member name="M:Webinear.Generales.CloseBrowser.Start">
             <summary>
-            Starts the replay of the static recording <see cref="P:Webinear.CloseBrowser.Instance"/>.
+            Starts the replay of the static recording <see cref="P:Webinear.Generales.CloseBrowser.Instance"/>.
             </summary>
         </member>
-        <member name="M:Webinear.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="M:Webinear.Generales.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -32,155 +32,38 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:Webinear.CloseBrowser.Init">
+        <member name="M:Webinear.Generales.CloseBrowser.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:Webinear.CloseBrowser.Instance">
+        <member name="P:Webinear.Generales.CloseBrowser.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
         </member>
-        <member name="T:Webinear.Logout">
-             <summary>
-            The Logout recording.
-             </summary>
-        </member>
-        <member name="F:Webinear.Logout.repo">
-            <summary>
-            Holds an instance of the WebinearRepository repository.
-            </summary>
-        </member>
-        <member name="M:Webinear.Logout.#ctor">
-            <summary>
-            Constructs a new instance.
-            </summary>
-        </member>
-        <member name="M:Webinear.Logout.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:Webinear.Logout.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:Webinear.Logout.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:Webinear.Logout.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
-        <member name="P:Webinear.Logout.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="T:Webinear.OpenBrowser">
-             <summary>
-            The OpenBrowser recording.
-             </summary>
-        </member>
-        <member name="F:Webinear.OpenBrowser.repo">
-            <summary>
-            Holds an instance of the WebinearRepository repository.
-            </summary>
-        </member>
-        <member name="M:Webinear.OpenBrowser.#ctor">
-            <summary>
-            Constructs a new instance.
-            </summary>
-        </member>
-        <member name="M:Webinear.OpenBrowser.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:Webinear.OpenBrowser.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:Webinear.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:Webinear.OpenBrowser.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
-        <member name="P:Webinear.OpenBrowser.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="T:Webinear.Operar">
-             <summary>
-            The Operar recording.
-             </summary>
-        </member>
-        <member name="F:Webinear.Operar.repo">
-            <summary>
-            Holds an instance of the WebinearRepository repository.
-            </summary>
-        </member>
-        <member name="M:Webinear.Operar.#ctor">
-            <summary>
-            Constructs a new instance.
-            </summary>
-        </member>
-        <member name="M:Webinear.Operar.Start">
-            <summary>
-            Starts the replay of the static recording <see cref="P:Webinear.Operar.Instance"/>.
-            </summary>
-        </member>
-        <member name="M:Webinear.Operar.Ranorex#Core#Testing#ITestModule#Run">
-            <summary>
-            Performs the playback of actions in this recording.
-            </summary>
-            <remarks>You should not call this method directly, instead pass the module
-            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
-            that will in turn invoke this method.</remarks>
-        </member>
-        <member name="M:Webinear.Operar.Init">
-            <summary>
-            This method gets called right after the recording has been started.
-            It can be used to execute recording specific initialization code.
-            </summary>
-        </member>
-        <member name="P:Webinear.Operar.Instance">
-            <summary>
-            Gets a static instance of this recording.
-            </summary>
-        </member>
-        <member name="T:Webinear.Login">
+        <member name="T:Webinear.Generales.Login">
              <summary>
             The Login recording.
              </summary>
         </member>
-        <member name="F:Webinear.Login.repo">
+        <member name="F:Webinear.Generales.Login.repo">
             <summary>
-            Holds an instance of the WebinearRepository repository.
+            Holds an instance of the global::Webinear.WebinearRepository repository.
             </summary>
         </member>
-        <member name="M:Webinear.Login.#ctor">
+        <member name="M:Webinear.Generales.Login.#ctor">
             <summary>
             Constructs a new instance.
             </summary>
         </member>
-        <member name="M:Webinear.Login.Start">
+        <member name="M:Webinear.Generales.Login.Start">
             <summary>
-            Starts the replay of the static recording <see cref="P:Webinear.Login.Instance"/>.
+            Starts the replay of the static recording <see cref="P:Webinear.Generales.Login.Instance"/>.
             </summary>
         </member>
-        <member name="M:Webinear.Login.Ranorex#Core#Testing#ITestModule#Run">
+        <member name="M:Webinear.Generales.Login.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this recording.
             </summary>
@@ -188,13 +71,91 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
-        <member name="M:Webinear.Login.Init">
+        <member name="M:Webinear.Generales.Login.Init">
             <summary>
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
             </summary>
         </member>
-        <member name="P:Webinear.Login.Instance">
+        <member name="P:Webinear.Generales.Login.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Webinear.Generales.Logout">
+             <summary>
+            The Logout recording.
+             </summary>
+        </member>
+        <member name="F:Webinear.Generales.Logout.repo">
+            <summary>
+            Holds an instance of the global::Webinear.WebinearRepository repository.
+            </summary>
+        </member>
+        <member name="M:Webinear.Generales.Logout.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Webinear.Generales.Logout.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Webinear.Generales.Logout.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Webinear.Generales.Logout.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Webinear.Generales.Logout.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Webinear.Generales.Logout.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Webinear.Generales.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Webinear.Generales.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the global::Webinear.WebinearRepository repository.
+            </summary>
+        </member>
+        <member name="M:Webinear.Generales.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Webinear.Generales.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Webinear.Generales.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Webinear.Generales.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Webinear.Generales.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Webinear.Generales.OpenBrowser.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
@@ -592,6 +553,45 @@
         <member name="P:Webinear.WebinearRepositoryFolders.PersonalCloudStorageMicrosoftOneDriAppFolder.SpanTagSignInInfo">
             <summary>
             The SpanTagSignIn item info.
+            </summary>
+        </member>
+        <member name="T:Webinear.Operaciones_Web.Operar">
+             <summary>
+            The Operar recording.
+             </summary>
+        </member>
+        <member name="F:Webinear.Operaciones_Web.Operar.repo">
+            <summary>
+            Holds an instance of the global::Webinear.WebinearRepository repository.
+            </summary>
+        </member>
+        <member name="M:Webinear.Operaciones_Web.Operar.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Webinear.Operaciones_Web.Operar.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Webinear.Operaciones_Web.Operar.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Webinear.Operaciones_Web.Operar.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Webinear.Operaciones_Web.Operar.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Webinear.Operaciones_Web.Operar.Instance">
+            <summary>
+            Gets a static instance of this recording.
             </summary>
         </member>
         <member name="T:__RxMain.__RxProgram">

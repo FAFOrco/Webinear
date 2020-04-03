@@ -454,7 +454,7 @@ rxversion="9.2">
 		True
 	</plugins.win32.EnableDynamicMsaa>
 	<plugins.win32.ProcessWhitelist>
-		iexplore;firefox;chrome;MicrosoftEdge;MicrosoftEdgeCP;
+		iexplore;firefox;chrome;MicrosoftEdge;MicrosoftEdgeCP;KeePass;
 	</plugins.win32.ProcessWhitelist>
 	<plugins.win32.ProcessBlacklist>
 	</plugins.win32.ProcessBlacklist>

@@ -60,7 +60,7 @@
 			</testmodule>
 			<testcase
 			id="df581226-0e80-4ba4-9e77-8e0271fbeafd"
-			name="TestCase">
+			name="TestCaseWeb">
 			</testcase>
 			<testmodule
 			id="e15cf833-157a-4ae3-84e9-c5997e58820b"
@@ -78,7 +78,7 @@
 				name="Webinear">
 					<testcase
 					id="df581226-0e80-4ba4-9e77-8e0271fbeafd"
-					name="TestCase">
+					name="TestCaseWeb">
 						<setup
 						id="af7630ec-dfbe-40bd-a53c-4563dec22987"
 						name="setup">
