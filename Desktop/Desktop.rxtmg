@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Desktop"
+      id="fa6ee80b-f3fe-4d5f-bf00-4572ccd2fa09"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Desktop"
+      id="fa6ee80b-f3fe-4d5f-bf00-4572ccd2fa09"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

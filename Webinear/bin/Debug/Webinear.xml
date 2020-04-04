@@ -1,0 +1,612 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Webinear</name>
+    </assembly>
+    <members>
+        <member name="T:Webinear.Generales.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Webinear.Generales.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the global::Webinear.WebinearRepository repository.
+            </summary>
+        </member>
+        <member name="M:Webinear.Generales.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Webinear.Generales.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Webinear.Generales.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Webinear.Generales.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Webinear.Generales.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Webinear.Generales.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Webinear.Generales.Login">
+             <summary>
+            The Login recording.
+             </summary>
+        </member>
+        <member name="F:Webinear.Generales.Login.repo">
+            <summary>
+            Holds an instance of the global::Webinear.WebinearRepository repository.
+            </summary>
+        </member>
+        <member name="M:Webinear.Generales.Login.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Webinear.Generales.Login.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Webinear.Generales.Login.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Webinear.Generales.Login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Webinear.Generales.Login.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Webinear.Generales.Login.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Webinear.Generales.Logout">
+             <summary>
+            The Logout recording.
+             </summary>
+        </member>
+        <member name="F:Webinear.Generales.Logout.repo">
+            <summary>
+            Holds an instance of the global::Webinear.WebinearRepository repository.
+            </summary>
+        </member>
+        <member name="M:Webinear.Generales.Logout.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Webinear.Generales.Logout.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Webinear.Generales.Logout.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Webinear.Generales.Logout.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Webinear.Generales.Logout.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Webinear.Generales.Logout.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Webinear.Generales.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Webinear.Generales.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the global::Webinear.WebinearRepository repository.
+            </summary>
+        </member>
+        <member name="M:Webinear.Generales.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Webinear.Generales.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Webinear.Generales.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Webinear.Generales.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Webinear.Generales.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Webinear.Generales.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Webinear.WebinearRepository">
+            <summary>
+            The class representing the WebinearRepository element repository.
+            </summary>
+        </member>
+        <member name="M:Webinear.WebinearRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the WebinearRepository element repository.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepository.OneDrive">
+            <summary>
+            The OneDrive folder.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepository.Abrir">
+            <summary>
+            The Abrir folder.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepository.PersonalCloudStorageMicrosoftOneDri">
+            <summary>
+            The PersonalCloudStorageMicrosoftOneDri folder.
+            </summary>
+        </member>
+        <member name="T:Webinear.WebinearRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Webinear.WebinearRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Webinear.WebinearRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.ApplicationUnderTestAppFolder.MisArchivos">
+            <summary>
+            The MisArchivos item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.ApplicationUnderTestAppFolder.MisArchivosInfo">
+            <summary>
+            The MisArchivos item info.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.ApplicationUnderTestAppFolder.Carpeta">
+            <summary>
+            The Carpeta item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.ApplicationUnderTestAppFolder.CarpetaInfo">
+            <summary>
+            The Carpeta item info.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.ApplicationUnderTestAppFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.ApplicationUnderTestAppFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.ApplicationUnderTestAppFolder.Crear">
+            <summary>
+            The Crear item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.ApplicationUnderTestAppFolder.CrearInfo">
+            <summary>
+            The Crear item info.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.ApplicationUnderTestAppFolder.Archivos">
+            <summary>
+            The Archivos item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.ApplicationUnderTestAppFolder.ArchivosInfo">
+            <summary>
+            The Archivos item info.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.ApplicationUnderTestAppFolder.ImgTagF">
+            <summary>
+            The ImgTagF item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.ApplicationUnderTestAppFolder.ImgTagFInfo">
+            <summary>
+            The ImgTagF item info.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.ApplicationUnderTestAppFolder.MeControlSignoutLink">
+            <summary>
+            The MeControlSignoutLink item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.ApplicationUnderTestAppFolder.MeControlSignoutLinkInfo">
+            <summary>
+            The MeControlSignoutLink item info.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.ApplicationUnderTestAppFolder.SomeDivTag">
+            <summary>
+            The SomeDivTag folder.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.ApplicationUnderTestAppFolder.OdBasePageBelowHeaderOdBasePageBelo">
+            <summary>
+            The OdBasePageBelowHeaderOdBasePageBelo folder.
+            </summary>
+        </member>
+        <member name="T:Webinear.WebinearRepositoryFolders.SomeDivTagFolder">
+            <summary>
+            The SomeDivTagFolder folder.
+            </summary>
+        </member>
+        <member name="M:Webinear.WebinearRepositoryFolders.SomeDivTagFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SomeDivTag  folder.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.SomeDivTagFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.SomeDivTagFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.SomeDivTagFolder.Email">
+            <summary>
+            The Email item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.SomeDivTagFolder.EmailInfo">
+            <summary>
+            The Email item info.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.SomeDivTagFolder.PersonalAccount">
+            <summary>
+            The PersonalAccount item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.SomeDivTagFolder.PersonalAccountInfo">
+            <summary>
+            The PersonalAccount item info.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.SomeDivTagFolder.Submit">
+            <summary>
+            The Submit item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.SomeDivTagFolder.SubmitInfo">
+            <summary>
+            The Submit item info.
+            </summary>
+        </member>
+        <member name="T:Webinear.WebinearRepositoryFolders.OdBasePageBelowHeaderOdBasePageBeloFolder">
+            <summary>
+            The OdBasePageBelowHeaderOdBasePageBeloFolder folder.
+            </summary>
+        </member>
+        <member name="M:Webinear.WebinearRepositoryFolders.OdBasePageBelowHeaderOdBasePageBeloFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new OdBasePageBelowHeaderOdBasePageBelo  folder.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.OdBasePageBelowHeaderOdBasePageBeloFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.OdBasePageBelowHeaderOdBasePageBeloFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.OdBasePageBelowHeaderOdBasePageBeloFolder.Nuevo">
+            <summary>
+            The Nuevo item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.OdBasePageBelowHeaderOdBasePageBeloFolder.NuevoInfo">
+            <summary>
+            The Nuevo item info.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.OdBasePageBelowHeaderOdBasePageBeloFolder.Cargar">
+            <summary>
+            The Cargar item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.OdBasePageBelowHeaderOdBasePageBeloFolder.CargarInfo">
+            <summary>
+            The Cargar item info.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.OdBasePageBelowHeaderOdBasePageBeloFolder.Prueba1">
+            <summary>
+            The Prueba1 item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.OdBasePageBelowHeaderOdBasePageBeloFolder.Prueba1Info">
+            <summary>
+            The Prueba1 item info.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.OdBasePageBelowHeaderOdBasePageBeloFolder.PruebaTxt">
+            <summary>
+            The PruebaTxt item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.OdBasePageBelowHeaderOdBasePageBeloFolder.PruebaTxtInfo">
+            <summary>
+            The PruebaTxt item info.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.OdBasePageBelowHeaderOdBasePageBeloFolder.Prueba">
+            <summary>
+            The Prueba item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.OdBasePageBelowHeaderOdBasePageBeloFolder.PruebaInfo">
+            <summary>
+            The Prueba item info.
+            </summary>
+        </member>
+        <member name="T:Webinear.WebinearRepositoryFolders.OneDriveAppFolder">
+            <summary>
+            The OneDriveAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Webinear.WebinearRepositoryFolders.OneDriveAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new OneDrive  folder.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.OneDriveAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.OneDriveAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.OneDriveAppFolder.SomeDivTag">
+            <summary>
+            The SomeDivTag item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.OneDriveAppFolder.SomeDivTagInfo">
+            <summary>
+            The SomeDivTag item info.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.OneDriveAppFolder.Passwd">
+            <summary>
+            The Passwd item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.OneDriveAppFolder.PasswdInfo">
+            <summary>
+            The Passwd item info.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.OneDriveAppFolder.IdSIButton9">
+            <summary>
+            The IdSIButton9 item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.OneDriveAppFolder.IdSIButton9Info">
+            <summary>
+            The IdSIButton9 item info.
+            </summary>
+        </member>
+        <member name="T:Webinear.WebinearRepositoryFolders.AbrirAppFolder">
+            <summary>
+            The AbrirAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Webinear.WebinearRepositoryFolders.AbrirAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Abrir  folder.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.AbrirAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.AbrirAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.AbrirAppFolder.Escritorio">
+            <summary>
+            The Escritorio item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.AbrirAppFolder.EscritorioInfo">
+            <summary>
+            The Escritorio item info.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.AbrirAppFolder.Text1148">
+            <summary>
+            The Text1148 item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.AbrirAppFolder.Text1148Info">
+            <summary>
+            The Text1148 item info.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.AbrirAppFolder.ButtonAbrir">
+            <summary>
+            The ButtonAbrir item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.AbrirAppFolder.ButtonAbrirInfo">
+            <summary>
+            The ButtonAbrir item info.
+            </summary>
+        </member>
+        <member name="T:Webinear.WebinearRepositoryFolders.PersonalCloudStorageMicrosoftOneDriAppFolder">
+            <summary>
+            The PersonalCloudStorageMicrosoftOneDriAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Webinear.WebinearRepositoryFolders.PersonalCloudStorageMicrosoftOneDriAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new PersonalCloudStorageMicrosoftOneDri  folder.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.PersonalCloudStorageMicrosoftOneDriAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.PersonalCloudStorageMicrosoftOneDriAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.PersonalCloudStorageMicrosoftOneDriAppFolder.SpanTagSignIn">
+            <summary>
+            The SpanTagSignIn item.
+            </summary>
+        </member>
+        <member name="P:Webinear.WebinearRepositoryFolders.PersonalCloudStorageMicrosoftOneDriAppFolder.SpanTagSignInInfo">
+            <summary>
+            The SpanTagSignIn item info.
+            </summary>
+        </member>
+        <member name="T:Webinear.Operaciones_Web.Operar">
+             <summary>
+            The Operar recording.
+             </summary>
+        </member>
+        <member name="F:Webinear.Operaciones_Web.Operar.repo">
+            <summary>
+            Holds an instance of the global::Webinear.WebinearRepository repository.
+            </summary>
+        </member>
+        <member name="M:Webinear.Operaciones_Web.Operar.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Webinear.Operaciones_Web.Operar.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Webinear.Operaciones_Web.Operar.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Webinear.Operaciones_Web.Operar.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Webinear.Operaciones_Web.Operar.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Webinear.Operaciones_Web.Operar.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>
