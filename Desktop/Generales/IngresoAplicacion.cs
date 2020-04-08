@@ -20,7 +20,7 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace Desktop
+namespace Desktop.Generales
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
@@ -30,9 +30,9 @@ namespace Desktop
     public partial class IngresoAplicacion : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the DesktopRepository repository.
+        /// Holds an instance of the global::Desktop.DesktopRepository repository.
         /// </summary>
-        public static DesktopRepository repo = DesktopRepository.Instance;
+        public static global::Desktop.DesktopRepository repo = global::Desktop.DesktopRepository.Instance;
 
         static IngresoAplicacion instance = new IngresoAplicacion();
 

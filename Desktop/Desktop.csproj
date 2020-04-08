@@ -122,32 +122,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddEntry.cs">
-      <BoundTo>c06045bb-08b4-4e79-bc48-e61ec6f07745</BoundTo>
+    <Compile Include="Acciones\AddEntry.cs">
       <DependentUpon>AddEntry.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>5c4948d6-996b-45e7-b20a-c22dba77ac2d</id>
-    </Compile>
-    <Compile Include="AddEntry.UserCode.cs">
       <BoundTo>c06045bb-08b4-4e79-bc48-e61ec6f07745</BoundTo>
+    </Compile>
+    <Compile Include="Acciones\AddEntry.UserCode.cs">
       <DependentUpon>AddEntry.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>0af1ae16-993e-4872-9c93-0426257066ed</id>
+      <BoundTo>c06045bb-08b4-4e79-bc48-e61ec6f07745</BoundTo>
     </Compile>
     <Compile Include="AssemblyInfo.cs">
       <id>3999d395-6230-4734-8fe5-7b59434c9d7e</id>
-    </Compile>
-    <Compile Include="CloseAUT.cs">
-      <BoundTo>c8437dea-a537-483a-8cf3-891e733b32ce</BoundTo>
-      <DependentUpon>CloseAUT.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>3303ff30-29e1-41ba-a906-c0eb011b351b</id>
-    </Compile>
-    <Compile Include="CloseAUT.UserCode.cs">
-      <BoundTo>c8437dea-a537-483a-8cf3-891e733b32ce</BoundTo>
-      <DependentUpon>CloseAUT.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>d6e34f08-a04a-4db6-a951-955d259228e5</id>
     </Compile>
     <Compile Include="DesktopRepository.cs">
       <BoundTo>007c3ce8-c20d-4b06-b497-e0a3cc94e03d</BoundTo>
@@ -155,32 +143,44 @@
       <RepositoryCode>true</RepositoryCode>
       <id>519774ea-6d4a-461a-9549-a0a6ea3959a6</id>
     </Compile>
-    <Compile Include="Program.cs">
-      <id>268dc260-b391-4e19-89cd-432abb237bc4</id>
+    <Compile Include="Generales\CloseAUT.cs">
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3303ff30-29e1-41ba-a906-c0eb011b351b</id>
+      <BoundTo>c8437dea-a537-483a-8cf3-891e733b32ce</BoundTo>
     </Compile>
-    <Compile Include="IngresoAplicacion.cs">
-      <BoundTo>c73433e5-7aa9-4e46-9e23-883d75f5115b</BoundTo>
+    <Compile Include="Generales\CloseAUT.UserCode.cs">
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d6e34f08-a04a-4db6-a951-955d259228e5</id>
+      <BoundTo>c8437dea-a537-483a-8cf3-891e733b32ce</BoundTo>
+    </Compile>
+    <Compile Include="Generales\IngresoAplicacion.cs">
       <DependentUpon>IngresoAplicacion.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>a19709cb-687d-450c-813e-b422efb41407</id>
-    </Compile>
-    <Compile Include="IngresoAplicacion.UserCode.cs">
       <BoundTo>c73433e5-7aa9-4e46-9e23-883d75f5115b</BoundTo>
+    </Compile>
+    <Compile Include="Generales\IngresoAplicacion.UserCode.cs">
       <DependentUpon>IngresoAplicacion.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>6947e8c6-1326-41b0-a2ba-81071b888882</id>
+      <BoundTo>c73433e5-7aa9-4e46-9e23-883d75f5115b</BoundTo>
     </Compile>
-    <Compile Include="StartAUT.cs">
-      <BoundTo>93c5428a-eb0e-4c15-9e03-19d3f1f3d878</BoundTo>
+    <Compile Include="Generales\StartAUT.cs">
       <DependentUpon>StartAUT.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>75254a09-5668-4d78-9833-6953d1211989</id>
-    </Compile>
-    <Compile Include="StartAUT.UserCode.cs">
       <BoundTo>93c5428a-eb0e-4c15-9e03-19d3f1f3d878</BoundTo>
+    </Compile>
+    <Compile Include="Generales\StartAUT.UserCode.cs">
       <DependentUpon>StartAUT.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>1a4eeaa7-4f94-4088-9629-3bffc46fee98</id>
+      <BoundTo>93c5428a-eb0e-4c15-9e03-19d3f1f3d878</BoundTo>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>268dc260-b391-4e19-89cd-432abb237bc4</id>
     </Compile>
     <Compile Include="Validaciones.cs">
       <BoundTo>a7371fa9-2471-48d5-b1b8-6711967b2893</BoundTo>
@@ -196,18 +196,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="AddEntry.rxrec">
+    <None Include="Acciones\AddEntry.rxrec">
       <BoundTo>007c3ce8-c20d-4b06-b497-e0a3cc94e03d</BoundTo>
       <id>c06045bb-08b4-4e79-bc48-e61ec6f07745</id>
       <recordtableid>a71b5bc5-7de3-4a86-9da6-10b1e64f2025</recordtableid>
     </None>
     <None Include="app.config">
       <id>d07bfc93-b623-448c-894d-ad0bd4b6653a</id>
-    </None>
-    <None Include="CloseAUT.rxrec">
-      <BoundTo>007c3ce8-c20d-4b06-b497-e0a3cc94e03d</BoundTo>
-      <id>c8437dea-a537-483a-8cf3-891e733b32ce</id>
-      <recordtableid>44d32fec-835f-4609-8534-755f41de8417</recordtableid>
     </None>
     <None Include="DesktopRepository.rximg">
       <BoundTo>007c3ce8-c20d-4b06-b497-e0a3cc94e03d</BoundTo>
@@ -220,12 +215,17 @@
       <repoid>0bc44b56-dde4-41eb-b07f-d973f03695d7</repoid>
       <reporootid>92b0dab7-fe66-4f03-982d-667528682b36</reporootid>
     </None>
-    <None Include="IngresoAplicacion.rxrec">
+    <None Include="Generales\CloseAUT.rxrec">
+      <BoundTo>007c3ce8-c20d-4b06-b497-e0a3cc94e03d</BoundTo>
+      <id>c8437dea-a537-483a-8cf3-891e733b32ce</id>
+      <recordtableid>44d32fec-835f-4609-8534-755f41de8417</recordtableid>
+    </None>
+    <None Include="Generales\IngresoAplicacion.rxrec">
       <BoundTo>007c3ce8-c20d-4b06-b497-e0a3cc94e03d</BoundTo>
       <id>c73433e5-7aa9-4e46-9e23-883d75f5115b</id>
       <recordtableid>f231a01e-97b5-47e2-8675-5e95480f2f7e</recordtableid>
     </None>
-    <None Include="StartAUT.rxrec">
+    <None Include="Generales\StartAUT.rxrec">
       <BoundTo>007c3ce8-c20d-4b06-b497-e0a3cc94e03d</BoundTo>
       <id>93c5428a-eb0e-4c15-9e03-19d3f1f3d878</id>
       <recordtableid>c371cd49-b710-4856-a7f5-44d05fd94ec1</recordtableid>
@@ -245,6 +245,14 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>924c6a3b-ef2b-4d7b-9449-cbb030f38b11</id>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Generales">
+      <id>fc4aa24c-2e6b-46d8-afd1-885040eb0a07</id>
+    </Folder>
+    <Folder Include="Acciones">
+      <id>10264de4-84eb-466d-ad93-91cac1f1e2c9</id>
+    </Folder>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />

@@ -20,7 +20,7 @@ mode="Desktop">
 	</useDefaultItemLogging>
 	<codegen
 	classname="StartAUT"
-	namespace="Desktop">
+	namespace="Desktop.Generales">
 	</codegen>
 	<variables>
 		<var
@@ -826,7 +826,7 @@ mode="Desktop">
 	<repository
 	id="0bc44b56-dde4-41eb-b07f-d973f03695d7"
 	name="DesktopRepository"
-	relativepath="DesktopRepository.rxrep">
+	relativepath="..\DesktopRepository.rxrep">
 		<codegen
 		classname="DesktopRepository"
 		namespace="Desktop">

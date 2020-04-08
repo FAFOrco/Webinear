@@ -20,50 +20,50 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace Desktop
+namespace Desktop.Generales
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The CloseAUT recording.
+    ///The StartAUT recording.
     /// </summary>
-    [TestModule("44d32fec-835f-4609-8534-755f41de8417", ModuleType.Recording, 1)]
-    public partial class CloseAUT : ITestModule
+    [TestModule("c371cd49-b710-4856-a7f5-44d05fd94ec1", ModuleType.Recording, 1)]
+    public partial class StartAUT : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the DesktopRepository repository.
+        /// Holds an instance of the global::Desktop.DesktopRepository repository.
         /// </summary>
-        public static DesktopRepository repo = DesktopRepository.Instance;
+        public static global::Desktop.DesktopRepository repo = global::Desktop.DesktopRepository.Instance;
 
-        static CloseAUT instance = new CloseAUT();
+        static StartAUT instance = new StartAUT();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public CloseAUT()
+        public StartAUT()
         {
-            CloseAutProcessIDVar = "-1";
+            StartAutProcessIDVar = "";
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static CloseAUT Instance
+        public static StartAUT Instance
         {
             get { return instance; }
         }
 
 #region Variables
 
-        string _CloseAutProcessIDVar;
+        string _StartAutProcessIDVar;
 
         /// <summary>
-        /// Gets or sets the value of variable CloseAutProcessIDVar.
+        /// Gets or sets the value of variable StartAutProcessIDVar.
         /// </summary>
-        [TestVariable("32a1511b-d9fb-4848-beaa-6df0b7999672")]
-        public string CloseAutProcessIDVar
+        [TestVariable("4bfa21bb-36aa-4871-927f-8ac6229bda6b")]
+        public string StartAutProcessIDVar
         {
-            get { return _CloseAutProcessIDVar; }
-            set { _CloseAutProcessIDVar = value; }
+            get { return _StartAutProcessIDVar; }
+            set { _StartAutProcessIDVar = value; }
         }
 
 #endregion
@@ -92,8 +92,12 @@ namespace Desktop
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Closing application with Process ID bound to variable $CloseAutProcessIDVar.", new RecordItemIndex(0));
-            Host.Current.CloseApplication(int.Parse(CloseAutProcessIDVar), 500);
+            Report.Log(ReportLevel.Info, "Application", "Run application 'C:\\Program Files\\KeePass Password Safe 2\\KeePass.exe' in normal mode. Return value bound to $StartAutProcessIDVar.", new RecordItemIndex(0));
+            StartAutProcessIDVar = ValueConverter.ToString(Host.Local.RunApplication("C:\\Program Files\\KeePass Password Safe 2\\KeePass.exe", "", "", false));
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'KeyPromptForm.MBannerImage'.", repo.KeyPromptForm.MBannerImageInfo, new RecordItemIndex(1));
+            Validate.Exists(repo.KeyPromptForm.MBannerImageInfo);
             Delay.Milliseconds(0);
             
         }

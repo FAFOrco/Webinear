@@ -20,9 +20,9 @@ using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 
-namespace Desktop
+namespace Desktop.Acciones
 {
-    public partial class CloseAUT
+    public partial class AddEntry
     {
         /// <summary>
         /// This method gets called right after the recording has been started.

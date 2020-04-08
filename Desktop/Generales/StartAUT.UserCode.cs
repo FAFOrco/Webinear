@@ -20,7 +20,7 @@ using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 
-namespace Desktop
+namespace Desktop.Generales
 {
     public partial class StartAUT
     {
