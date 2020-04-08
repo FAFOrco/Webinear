@@ -20,7 +20,7 @@ mode="Global">
 	</useDefaultItemLogging>
 	<codegen
 	classname="AddEntry"
-	namespace="Desktop">
+	namespace="Desktop.Acciones">
 	</codegen>
 	<variables>
 	</variables>
@@ -15945,7 +15945,7 @@ xQBaXU7NmCibliij5T1cZXt3FW65TTtdv3voopZFkWR1U7kAxk9sYrq6AP/Z
 	<repository
 	id="0bc44b56-dde4-41eb-b07f-d973f03695d7"
 	name="DesktopRepository"
-	relativepath="DesktopRepository.rxrep">
+	relativepath="..\DesktopRepository.rxrep">
 		<codegen
 		classname="DesktopRepository"
 		namespace="Desktop">
