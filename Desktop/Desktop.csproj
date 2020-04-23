@@ -134,6 +134,18 @@
       <id>0af1ae16-993e-4872-9c93-0426257066ed</id>
       <BoundTo>c06045bb-08b4-4e79-bc48-e61ec6f07745</BoundTo>
     </Compile>
+    <Compile Include="Acciones\MoverYBorrar.cs">
+      <BoundTo>caca0c91-44d4-437e-a126-d7094fb2d71a</BoundTo>
+      <DependentUpon>MoverYBorrar.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d7a208e0-94de-4e4a-9163-5253ed5d33ba</id>
+    </Compile>
+    <Compile Include="Acciones\MoverYBorrar.UserCode.cs">
+      <BoundTo>caca0c91-44d4-437e-a126-d7094fb2d71a</BoundTo>
+      <DependentUpon>MoverYBorrar.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8ac414d8-edf7-4ddb-aea6-69663b885c3d</id>
+    </Compile>
     <Compile Include="AssemblyInfo.cs">
       <id>3999d395-6230-4734-8fe5-7b59434c9d7e</id>
     </Compile>
@@ -200,6 +212,11 @@
       <BoundTo>007c3ce8-c20d-4b06-b497-e0a3cc94e03d</BoundTo>
       <id>c06045bb-08b4-4e79-bc48-e61ec6f07745</id>
       <recordtableid>a71b5bc5-7de3-4a86-9da6-10b1e64f2025</recordtableid>
+    </None>
+    <None Include="Acciones\MoverYBorrar.rxrec">
+      <BoundTo>007c3ce8-c20d-4b06-b497-e0a3cc94e03d</BoundTo>
+      <id>caca0c91-44d4-437e-a126-d7094fb2d71a</id>
+      <recordtableid>01b9ab7f-c14a-4a88-aee1-db010dc1e911</recordtableid>
     </None>
     <None Include="app.config">
       <id>d07bfc93-b623-448c-894d-ad0bd4b6653a</id>
