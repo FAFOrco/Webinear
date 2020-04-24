@@ -395,6 +395,24 @@ rxversion="9.2">
 		True
 	</Telemetry.Enabled>
 	<Endpoints.Data>
+		&lt;![CDATA[{
+  &quot;mobile.android.remote&quot;: [
+    {
+      &quot;Id&quot;: &quot;8b671e0a-67a3-4db2-9820-ca3185518779&quot;,
+      &quot;ControlFlags&quot;: 0,
+      &quot;CoreData&quot;: {},
+      &quot;PluginData&quot;: {
+        &quot;Platform&quot;: &quot;Android&quot;,
+        &quot;ConnectionType&quot;: &quot;Emulator&quot;
+      },
+      &quot;MetaData&quot;: {},
+      &quot;Description&quot;: &quot;&quot;,
+      &quot;DisplayName&quot;: &quot;emulator-5554&quot;,
+      &quot;Url&quot;: &quot;emulator-5554&quot;,
+      &quot;Tags&quot;: []
+    }
+  ]
+}]]&gt;
 	</Endpoints.Data>
 	<TestCase.Retry.Count>
 		0

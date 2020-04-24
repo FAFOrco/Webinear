@@ -1,0 +1,127 @@
+﻿<repository
+id="f07865e0-639d-4349-89ea-f8d194196e6b"
+name="MobileBrowseRepository">
+	<codegen
+	classname="MobileBrowseRepository"
+	namespace="MobileBrowse">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="c170b1fd-2acd-4f40-bf5b-1e061f45bf01"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="mobileapp"
+		id="2dc4a099-82b3-4f60-a552-7226bd06f91e"
+		isrooted="True"
+		name="Browser"
+		searchtimeout="300000ms"
+		usecache="False">
+			<basepath>
+				/mobileapp[@title='ranorex.RxBrowser']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJRSURBVDhPpZPrS5NhGIf3l/QhoqQiMgii6OBx
+5cwPElaEfSqIJJCgzAikQgsELSlI7SCUnayoIKkPghWZhxxpc861Oedh6jZ1mzu8x1092wS10KBu
++H177+t3Pc/LY/jvaWgxc+eVg5rmAaqafnC50cyZ6k5OVHZTXPGFonOtFJa+pKDkybIcPP0Y45Fy
+DHXPbTS1azS2adxqlal+HaHyWZCKR7OUN/k5e9dHye1JTtaOc7zazdEqF4euOMkvM7MmbQeG2mYz
+dW8C3Hwb5uKDKU7dcFN83cmxaw4OX7VTWGGj4NIgpnIrBy4MYCyzkHveQkZpN+vSjRhqGl7gD8QI
+RzXmRUIRlWBYISAyG0rFG1DwzMi4vTIOj4R1TKLL6mHj1u0CUN/CahOPg6JCRIozF9GZCmqM+lUs
+Li8bNm/DcP/p+4VP/xxNB0mJMx/TmZnXmJzTcPsUfk4q9Az9BaCLZlksJ5vDOtOieUw0O6cUrOMy
+ndbVAAltTSzLcYJRHV9IY2JWw+VVsE0o9I/IfLYIwKYVAIvqcWbEckpdxS7ULaMyvcMS7X0rAJLq
+akJdT6kHUuqOpLrCd5dMl0OizZwApC8HJG9cg6g4d2Cp+nRKvc8t0eOU6LDF+ND7G0Dsoi6oh4S6
+P3nrKiMJdc+i+ld7jE/WKO96vKxPAO4tMRDlSOKfh2IIAEzMgcsXZ8ij0T+q8W1YpcOu8HFQTgLW
+pm0Rb6H+Ibn788kxmsgWyRLJFMnINbEvx8Te7Dz2iOzOymNXZio7M1LJyS9i4U3+6xgMvwD+1+a2
+GORSxAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="webdocument"
+		id="276f4afa-8924-4a69-aac4-2417855af386"
+		isrooted="True"
+		name="Dom"
+		searchtimeout="300000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,atag,webelement,mobileuielement"
+			capname="atag"
+			id="347790ea-f050-416d-a441-2c3b4a440299"
+			name="ServiciosDeITR"
+			refimgid="0570ad65-a578-41a6-b0f6-e43fed926f57"
+			searchtimeout="30000ms">
+				/mobileapp[@title='ranorex.RxBrowser']//dom//div[#'navbarBasicExample']//a[@innertext='Servicios' and @visible='true']
+			</item>
+			<item
+			addcaps="unknown,h1tag,webelement,mobileuielement"
+			capname="h1tag"
+			id="06616a18-63fe-4b4b-8b3b-82cfdb1d49d2"
+			name="Servicios"
+			refimgid="95416de9-af4b-4c6d-b7e7-74372ca10455"
+			searchtimeout="30000ms">
+				/mobileapp[@title='ranorex.RxBrowser']//dom/body/section[1]//h1[@innertext='Servicios' and @visible='true']
+			</item>
+			<item
+			addcaps="unknown,imgtag,webelement,mobileuielement"
+			capname="imgtag"
+			id="e8ed33e8-7443-4b1a-8adf-4c59de4be107"
+			name="DesignThinking"
+			refimgid="66fdd02a-cadc-448d-ae73-eca576763068"
+			searchtimeout="30000ms">
+				/mobileapp[@title='ranorex.RxBrowser']//dom//div[#'servicios']/div/div/div[4]//a[@href&gt;'http://www.somositr.com/t']/div/div[1]/?/?/img[@alt='Design Thinking']
+			</item>
+			<item
+			addcaps="unknown,h1tag,webelement,mobileuielement"
+			capname="h1tag"
+			id="3fb4fbee-4ea9-469d-8bac-3cf9f440a649"
+			name="Testing"
+			refimgid="28e3a82a-d352-45ce-81f4-a225dff88f00"
+			searchtimeout="30000ms">
+				/mobileapp[@title='ranorex.RxBrowser']//dom/body/section[1]//h1[@innertext='Testing' and @visible='true']
+			</item>
+			<item
+			addcaps="unknown,imgtag,webelement,mobileuielement"
+			capname="imgtag"
+			id="cf450893-288f-4b07-8d71-4157ba2e0a57"
+			name="ImgTagImgIconTestingAutomatizadoS"
+			refimgid="78cdf8ad-9438-43da-b3b9-b3e48508b687"
+			refpath="/mobileapp[@title='ranorex.RxBrowser']/form[@title='RxBrowserActivity']/container[@rid='content']/container[@containertype='Linear']/dom[@domain='www.somositr.com']/body/div[1]/div/div/div/div/div/div[2]/div/div[1]/figure/img[@alt='../img/icon/testing/automatizado.svg']"
+			searchtimeout="30000ms">
+				/mobileapp[@title='ranorex.RxBrowser']//dom/body/div[1]/div/div/div/div/div/div[2]/div/div[1]/?/?/img[@alt&gt;'../img/icon/testing/autom']
+			</item>
+			<item
+			addcaps="unknown,h4tag,webelement,mobileuielement"
+			capname="h4tag"
+			id="4544df06-06e4-4113-86ea-45ceb3acd554"
+			name="TestingAutomatizado"
+			refimgid="35c6862a-19f9-4718-bef1-34b3dda86e91"
+			searchtimeout="30000ms">
+				/mobileapp[@title='ranorex.RxBrowser']//dom/body/div[1]/div/div/div/div/div/div[2]/div/div[2]/h4[@innertext='Testing automatizado' and @visible='true']
+			</item>
+			<basepath>
+				/mobileapp[@title='ranorex.RxBrowser']//dom
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJRSURBVDhPpZPrS5NhGIf3l/QhoqQiMgii6OBx
+5cwPElaEfSqIJJCgzAikQgsELSlI7SCUnayoIKkPghWZhxxpc861Oedh6jZ1mzu8x1092wS10KBu
++H177+t3Pc/LY/jvaWgxc+eVg5rmAaqafnC50cyZ6k5OVHZTXPGFonOtFJa+pKDkybIcPP0Y45Fy
+DHXPbTS1azS2adxqlal+HaHyWZCKR7OUN/k5e9dHye1JTtaOc7zazdEqF4euOMkvM7MmbQeG2mYz
+dW8C3Hwb5uKDKU7dcFN83cmxaw4OX7VTWGGj4NIgpnIrBy4MYCyzkHveQkZpN+vSjRhqGl7gD8QI
+RzXmRUIRlWBYISAyG0rFG1DwzMi4vTIOj4R1TKLL6mHj1u0CUN/CahOPg6JCRIozF9GZCmqM+lUs
+Li8bNm/DcP/p+4VP/xxNB0mJMx/TmZnXmJzTcPsUfk4q9Az9BaCLZlksJ5vDOtOieUw0O6cUrOMy
+ndbVAAltTSzLcYJRHV9IY2JWw+VVsE0o9I/IfLYIwKYVAIvqcWbEckpdxS7ULaMyvcMS7X0rAJLq
+akJdT6kHUuqOpLrCd5dMl0OizZwApC8HJG9cg6g4d2Cp+nRKvc8t0eOU6LDF+ND7G0Dsoi6oh4S6
+P3nrKiMJdc+i+ld7jE/WKO96vKxPAO4tMRDlSOKfh2IIAEzMgcsXZ8ij0T+q8W1YpcOu8HFQTgLW
+pm0Rb6H+Ibn788kxmsgWyRLJFMnINbEvx8Te7Dz2iOzOymNXZio7M1LJyS9i4U3+6xgMvwD+1+a2
+GORSxAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
