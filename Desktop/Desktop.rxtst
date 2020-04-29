@@ -2,6 +2,20 @@
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
+			<testmodule
+			id="03094b8b-1aa2-4ff8-be18-543a33714184"
+			name="CloseAUT"
+			ref="44d32fec-835f-4609-8534-755f41de8417"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="bd06edd2-17a9-4b44-9579-5132dfae7b02"
+					variableid="32a1511b-d9fb-4848-beaa-6df0b7999672"
+					variablename="CloseAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
 			<setup
 			id="5c6c2505-49d9-4e68-bd4d-505367c04703"
 			name="setup">
@@ -16,6 +30,12 @@
 			id="6be95820-eb97-4d74-a43c-2684302b52f7"
 			name="Validaciones"
 			ref="8277c7e3-6499-4567-af5e-0207b59ffe5c"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="6bf5dd78-9711-4ad8-a02c-68887026e245"
+			name="IngresoAplicacion"
+			ref="f231a01e-97b5-47e2-8675-5e95480f2f7e"
 			type="Recording">
 			</testmodule>
 			<testsuite
@@ -37,6 +57,16 @@
 			reporttemplatefolder=""
 			reportwriteinterval="30000ms">
 			</testsuite>
+			<setup
+			id="95af785b-95a2-4603-b38a-947775dd4108"
+			name="setup">
+			</setup>
+			<testmodule
+			id="970ea71e-f3f6-4e3d-b17c-476f3fb30848"
+			name="MoverYBorrar"
+			ref="01b9ab7f-c14a-4a88-aee1-db010dc1e911"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="a021a773-d420-4e29-be70-dbc85cee0f07"
 			name="StartAUT"
@@ -72,6 +102,10 @@
 					</param>
 				</parameters>
 			</testcase>
+			<testcase
+			id="c66beaad-1d8d-4423-8a9b-ed59d5558b99"
+			name="TC_MoverYBorrar">
+			</testcase>
 			<testmodule
 			id="cb032b8e-57d0-424a-9f5b-11383dde9cd4"
 			name="CloseAUT"
@@ -86,9 +120,27 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<teardown
+			id="ee38d729-20f9-41a4-a316-6e8be885df79"
+			name="teardown">
+			</teardown>
+			<testmodule
+			id="f0467b27-5512-4bbb-9b57-a972b01d1daa"
+			name="StartAUT"
+			ref="c371cd49-b710-4856-a7f5-44d05fd94ec1"
+			type="Recording">
+				<databinding>
+					<var
+					dataname="AppProcessID"
+					datasourceid="bd06edd2-17a9-4b44-9579-5132dfae7b02"
+					variableid="4bfa21bb-36aa-4871-927f-8ac6229bda6b"
+					variablename="StartAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
 			<testcase
 			id="f6cbd327-6b50-4238-aa9c-8a9720f71ffb"
-			name="TestCase">
+			name="TC_IngresoDatos">
 			</testcase>
 		</flatlistofchildren>
 		<childhierarchy>
@@ -100,7 +152,7 @@
 				name="Desktop">
 					<testcase
 					id="f6cbd327-6b50-4238-aa9c-8a9720f71ffb"
-					name="TestCase">
+					name="TC_IngresoDatos">
 						<setup
 						id="5c6c2505-49d9-4e68-bd4d-505367c04703"
 						name="setup">
@@ -130,6 +182,34 @@
 							</testmodule>
 						</teardown>
 					</testcase>
+					<testcase
+					id="c66beaad-1d8d-4423-8a9b-ed59d5558b99"
+					name="TC_MoverYBorrar">
+						<setup
+						id="95af785b-95a2-4603-b38a-947775dd4108"
+						name="setup">
+							<testmodule
+							id="f0467b27-5512-4bbb-9b57-a972b01d1daa"
+							name="StartAUT">
+							</testmodule>
+						</setup>
+						<testmodule
+						id="6bf5dd78-9711-4ad8-a02c-68887026e245"
+						name="IngresoAplicacion">
+						</testmodule>
+						<testmodule
+						id="970ea71e-f3f6-4e3d-b17c-476f3fb30848"
+						name="MoverYBorrar">
+						</testmodule>
+						<teardown
+						id="ee38d729-20f9-41a4-a316-6e8be885df79"
+						name="teardown">
+							<testmodule
+							id="03094b8b-1aa2-4ff8-be18-543a33714184"
+							name="CloseAUT">
+							</testmodule>
+						</teardown>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -142,6 +222,9 @@
 		name="TestRun">
 			<testcontainer
 			id="bd06edd2-17a9-4b44-9579-5132dfae7b02">
+			</testcontainer>
+			<testcontainer
+			id="c66beaad-1d8d-4423-8a9b-ed59d5558b99">
 			</testcontainer>
 			<testcontainer
 			id="f6cbd327-6b50-4238-aa9c-8a9720f71ffb">

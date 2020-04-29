@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webinear", "Webinear\Webine
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desktop", "Desktop\Desktop.csproj", "{A9EE0D4A-ECF6-4F74-813E-0937ABE8157F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileBrowse", "MobileBrowse\MobileBrowse.csproj", "{56DF980A-11EA-4FD6-B943-087C6034229A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobile", "Mobile\Mobile.csproj", "{AA5DAB1F-070D-4054-9D4E-B68EE3589E76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -27,5 +31,13 @@ Global
 		{A9EE0D4A-ECF6-4F74-813E-0937ABE8157F}.Debug|x86.ActiveCfg = Debug|x86
 		{A9EE0D4A-ECF6-4F74-813E-0937ABE8157F}.Release|x86.Build.0 = Release|x86
 		{A9EE0D4A-ECF6-4F74-813E-0937ABE8157F}.Release|x86.ActiveCfg = Release|x86
+		{56DF980A-11EA-4FD6-B943-087C6034229A}.Debug|x86.Build.0 = Debug|x86
+		{56DF980A-11EA-4FD6-B943-087C6034229A}.Debug|x86.ActiveCfg = Debug|x86
+		{56DF980A-11EA-4FD6-B943-087C6034229A}.Release|x86.Build.0 = Release|x86
+		{56DF980A-11EA-4FD6-B943-087C6034229A}.Release|x86.ActiveCfg = Release|x86
+		{AA5DAB1F-070D-4054-9D4E-B68EE3589E76}.Debug|x86.Build.0 = Debug|x86
+		{AA5DAB1F-070D-4054-9D4E-B68EE3589E76}.Debug|x86.ActiveCfg = Debug|x86
+		{AA5DAB1F-070D-4054-9D4E-B68EE3589E76}.Release|x86.Build.0 = Release|x86
+		{AA5DAB1F-070D-4054-9D4E-B68EE3589E76}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 EndGlobal

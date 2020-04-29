@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="MobileBrowse"
+      id="0195741e-47d1-49db-9512-70393edb085d"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="MobileBrowse"
+      id="0195741e-47d1-49db-9512-70393edb085d"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

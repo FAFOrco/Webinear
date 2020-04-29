@@ -1,12 +1,13 @@
 ﻿<Properties>
-  <Array name="active">
-    <Element value="Webinear.rxtst" />
-  </Array>
+  <Array name="active" />
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="Webinear.rxtst" />
   </Array>
   <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
     <Array name="recentusercodeselections" />
   </Properties>
 </Properties>

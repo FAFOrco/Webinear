@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Mobile"
+      id="ff3e63a4-3c3d-4f08-9422-78ede1e8ec6a"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Mobile"
+      id="ff3e63a4-3c3d-4f08-9422-78ede1e8ec6a"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

@@ -6,11 +6,12 @@
   <Array name="files" />
   <SerializedValue name="ModuleBrowserState">
     <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{A9EE0D4A-ECF6-4F74-813E-0937ABE8157F}</string>
       <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
-      <string>c0ac5cef-cbb5-4c09-84b1-b67165acc398</string>
-      <string>{DD262A33-E6F5-4F91-A02A-67C5D2241A95}</string>
+      <string>10264de4-84eb-466d-ad93-91cac1f1e2c9</string>
+      <string>fc4aa24c-2e6b-46d8-afd1-885040eb0a07</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution Webinear[Webinear[]]]&#xD;&#xA;Solution Webinear&#xD;&#xA;Solution Webinear" />
+  <ProjectBrowserState value="[Solution Webinear[]]&#xD;&#xA;Solution Webinear\Desktop&#xD;&#xA;Solution Webinear" />
   <StartupProject value="{DD262A33-E6F5-4F91-A02A-67C5D2241A95}" />
 </Properties>

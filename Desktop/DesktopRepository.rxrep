@@ -119,6 +119,44 @@ yZaEGpadW4AMrX7OizNSXsRMsNXpR2NLJ8H3FZytJ20YvYLmLEYlGiaeTfDBqhF8+KKMWkFT+v6g
 			searchtimeout="30000ms">
 				/form[@controlname='MainForm']/?/?/button[@accessiblename='Save']
 			</item>
+			<item
+			addcaps="cell"
+			capname="cell"
+			id="2c302885-4f3a-4b68-bdec-5f788603cce3"
+			name="PruebaAutomatizacion"
+			refimgid="616d39c0-cd98-4ac6-aea4-30317240c2e0"
+			searchtimeout="30000ms">
+				/form[@controlname='MainForm']//table[@controlname='m_lvEntries']//row/cell[@text='Prueba Automatizacion']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="3820f13e-14cb-4134-8450-c92eec57f58d"
+			name="General"
+			refimgid="fefa9fc6-6ab1-4590-a850-3189b044f063"
+			refpath="/form[@controlname='MainForm']/container/container[@caption='' and @controltypename='SplitterPanel' and @instance='0']/container/container[@caption='' and @controltypename='SplitterPanel' and @instance='0']/tree/tree/treeitem/treeitem[@accessiblename='General']"
+			searchtimeout="30000ms">
+				/form[@controlname='MainForm']/container[@controlname='m_splitHorizontal']//tree[@controlname='m_tvGroups']/?/?/treeitem[@accessiblename='Database']/treeitem[@accessiblename='General']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="5caf23fe-d2e8-4013-95a3-bbc743cacf39"
+			name="Text"
+			refimgid="e6b62075-2383-4a2f-a53c-8e2c6839f6ec"
+			searchtimeout="30000ms">
+				/form[@controlname='MainForm']/container[@controlname='m_splitHorizontal']//text[@accessiblerole='Text' and @text~'Group: ']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="434e7d32-ebcb-412c-8019-b532f4e6e7be"
+			name="RecycleBin"
+			refimgid="03512d2b-2834-45d4-be01-b0dcc3cbd133"
+			refpath="/form[@controlname='MainForm']/container[@controlname='m_splitHorizontal']/container[@caption='' and @controltypename='SplitterPanel' and @instance='0']/container[@controlname='m_splitVertical']/container[@caption='' and @controltypename='SplitterPanel' and @instance='0']/tree[@controlname='m_tvGroups']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Database']/treeitem[@accessiblename='Recycle Bin']"
+			searchtimeout="30000ms">
+				/form[@controlname='MainForm']/container[@controlname='m_splitHorizontal']//tree[@controlname='m_tvGroups']/?/?/treeitem[@accessiblename='Database']/treeitem[@accessiblename='Recycle Bin']
+			</item>
 			<basepath>
 				/form[@controlname='MainForm']
 			</basepath>
@@ -166,6 +204,43 @@ yZaEGpadW4AMrX7OizNSXsRMsNXpR2NLJ8H3FZytJ20YvYLmLEYlGiaeTfDBqhF8+KKMWkFT+v6g
 			refpath="/contextmenu[@controlname='m_ctxPwGen']/menuitem[@accessiblename>'(Automatically generated passwords']"
 			searchtimeout="30000ms">
 				/contextmenu[@processname='KeePass']/menuitem[@accessiblename&gt;'(Automatically generated passwords']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="8b290d95-7f8c-4dfa-8e4c-79bc8519c7e5"
+			name="Rearrange"
+			refimgid="bfba943e-8248-4aa1-89de-23e51ac78bf2"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='KeePass']//menuitem[@accessiblename='Rearrange']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="20e9caf3-97d1-446a-8f43-fbfc917eb52a"
+			name="MoveToGroup"
+			refimgid="a6d3d2f1-f617-40f0-9d21-2a6969b215c7"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='KeePass']//menuitem[@accessiblename='Move to Group']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="4c918a5f-cfb7-427c-bae7-e28c4f9a44e2"
+			name="MenuItemGeneral"
+			refimgid="77430f32-b8a0-431a-8782-69e80a1c0a29"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='KeePass']//menuitem[@accessiblename~'General']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="b6ffb87b-30e0-4542-9587-0b73f9e207e7"
+			name="EmptyRecycleBin"
+			refimgid="b35aeaf1-95b1-4e19-9f31-0b52eafab6a0"
+			refpath="/contextmenu[@controlname='m_ctxGroupList']/menuitem[@accessiblename='Empty Recycle Bin']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='KeePass']/menuitem[@accessiblename='Empty Recycle Bin']
 			</item>
 			<basepath>
 				/contextmenu[@processname='KeePass']
@@ -354,6 +429,73 @@ zKalWbxmnWSATm+AlpngiroArj8KsUmt5gFKaUne9Cs1r8leL2qDlLmE1yy+yQTbav14/7dXzFz4
 yZaEGpadW4AMrX7OizNSXsRMsNXpR2NLJ8H3FZytJ20YvYLmLEYlGiaeTfDBqhF8+KKMWkFT+v6g
 /SlfknSw1RXgsF7KJHilgi1Ub05uHl8SmjONqpp1mxo2yGpuau8SmfkGphMd0oZh2/Zd2HegRHSb
 3MQ8TyrVHxMR59kie/4bAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="705fdce8-1d0c-490f-afda-b194fc4118cb"
+		isrooted="True"
+		name="KeePassMsgs"
+		refpath="/form[@title='KeePass']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,uiautomation,uiautomationvalue"
+			capname="text"
+			id="795c9733-16a5-45bb-bed2-c415f33568b4"
+			name="MoverPapelera"
+			refimgid="dd2bc5e4-63f0-4a84-a322-0f2c34fc2170"
+			searchtimeout="30000ms">
+				/form[@title='KeePass']/?/?/text[@automationid='MainInstruction' and @text='Are you sure you want to move the selected entry to the recycle bin?']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="cd37efe1-9d28-48c4-a5eb-ebcb110e9fca"
+			name="ButtonYes"
+			refimgid="bc26ba56-6ce0-4c17-9491-ec383c3dd0c4"
+			refpath="/form[@title='KeePass']/container[@class='DirectUIHWND']/element[@class='CtrlNotifySink' and @instance='0']/button[@text='&amp;Yes']"
+			searchtimeout="30000ms">
+				/form[@title='KeePass']/?/?/element[@instance='0']/button[@text='&amp;Yes']
+			</item>
+			<item
+			addcaps="text,uiautomation,uiautomationvalue"
+			capname="text"
+			id="f2eed36e-db32-473c-96b3-297fc3904764"
+			name="EliminaPapelera"
+			refimgid="eb734d3c-4be8-423c-a7a3-de832f200024"
+			searchtimeout="30000ms">
+				/form[@title='KeePass']/?/?/text[@automationid='MainInstruction' and @text='Are you sure you want to permanently delete the items?']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="463b5958-f77d-4054-9990-89ba75efc4df"
+			name="ButtonDelete"
+			refimgid="48456544-47c6-47b7-9484-dbd47ee506ac"
+			refpath="/form[@title='KeePass']/container/element[@class='CtrlNotifySink' and @instance='0']/button[@text='&amp;Delete']"
+			searchtimeout="30000ms">
+				/form[@title='KeePass']/?/?/element[@instance='0']/button[@text='&amp;Delete']
+			</item>
+			<basepath>
+				/form[@title='KeePass']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALQSURBVDhPdZJrSNNhFMYnzW22rJVRQd4RmfO2
+2cx0GypDKJJA8kt5SaEwNKMLWpCpWEkKm5uOjAyzlEjILt4QzCl+CNIijNkXqT5YrtKl021ZOp7e
+81+a3Q4cGP+9v3PO85zD+0dEszT6+PiMBweHOCnpN/tmYBlFD/4XQpbXNBqNu7OrG1/mXLDZl2Gd
+WcLklBPt9zuRsCfJzd6YWAoIWBtCPp8/qNPp4Fx0Y2p6Cf3D4yirrEdpWR1aH45hYNSJ8beLqKyq
+BXtrZsxvRRr1ej0WXG68//wddaZWiMW+kMrkCJfKsV68AWfKW9DWZ4f5uZMVrgFjGjwo00xjU2eC
+R8amsEmyBcVnqzH0wonepw7kFFTBd6MfDG3vUN8+i+GXLih3q0hOJBUwkmYae2LyGxqbu9hjCcyj
+CxzcMTiP2z02NoUEhRce4OodG2rbbLhx6xFNoeeJRKLXZBjBryYWcammBdt3BK7CNHbT4zls3hqA
+w4VNqGiaQalpGgMjsxAIhBZeSEioc2ZumYOfWVzQpB5AtEKNyFg1IqLVCI9SIUymQqhUBaliPwcX
+6z6hwzwP/4BgB4/t2WFl4xNMmjMOFSMtPQ+p+/KQU2TAkZM3EZ+cgzhNNpSpxzn4aPVH3Oufx07/
+oAVOAu15xbD0zCKk7M2FJi0Xx0ruorC8D3HqbMQkZUOeXMDBWRVWdA7ZPBJYGOhIaM+kOTElE5EK
+LSJitcg60Yz8c90IlWkRJNUiTH6Qg/MvW2G83kEm6qhAlDI+wW1585UzzG9bILy9heCvyXV8T4ol
+Acg4/wG3e+2QxyXSGmVUgMJEF0ZHQnumVa24vaKZOhNM/50quULdjR7UEwJ2ngMXK2u5I6E9/wnT
+2C09dpwurYaXl9cTxnh70F9Bt92wS5nopiOhPZMn5DYZRppjFAk0NnX+C14bdJ56oVBkYWtyUP50
+mwxb1ewJHu8HT5XoEEGuhlIAAAAASUVORK5CYII=
 			</icon>
 		</appfolder>
 		<basepath>

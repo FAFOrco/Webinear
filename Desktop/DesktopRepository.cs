@@ -31,6 +31,7 @@ namespace Desktop
         DesktopRepositoryFolders.MainFormAppFolder _mainform;
         DesktopRepositoryFolders.KeePassAppFolder _keepass;
         DesktopRepositoryFolders.PwEntryFormAppFolder _pwentryform;
+        DesktopRepositoryFolders.KeePassMsgsAppFolder _keepassmsgs;
 
         /// <summary>
         /// Gets the singleton class instance representing the DesktopRepository element repository.
@@ -51,6 +52,7 @@ namespace Desktop
             _mainform = new DesktopRepositoryFolders.MainFormAppFolder(this);
             _keepass = new DesktopRepositoryFolders.KeePassAppFolder(this);
             _pwentryform = new DesktopRepositoryFolders.PwEntryFormAppFolder(this);
+            _keepassmsgs = new DesktopRepositoryFolders.KeePassMsgsAppFolder(this);
         }
 
 #region Variables
@@ -103,6 +105,15 @@ namespace Desktop
         public virtual DesktopRepositoryFolders.PwEntryFormAppFolder PwEntryForm
         {
             get { return _pwentryform; }
+        }
+
+        /// <summary>
+        /// The KeePassMsgs folder.
+        /// </summary>
+        [RepositoryFolder("705fdce8-1d0c-490f-afda-b194fc4118cb")]
+        public virtual DesktopRepositoryFolders.KeePassMsgsAppFolder KeePassMsgs
+        {
+            get { return _keepassmsgs; }
         }
     }
 
@@ -240,6 +251,10 @@ namespace Desktop
             RepoItemInfo _entryInfo;
             RepoItemInfo _pruebawebineardesktopInfo;
             RepoItemInfo _saveInfo;
+            RepoItemInfo _pruebaautomatizacionInfo;
+            RepoItemInfo _generalInfo;
+            RepoItemInfo _textInfo;
+            RepoItemInfo _recyclebinInfo;
 
             /// <summary>
             /// Creates a new MainForm  folder.
@@ -251,6 +266,10 @@ namespace Desktop
                 _entryInfo = new RepoItemInfo(this, "Entry", "?/?/menuitem[@accessiblename='Entry']", 30000, null, "17190efe-1fc7-4b56-8be6-74d0160e94bc");
                 _pruebawebineardesktopInfo = new RepoItemInfo(this, "PruebaWebinearDesktop", "container[@controlname='m_splitHorizontal']/?/?/container[@controlname='m_splitVertical']/?/?/table[@controlname='m_lvEntries']/?/?/cell[@text='PruebaWebinearDesktop']", 30000, null, "9e3a87b6-ac84-42a2-b5f3-c0f41be6acef");
                 _saveInfo = new RepoItemInfo(this, "Save", "?/?/button[@accessiblename='Save']", 30000, null, "e3c3c322-1612-419e-ad84-dda6251b57c6");
+                _pruebaautomatizacionInfo = new RepoItemInfo(this, "PruebaAutomatizacion", ".//table[@controlname='m_lvEntries']//row/cell[@text='Prueba Automatizacion']", 30000, null, "2c302885-4f3a-4b68-bdec-5f788603cce3");
+                _generalInfo = new RepoItemInfo(this, "General", "container[@controlname='m_splitHorizontal']//tree[@controlname='m_tvGroups']/?/?/treeitem[@accessiblename='Database']/treeitem[@accessiblename='General']", 30000, null, "3820f13e-14cb-4134-8450-c92eec57f58d");
+                _textInfo = new RepoItemInfo(this, "Text", "container[@controlname='m_splitHorizontal']//text[@accessiblerole='Text' and @text~'Group: ']", 30000, null, "5caf23fe-d2e8-4013-95a3-bbc743cacf39");
+                _recyclebinInfo = new RepoItemInfo(this, "RecycleBin", "container[@controlname='m_splitHorizontal']//tree[@controlname='m_tvGroups']/?/?/treeitem[@accessiblename='Database']/treeitem[@accessiblename='Recycle Bin']", 30000, null, "434e7d32-ebcb-412c-8019-b532f4e6e7be");
             }
 
             /// <summary>
@@ -372,6 +391,102 @@ namespace Desktop
                     return _saveInfo;
                 }
             }
+
+            /// <summary>
+            /// The PruebaAutomatizacion item.
+            /// </summary>
+            [RepositoryItem("2c302885-4f3a-4b68-bdec-5f788603cce3")]
+            public virtual Ranorex.Cell PruebaAutomatizacion
+            {
+                get
+                {
+                    return _pruebaautomatizacionInfo.CreateAdapter<Ranorex.Cell>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PruebaAutomatizacion item info.
+            /// </summary>
+            [RepositoryItemInfo("2c302885-4f3a-4b68-bdec-5f788603cce3")]
+            public virtual RepoItemInfo PruebaAutomatizacionInfo
+            {
+                get
+                {
+                    return _pruebaautomatizacionInfo;
+                }
+            }
+
+            /// <summary>
+            /// The General item.
+            /// </summary>
+            [RepositoryItem("3820f13e-14cb-4134-8450-c92eec57f58d")]
+            public virtual Ranorex.TreeItem General
+            {
+                get
+                {
+                    return _generalInfo.CreateAdapter<Ranorex.TreeItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The General item info.
+            /// </summary>
+            [RepositoryItemInfo("3820f13e-14cb-4134-8450-c92eec57f58d")]
+            public virtual RepoItemInfo GeneralInfo
+            {
+                get
+                {
+                    return _generalInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Text item.
+            /// </summary>
+            [RepositoryItem("5caf23fe-d2e8-4013-95a3-bbc743cacf39")]
+            public virtual Ranorex.Text Text
+            {
+                get
+                {
+                    return _textInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Text item info.
+            /// </summary>
+            [RepositoryItemInfo("5caf23fe-d2e8-4013-95a3-bbc743cacf39")]
+            public virtual RepoItemInfo TextInfo
+            {
+                get
+                {
+                    return _textInfo;
+                }
+            }
+
+            /// <summary>
+            /// The RecycleBin item.
+            /// </summary>
+            [RepositoryItem("434e7d32-ebcb-412c-8019-b532f4e6e7be")]
+            public virtual Ranorex.TreeItem RecycleBin
+            {
+                get
+                {
+                    return _recyclebinInfo.CreateAdapter<Ranorex.TreeItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The RecycleBin item info.
+            /// </summary>
+            [RepositoryItemInfo("434e7d32-ebcb-412c-8019-b532f4e6e7be")]
+            public virtual RepoItemInfo RecycleBinInfo
+            {
+                get
+                {
+                    return _recyclebinInfo;
+                }
+            }
         }
 
         /// <summary>
@@ -382,6 +497,10 @@ namespace Desktop
         {
             RepoItemInfo _addentryInfo;
             RepoItemInfo _menuitemautomaticallygeneratedpassworInfo;
+            RepoItemInfo _rearrangeInfo;
+            RepoItemInfo _movetogroupInfo;
+            RepoItemInfo _menuitemgeneralInfo;
+            RepoItemInfo _emptyrecyclebinInfo;
 
             /// <summary>
             /// Creates a new KeePass  folder.
@@ -391,6 +510,10 @@ namespace Desktop
             {
                 _addentryInfo = new RepoItemInfo(this, "AddEntry", "menuitem[@accessiblename='Add Entry...']", 30000, null, "7846d855-5255-46f1-9f6c-b33bfed9740c");
                 _menuitemautomaticallygeneratedpassworInfo = new RepoItemInfo(this, "MenuItemAutomaticallyGeneratedPasswor", "menuitem[@accessiblename>'(Automatically generated passwords']", 30000, null, "1852b283-6b0e-4ee4-a9de-0be5bf65d97d");
+                _rearrangeInfo = new RepoItemInfo(this, "Rearrange", ".//menuitem[@accessiblename='Rearrange']", 30000, null, "8b290d95-7f8c-4dfa-8e4c-79bc8519c7e5");
+                _movetogroupInfo = new RepoItemInfo(this, "MoveToGroup", ".//menuitem[@accessiblename='Move to Group']", 30000, null, "20e9caf3-97d1-446a-8f43-fbfc917eb52a");
+                _menuitemgeneralInfo = new RepoItemInfo(this, "MenuItemGeneral", ".//menuitem[@accessiblename~'General']", 30000, null, "4c918a5f-cfb7-427c-bae7-e28c4f9a44e2");
+                _emptyrecyclebinInfo = new RepoItemInfo(this, "EmptyRecycleBin", "menuitem[@accessiblename='Empty Recycle Bin']", 30000, null, "b6ffb87b-30e0-4542-9587-0b73f9e207e7");
             }
 
             /// <summary>
@@ -462,6 +585,102 @@ namespace Desktop
                 get
                 {
                     return _menuitemautomaticallygeneratedpassworInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Rearrange item.
+            /// </summary>
+            [RepositoryItem("8b290d95-7f8c-4dfa-8e4c-79bc8519c7e5")]
+            public virtual Ranorex.MenuItem Rearrange
+            {
+                get
+                {
+                    return _rearrangeInfo.CreateAdapter<Ranorex.MenuItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Rearrange item info.
+            /// </summary>
+            [RepositoryItemInfo("8b290d95-7f8c-4dfa-8e4c-79bc8519c7e5")]
+            public virtual RepoItemInfo RearrangeInfo
+            {
+                get
+                {
+                    return _rearrangeInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MoveToGroup item.
+            /// </summary>
+            [RepositoryItem("20e9caf3-97d1-446a-8f43-fbfc917eb52a")]
+            public virtual Ranorex.MenuItem MoveToGroup
+            {
+                get
+                {
+                    return _movetogroupInfo.CreateAdapter<Ranorex.MenuItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MoveToGroup item info.
+            /// </summary>
+            [RepositoryItemInfo("20e9caf3-97d1-446a-8f43-fbfc917eb52a")]
+            public virtual RepoItemInfo MoveToGroupInfo
+            {
+                get
+                {
+                    return _movetogroupInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MenuItemGeneral item.
+            /// </summary>
+            [RepositoryItem("4c918a5f-cfb7-427c-bae7-e28c4f9a44e2")]
+            public virtual Ranorex.MenuItem MenuItemGeneral
+            {
+                get
+                {
+                    return _menuitemgeneralInfo.CreateAdapter<Ranorex.MenuItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MenuItemGeneral item info.
+            /// </summary>
+            [RepositoryItemInfo("4c918a5f-cfb7-427c-bae7-e28c4f9a44e2")]
+            public virtual RepoItemInfo MenuItemGeneralInfo
+            {
+                get
+                {
+                    return _menuitemgeneralInfo;
+                }
+            }
+
+            /// <summary>
+            /// The EmptyRecycleBin item.
+            /// </summary>
+            [RepositoryItem("b6ffb87b-30e0-4542-9587-0b73f9e207e7")]
+            public virtual Ranorex.MenuItem EmptyRecycleBin
+            {
+                get
+                {
+                    return _emptyrecyclebinInfo.CreateAdapter<Ranorex.MenuItem>(true);
+                }
+            }
+
+            /// <summary>
+            /// The EmptyRecycleBin item info.
+            /// </summary>
+            [RepositoryItemInfo("b6ffb87b-30e0-4542-9587-0b73f9e207e7")]
+            public virtual RepoItemInfo EmptyRecycleBinInfo
+            {
+                get
+                {
+                    return _emptyrecyclebinInfo;
                 }
             }
         }
@@ -787,6 +1006,150 @@ namespace Desktop
                 get
                 {
                     return _mbtngenpwInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The KeePassMsgsAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("705fdce8-1d0c-490f-afda-b194fc4118cb")]
+        public partial class KeePassMsgsAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _moverpapeleraInfo;
+            RepoItemInfo _buttonyesInfo;
+            RepoItemInfo _eliminapapeleraInfo;
+            RepoItemInfo _buttondeleteInfo;
+
+            /// <summary>
+            /// Creates a new KeePassMsgs  folder.
+            /// </summary>
+            public KeePassMsgsAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("KeePassMsgs", "/form[@title='KeePass']", parentFolder, 30000, null, true, "705fdce8-1d0c-490f-afda-b194fc4118cb", "")
+            {
+                _moverpapeleraInfo = new RepoItemInfo(this, "MoverPapelera", "?/?/text[@automationid='MainInstruction' and @text='Are you sure you want to move the selected entry to the recycle bin?']", 30000, null, "795c9733-16a5-45bb-bed2-c415f33568b4");
+                _buttonyesInfo = new RepoItemInfo(this, "ButtonYes", "?/?/element[@instance='0']/button[@text='&Yes']", 30000, null, "cd37efe1-9d28-48c4-a5eb-ebcb110e9fca");
+                _eliminapapeleraInfo = new RepoItemInfo(this, "EliminaPapelera", "?/?/text[@automationid='MainInstruction' and @text='Are you sure you want to permanently delete the items?']", 30000, null, "f2eed36e-db32-473c-96b3-297fc3904764");
+                _buttondeleteInfo = new RepoItemInfo(this, "ButtonDelete", "?/?/element[@instance='0']/button[@text='&Delete']", 30000, null, "463b5958-f77d-4054-9990-89ba75efc4df");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("705fdce8-1d0c-490f-afda-b194fc4118cb")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("705fdce8-1d0c-490f-afda-b194fc4118cb")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MoverPapelera item.
+            /// </summary>
+            [RepositoryItem("795c9733-16a5-45bb-bed2-c415f33568b4")]
+            public virtual Ranorex.Text MoverPapelera
+            {
+                get
+                {
+                    return _moverpapeleraInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MoverPapelera item info.
+            /// </summary>
+            [RepositoryItemInfo("795c9733-16a5-45bb-bed2-c415f33568b4")]
+            public virtual RepoItemInfo MoverPapeleraInfo
+            {
+                get
+                {
+                    return _moverpapeleraInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ButtonYes item.
+            /// </summary>
+            [RepositoryItem("cd37efe1-9d28-48c4-a5eb-ebcb110e9fca")]
+            public virtual Ranorex.Button ButtonYes
+            {
+                get
+                {
+                    return _buttonyesInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ButtonYes item info.
+            /// </summary>
+            [RepositoryItemInfo("cd37efe1-9d28-48c4-a5eb-ebcb110e9fca")]
+            public virtual RepoItemInfo ButtonYesInfo
+            {
+                get
+                {
+                    return _buttonyesInfo;
+                }
+            }
+
+            /// <summary>
+            /// The EliminaPapelera item.
+            /// </summary>
+            [RepositoryItem("f2eed36e-db32-473c-96b3-297fc3904764")]
+            public virtual Ranorex.Text EliminaPapelera
+            {
+                get
+                {
+                    return _eliminapapeleraInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The EliminaPapelera item info.
+            /// </summary>
+            [RepositoryItemInfo("f2eed36e-db32-473c-96b3-297fc3904764")]
+            public virtual RepoItemInfo EliminaPapeleraInfo
+            {
+                get
+                {
+                    return _eliminapapeleraInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ButtonDelete item.
+            /// </summary>
+            [RepositoryItem("463b5958-f77d-4054-9990-89ba75efc4df")]
+            public virtual Ranorex.Button ButtonDelete
+            {
+                get
+                {
+                    return _buttondeleteInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ButtonDelete item info.
+            /// </summary>
+            [RepositoryItemInfo("463b5958-f77d-4054-9990-89ba75efc4df")]
+            public virtual RepoItemInfo ButtonDeleteInfo
+            {
+                get
+                {
+                    return _buttondeleteInfo;
                 }
             }
         }
