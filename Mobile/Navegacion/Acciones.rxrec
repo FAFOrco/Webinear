@@ -19,24 +19,12 @@ mode="Mobile">
 		True
 	</useDefaultItemLogging>
 	<codegen
-	classname="Recording1"
-	namespace="Mobile">
+	classname="Acciones"
+	namespace="Mobile.Navegacion">
 	</codegen>
 	<variables>
 	</variables>
 	<recorditems>
-		<runmobileapprecorditem
-		application="com.android.keepass"
-		devicename="Current Endpoint (emulator-5554)"
-		duration="3500ms"
-		enabled="True"
-		optional="False"
-		resetInitialState="True">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</runmobileapprecorditem>
 		<touchrecorditem
 		duration="500ms"
 		elementlocation="Center"
@@ -434,11 +422,6 @@ mode="Mobile">
 						emulator-5554
 					</attribute>
 					<attribute
-					name="deviceorientation"
-					type="Ranorex.Core.Remoting.DeviceOrientation, Ranorex.Core, Culture=neutral">
-						Not available
-					</attribute>
-					<attribute
 					name="name"
 					type="System.String">
 						KeePassDroid
@@ -701,11 +684,6 @@ mode="Mobile">
 					name="devicename"
 					type="System.String">
 						emulator-5554
-					</attribute>
-					<attribute
-					name="deviceorientation"
-					type="Ranorex.Core.Remoting.DeviceOrientation, Ranorex.Core, Culture=neutral">
-						Not available
 					</attribute>
 					<attribute
 					name="name"
@@ -2028,11 +2006,6 @@ mode="Mobile">
 						emulator-5554
 					</attribute>
 					<attribute
-					name="deviceorientation"
-					type="Ranorex.Core.Remoting.DeviceOrientation, Ranorex.Core, Culture=neutral">
-						Not available
-					</attribute>
-					<attribute
 					name="name"
 					type="System.String">
 						KeePassDroid
@@ -2130,78 +2103,11 @@ mode="Mobile">
 				</path>
 			</info>
 		</WaitForRecordItem>
-		<closeapprecorditem
-		enabled="True"
-		graceperiod="0ms"
-		method="CloseWindow"
-		optional="False"
-		searchpropertyid="233e9cb9-a330-4815-8c36-81727f03fd18">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-			<info
-			id="35ecf492-239f-44e8-9dca-52d270c454ad"
-			sourcename="RepositoryEditor">
-				<element
-				capabilities="mobileapp, androidapp"
-				dontcache="True"
-				enabled="True"
-				flavor="mobile"
-				hasfocus="False"
-				index="0"
-				prefcap="mobileapp"
-				rect="-2,-2,1,1"
-				role="unknown"
-				snapElem=""
-				valid="False"
-				visible="True">
-					<attribute
-					name="devicename"
-					type="System.String">
-						emulator-5554
-					</attribute>
-					<attribute
-					name="deviceorientation"
-					type="Ranorex.Core.Remoting.DeviceOrientation, Ranorex.Core, Culture=neutral">
-						Not available
-					</attribute>
-					<attribute
-					name="name"
-					type="System.String">
-						KeePassDroid
-					</attribute>
-					<attribute
-					name="osversion"
-					type="System.String">
-						Android 4.4.2
-					</attribute>
-					<attribute
-					name="title"
-					type="System.String">
-						com.android.keepass
-					</attribute>
-					<attribute
-					name="versioncode"
-					type="System.String">
-						129
-					</attribute>
-					<attribute
-					name="versionname"
-					type="System.String">
-						1.99.11
-					</attribute>
-				</element>
-				<path>
-					/mobileapp[@title='com.android.keepass']
-				</path>
-			</info>
-		</closeapprecorditem>
 	</recorditems>
 	<repository
 	id="38e32ed1-a7cd-49be-9b83-fb9b99bdf100"
 	name="MobileRepository"
-	relativepath="MobileRepository.rxrep">
+	relativepath="..\MobileRepository.rxrep">
 		<codegen
 		classname="MobileRepository"
 		namespace="Mobile">
@@ -2213,7 +2119,7 @@ mode="Mobile">
 	</repository>
 	<usercodefile
 	lang="CSharp">
-		Recording1.UserCode.cs
+		Acciones.UserCode.cs
 	</usercodefile>
 	<references>
 	</references>
