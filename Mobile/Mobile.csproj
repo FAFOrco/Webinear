@@ -125,31 +125,65 @@
     <Compile Include="AssemblyInfo.cs">
       <id>d02545c8-d952-4292-a322-a172d7766825</id>
     </Compile>
+    <Compile Include="Generales\CloseAUT.cs">
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>975acc74-036a-46ca-bfa7-f8589032d02c</id>
+      <BoundTo>e58c8c63-6239-4573-82f2-6e4cf64aee3b</BoundTo>
+    </Compile>
+    <Compile Include="Generales\CloseAUT.UserCode.cs">
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4438ef45-f6b8-4cfb-b8e6-0987571d86a0</id>
+      <BoundTo>e58c8c63-6239-4573-82f2-6e4cf64aee3b</BoundTo>
+    </Compile>
+    <Compile Include="Generales\OpenAUT.cs">
+      <DependentUpon>OpenAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1e616b52-5dad-46c6-aa0a-28ae98661789</id>
+      <BoundTo>5ca2970a-e303-457b-8fd3-652a9f6603fe</BoundTo>
+    </Compile>
+    <Compile Include="Generales\OpenAUT.UserCode.cs">
+      <DependentUpon>OpenAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>04a9a59c-73a6-4f18-a6d5-55b74801c297</id>
+      <BoundTo>5ca2970a-e303-457b-8fd3-652a9f6603fe</BoundTo>
+    </Compile>
     <Compile Include="MobileRepository.cs">
       <BoundTo>8fb6a46c-61b6-42da-bcf9-8298462e63d2</BoundTo>
       <DependentUpon>MobileRepository.rxrep</DependentUpon>
       <RepositoryCode>true</RepositoryCode>
       <id>024978e5-8e00-48ba-ae66-49f34f193a2d</id>
     </Compile>
-    <Compile Include="Program.cs">
-      <id>33264dd5-8fcb-4632-a559-4cff11e4fe46</id>
-    </Compile>
-    <Compile Include="Recording1.cs">
-      <BoundTo>ab5e8ed0-1065-4075-b7c8-c24b85424aa3</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
+    <Compile Include="Navegacion\Acciones.cs">
+      <DependentUpon>Acciones.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>dcc536d3-0e26-472b-a976-72ebb5ec39c9</id>
-    </Compile>
-    <Compile Include="Recording1.UserCode.cs">
       <BoundTo>ab5e8ed0-1065-4075-b7c8-c24b85424aa3</BoundTo>
-      <DependentUpon>Recording1.rxrec</DependentUpon>
+    </Compile>
+    <Compile Include="Navegacion\Acciones.UserCode.cs">
+      <DependentUpon>Acciones.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>5f9780ef-92a9-42c1-a1e0-e69a3b4e3c12</id>
+      <BoundTo>ab5e8ed0-1065-4075-b7c8-c24b85424aa3</BoundTo>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>33264dd5-8fcb-4632-a559-4cff11e4fe46</id>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config">
       <id>10413911-3c52-49af-ac29-66634223560a</id>
+    </None>
+    <None Include="Generales\CloseAUT.rxrec">
+      <BoundTo>8fb6a46c-61b6-42da-bcf9-8298462e63d2</BoundTo>
+      <id>e58c8c63-6239-4573-82f2-6e4cf64aee3b</id>
+      <recordtableid>f1b28eea-37b3-4ca5-843e-e536353e3918</recordtableid>
+    </None>
+    <None Include="Generales\OpenAUT.rxrec">
+      <BoundTo>8fb6a46c-61b6-42da-bcf9-8298462e63d2</BoundTo>
+      <id>5ca2970a-e303-457b-8fd3-652a9f6603fe</id>
+      <recordtableid>e6ff68aa-11cd-4300-856a-38406f14dd57</recordtableid>
     </None>
     <None Include="MobileRepository.rximg">
       <BoundTo>8fb6a46c-61b6-42da-bcf9-8298462e63d2</BoundTo>
@@ -162,7 +196,7 @@
       <repoid>38e32ed1-a7cd-49be-9b83-fb9b99bdf100</repoid>
       <reporootid>baf33119-7223-4443-a93b-3a30a6b2fc25</reporootid>
     </None>
-    <None Include="Recording1.rxrec">
+    <None Include="Navegacion\Acciones.rxrec">
       <BoundTo>8fb6a46c-61b6-42da-bcf9-8298462e63d2</BoundTo>
       <id>ab5e8ed0-1065-4075-b7c8-c24b85424aa3</id>
       <recordtableid>a904e81e-2d93-42f3-8524-5c90d17b5483</recordtableid>
@@ -177,6 +211,14 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>85899e5f-7ec8-41d5-96c1-d9957fcf65c9</id>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Generales">
+      <id>178aaf8a-8ff1-43a2-8786-ffb01d093ae0</id>
+    </Folder>
+    <Folder Include="Navegacion">
+      <id>4f355954-db4e-4900-8565-b91441216b8c</id>
+    </Folder>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />

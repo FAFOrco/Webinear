@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e6ff68aa-11cd-4300-856a-38406f14dd57"
+mode="Mobile">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenAUT"
+	namespace="Mobile.Generales">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<runmobileapprecorditem
+		application="com.android.keepass"
+		devicename="Current Endpoint (None)"
+		duration="3500ms"
+		enabled="True"
+		optional="False"
+		resetInitialState="True">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</runmobileapprecorditem>
+	</recorditems>
+	<repository
+	id="38e32ed1-a7cd-49be-9b83-fb9b99bdf100"
+	name="MobileRepository"
+	relativepath="..\MobileRepository.rxrep">
+		<codegen
+		classname="MobileRepository"
+		namespace="Mobile">
+		</codegen>
+		<rootfolder
+		id="baf33119-7223-4443-a93b-3a30a6b2fc25"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
