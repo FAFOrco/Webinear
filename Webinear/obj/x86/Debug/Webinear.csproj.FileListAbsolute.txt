@@ -5,6 +5,5 @@ C:\Users\No Name\Documents\Ranorex\RanorexStudio Projects\Webinear\Webinear\bin\
 C:\Users\No Name\Documents\Ranorex\RanorexStudio Projects\Webinear\Webinear\bin\Debug\Webinear.exe
 C:\Users\No Name\Documents\Ranorex\RanorexStudio Projects\Webinear\Webinear\bin\Debug\Webinear.pdb
 C:\Users\No Name\Documents\Ranorex\RanorexStudio Projects\Webinear\Webinear\bin\Debug\Ranorex.Core.Resolver.dll
-C:\Users\No Name\Documents\Ranorex\RanorexStudio Projects\Webinear\Webinear\obj\x86\Debug\Webinear.csprojResolveAssemblyReference.cache
 C:\Users\No Name\Documents\Ranorex\RanorexStudio Projects\Webinear\Webinear\obj\x86\Debug\Webinear.exe
 C:\Users\No Name\Documents\Ranorex\RanorexStudio Projects\Webinear\Webinear\obj\x86\Debug\Webinear.pdb

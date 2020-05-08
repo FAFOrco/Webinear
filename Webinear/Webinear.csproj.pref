@@ -1,8 +1,11 @@
 ﻿<Properties>
-  <Array name="active" />
+  <Array name="active">
+    <Element value="Webinear.rxtst" />
+  </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="Webinear.rxtst" />
+    <Element value="Operaciones_Web\Operar.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

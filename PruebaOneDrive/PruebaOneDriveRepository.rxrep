@@ -1,0 +1,489 @@
+﻿<repository
+id="1d4b3990-54fe-4f7c-ba4c-7aaab296298c"
+name="PruebaOneDriveRepository">
+	<codegen
+	classname="PruebaOneDriveRepository"
+	namespace="PruebaOneDrive">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="f575972e-29da-43e5-81d3-98a25a6ca7ab"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="2a4f3a24-df99-492b-ba88-507cfc2b28f8"
+		isrooted="True"
+		name="SignInMicrosoftOneDrive"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="5eb8b652-e534-4e06-9dbd-38530483d1a7"
+			name="lbl_SignIn"
+			refimgid="a01122c9-ec9b-4e95-8c07-57dcc24634d7"
+			searchtimeout="30000ms">
+				/dom[@domain~'live.com']//section[#'mainContent']/iframe[@src='https://odc.officeapps.live.com/odc/v2.0/hrd?rs=en-us&amp;Ver=16&amp;app=23&amp;p=6&amp;hm=0']/body/div[2]//h1[@innertext='Sign in']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="5124834e-f452-4bdd-b1e5-ca22226f906b"
+			name="Passwd"
+			refimgid="10f3083e-4e89-4267-93a9-639da1b374f5"
+			refpath="/dom[@domain='login.live.com']/body/div/form[@name='f1']/div/div/div[1]/div[2]/div[2]/div/div[2]/div/div[2]/div/div[2]/input[@name='passwd']"
+			searchtimeout="30000ms">
+				/dom[@domain~'live.com']/body/?/?/form[@name='f1']/div/div/div[1]/div[2]/div[2]/div/div[2]/div/div[2]//input[@name='passwd']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="5d8a214e-bce0-44d8-9abd-7b2d31b45ad6"
+			name="btn_SignIn"
+			refimgid="0e7d60ad-ac54-4b8c-9ec8-5ffee1aeadbd"
+			refpath="/dom[@domain='login.live.com']//input[#'idSIButton9']"
+			searchtimeout="30000ms">
+				/dom[@domain~'live.com']//input[#'idSIButton9']
+			</item>
+			<folder
+			capname="divtag"
+			id="08c9edc3-dbe1-4f41-b104-4a27d90fe32e"
+			isrooted="True"
+			name="SomeDivTag"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="9debdfd6-66bf-4db0-85e0-49ff0dab974a"
+				name="Email"
+				refimgid="58d7e6ce-c1a6-443c-b7c9-f4ab77913344"
+				refpath="/dom[@domain='onedrive.live.com']//section[#'mainContent']/iframe/body/div[2]/div/main/div[2]/div[2]/div/input[@type='email']"
+				searchtimeout="30000ms">
+					/dom[@domain~'live.com']//section[#'mainContent']/iframe[@src='https://odc.officeapps.live.com/odc/v2.0/hrd?rs=en-us&amp;Ver=16&amp;app=23&amp;p=6&amp;hm=0']/body/div[2]/?/?/main/div[2]/div[2]/?/?/input[@type='email']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="b210198d-4f33-41c9-92c3-da44955fce2e"
+				name="Submit"
+				refimgid="8fc851cc-7240-4075-b4c8-fde7db1b3eeb"
+				refpath="/dom[@domain='onedrive.live.com']//section[#'mainContent']/iframe/body/div[2]/div/main/div[2]/div[4]/input[@type='submit']"
+				searchtimeout="30000ms">
+					/dom[@domain~'live.com']//section[#'mainContent']/iframe[@src='https://odc.officeapps.live.com/odc/v2.0/hrd?rs=en-us&amp;Ver=16&amp;app=23&amp;p=6&amp;hm=0']/body/div[2]/?/?/main/div[2]/div[4]/input[@type='submit']
+				</item>
+				<basepath>
+					/dom[@domain~'live.com']//section[#'mainContent']/iframe[@src='https://odc.officeapps.live.com/odc/v2.0/hrd?rs=en-us&amp;Ver=16&amp;app=23&amp;p=6&amp;hm=0']/body/div[2]/?/?/main/div[2]
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="11edaa83-03ac-4588-8b47-34c396112219"
+			name="AlmacenPersonal"
+			refimgid="bfbb7b2a-b54a-4f18-83ee-18b7e86340b6"
+			refpath="/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[2]/div[5]/main/div/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div[1]/div/div[1]/div/div/div/a/span[3]/span[1]/span/span/span[@innertext='Almacén personal']"
+			searchtimeout="30000ms">
+				/dom[@domain~'live.com']//div[#'appRoot']/div/div[2]/div[5]/main/div/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div[1]/div/div[1]/div/div/div/a[@href&gt;'https://onedrive.live.com']/span[3]/span[1]//span[@innertext='Almac&#233;n personal']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="199aabc7-6056-487e-8ee9-80a8177b5c81"
+			name="Archivos"
+			refimgid="3d275198-f04f-4fd1-90a3-0f63f48a0c9f"
+			searchtimeout="30000ms">
+				/dom[@domain~'live.com']/body//ul/li[@title='Archivos']/button[@title='Archivos']//span[@innertext='Archivos']
+			</item>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="be81b796-01c0-4a43-bb97-2bf8e2678751"
+			isrooted="True"
+			name="AppRoot"
+			refpath="/dom[@domain='onedrive.live.com']//div[#'appRoot']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="f6757d9d-0d11-4c8b-9bb3-734802a8d8c7"
+				name="PruebaWebinear"
+				refimgid="2b237f31-81bc-4bde-a9d5-f0de0280a304"
+				searchtimeout="30000ms">
+					/dom[@domain~'live.com']//div[#'appRoot']//main//nav/ul//span[@title='PruebaWebinear']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="24529e33-4d2f-475f-8379-2f21fa1f0fa8"
+				name="Cargar"
+				refimgid="4a43dd3a-6064-4d3f-95b0-7996029283cb"
+				searchtimeout="30000ms">
+					/dom[@domain~'live.com']//div[#'appRoot']//button[@title&gt;'Cargar archivos de tu equipo']//span[@innertext='Cargar']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="d41c017c-205d-4c13-a69b-62e0fc0ee946"
+				name="PruebaWebTxt"
+				refimgid="14b67823-1ebf-4e37-980e-3fb545a68ed5"
+				searchtimeout="30000ms">
+					/dom[@domain~'live.com']//div[#'appRoot']//main//a[@href&gt;'https://onedrive.live.com']//span[@innertext='pruebaWeb.txt']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="d194ab17-26a9-4e05-a6b6-fba07dbc17fb"
+				name="MisArchivos"
+				refimgid="59abad9f-beaa-400e-95df-ec7353e8b561"
+				refpath="/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[2]/div[4]/nav/div/div[1]/div/div/div/div/div[2]/div/a[1]/span/span[@title='Mis archivos']"
+				searchtimeout="30000ms">
+					/dom[@domain~'live.com']//div[#'appRoot']/div/div[2]/div[4]/nav/div/div[1]/div/div/div/div/div[2]/div/a[1]/?/?/span[@title='Mis archivos']
+				</item>
+				<item
+				addcaps="unknown,webelement,itag"
+				capname="itag"
+				id="76343086-b6c0-44f6-8cdb-b525c0798e7e"
+				name="rdo_SelectFolder"
+				refimgid="81125a70-17d6-4ffa-a348-34f3aefd793e"
+				searchtimeout="30000ms">
+					/dom[@domain~'live.com']//div[#'appRoot']//div[@data-automationid='PruebaWebinear']/span//i[@innertext='&#61758;']
+				</item>
+				<item
+				addcaps="unknown,webelement,itag"
+				capname="divtag"
+				id="2e885f9a-48a1-4fe1-861f-857d919fa0a0"
+				name="CarpetaCreada"
+				refimgid="393b8b15-9a61-4393-9fc0-24ffc96c119f"
+				searchtimeout="30000ms">
+					/dom[@domain~'live.com']//div[#'appRoot']//div[@data-automationid='PruebaWebinear']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="17e5b949-17d0-41a6-abd3-7397d4db0470"
+				name="Eliminar"
+				refimgid="5947ea81-5171-4448-900c-beb04c610f38"
+				searchtimeout="30000ms">
+					/dom[@domain~'live.com']//div[#'appRoot']//button[@title='Eliminar']//span[@innertext='Eliminar']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="2a304d2c-b8dd-46d4-9508-e3c51714a8d8"
+				name="btn_PapeleraDeReciclaje"
+				refimgid="96956cb5-40a2-4ade-8fc1-d494bfd88f9e"
+				searchtimeout="30000ms">
+					/dom[@domain~'live.com']//div[#'appRoot']//nav//span[@title='Papelera de reciclaje']
+				</item>
+				<item
+				addcaps="unknown,webelement,h1tag"
+				capname="h1tag"
+				id="d7c397e5-cdd9-493c-9304-e0e631b3eaa7"
+				name="lbl_PapeleraDeReciclaje"
+				refimgid="dd395930-c196-4726-a287-2010a078b5cb"
+				searchtimeout="30000ms">
+					/dom[@domain~'live.com']//div[#'appRoot']//main//h1[@innertext='Papelera de reciclaje']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="bbafddfb-93e3-4ff0-a657-3c3c5921f21c"
+				name="VaciarPapeleraDeReciclaje"
+				refimgid="5157ce89-ca4f-4a28-ae74-acfca1d8c6b9"
+				searchtimeout="30000ms">
+					/dom[@domain~'live.com']//div[#'appRoot']//button[@title&gt;'Vaciar papelera de recicl']//span[@innertext&gt;'Vaciar papelera de recicl']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="4e8b6282-75c9-498f-bc09-0d84414c76c1"
+				name="SpanTagSi"
+				refimgid="de8c7022-cbf9-4601-9696-ad9517efe6fe"
+				searchtimeout="30000ms">
+					/dom[@domain~'live.com']//div[#'appRoot']//span[@innertext='S&#237;']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="c5f478cc-17b3-4d01-a935-c0d9c98055cb"
+				name="LaPapeleraDeReciclajeEstaVacia"
+				refimgid="1c868e4b-8102-4f7e-af41-3b3f48c99af0"
+				searchtimeout="30000ms">
+					/dom[@domain~'live.com']//div[#'appRoot']//main///div[@innertext='La papelera de reciclaje est&#225; vac&#237;a']
+				</item>
+				<basepath>
+					/dom[@domain~'live.com']//div[#'appRoot']
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="cb1e73c7-36b6-4a8c-901f-32a00109098a"
+			name="Carpeta"
+			refimgid="832e7b2a-f4a9-4aef-9962-aecf2c6e34fe"
+			searchtimeout="30000ms">
+				/dom[@domain~'live.com']/body//div//ul/li[@title='Carpeta']/button[@title='Carpeta']//span[@innertext='Carpeta' and @visible='true']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="35b1b0c4-d153-4713-b20e-8f7650e8d961"
+			name="lbl_Carpeta"
+			refimgid="acdc58f1-d308-44fc-9df0-fba0bb0768bb"
+			refpath="/dom[@domain='onedrive.live.com']//p[#'od-Dialog-title']"
+			searchtimeout="30000ms">
+				/dom[@domain~'live.com']//p[#'od-Dialog-title']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="33b1d8ea-62cc-43aa-9f41-61f6183242a8"
+			name="lbl_VaciarPapelera"
+			refimgid="acdc58f1-d308-44fc-9df0-fba0bb0768bb"
+			searchtimeout="30000ms">
+				/dom[@domain~'live.com']//p[@innertext='Vaciar papelera de reciclaje']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="caa45446-3d79-4801-ad33-1a66433276b1"
+			name="Text"
+			refimgid="1bd85c98-bb26-4a8b-9c92-cead1e65232d"
+			refpath="/dom[@domain='onedrive.live.com']//div[#'od-Dialog-content']/div/div[1]/input[@type='text']"
+			searchtimeout="30000ms">
+				/dom[@domain~'live.com']//div[#'od-Dialog-content']//input[@type='text']
+			</item>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="e6b6a1d9-025c-4127-8c95-7ff39781b899"
+			isrooted="True"
+			name="OdBasePageOdBasePageLeftNavVisibleO"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="94f3a55f-019e-4572-82ef-d28e564bf98c"
+				name="Nuevo"
+				refimgid="e897dcf7-1d7e-49a7-94c6-1aa0b7cc1852"
+				searchtimeout="30000ms">
+					/dom[@domain~'live.com']//div[#'appRoot']//div[@id='appRoot']//button[@title&gt;'Crear una carpeta o un documento']//span[@innertext='Nuevo']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="4849b1ac-37fd-4a63-8a7d-7c5ed4d95fc5"
+				name="PruebaWebinear"
+				refimgid="fe4b15dc-20d6-49c7-a507-bf40e2c339bf"
+				searchtimeout="30000ms">
+					/dom[@domain~'live.com']//div[#'appRoot']//div[@id='appRoot']///a[@href&gt;'https://onedrive.live.com']//span[@innertext='PruebaWebinear']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="5e5d0407-c0df-48dd-9451-c43ab5becd3b"
+				name="Crear"
+				refimgid="ff217473-212d-43a4-83d6-b6810d9adb4d"
+				searchtimeout="30000ms">
+					/dom[@domain~'live.com']//div[#'appRoot']//div[@id='appRoot']//span[@innertext='Crear']
+				</item>
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="0f7c9100-f046-4ddf-83b8-68cf391d40dc"
+				name="ImgTagF"
+				refimgid="14d7bb81-98ee-4642-a3e5-14fd4708a7f2"
+				searchtimeout="30000ms">
+					/dom[@domain~'live.com']//div[#'appRoot']//div[@id='appRoot']//img[@alt='F']
+				</item>
+				<basepath>
+					/dom[@domain~'live.com']//div[#'appRoot']//div[@id='appRoot']
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="7a3d0984-c2aa-45bd-b98b-93d9f6e68a44"
+			name="MeControlSignoutLink"
+			refimgid="901719a7-0d61-4ea7-be8f-c9b502847254"
+			refpath="/dom[@domain='onedrive.live.com']//a[#'meControlSignoutLink']"
+			searchtimeout="30000ms">
+				/dom[@domain~'live.com']//a[#'meControlSignoutLink']
+			</item>
+			<basepath>
+				/dom[@domain~'live.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="webdocument"
+		id="d4f4bec1-a29a-4b36-add8-c4c886887ff9"
+		isrooted="True"
+		name="SignInMicrosoftOneDriver_COF"
+		searchtimeout="5000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="5517c35e-884a-4e60-93c8-3984b8393d02"
+			name="PersonalAccount"
+			refimgid="42822bdd-0abc-4a32-98ad-03ff4610f856"
+			refpath="/dom[@domain='onedrive.live.com']//section[#'mainContent']/iframe/body/div[2]/div/main/div[2]/div[3]/div[2]/div[@innertext='Personal account']"
+			searchtimeout="0ms">
+				/dom[@domain~'live.com']//section[#'mainContent']/iframe[@src='https://odc.officeapps.live.com/odc/v2.0/hrd?rs=en-us&amp;Ver=16&amp;app=23&amp;p=6&amp;hm=0']/body/div[2]/?/?/main/div[2]/div[3]/?/?/div[@innertext='Personal account']
+			</item>
+			<item
+			addcaps="unknown,webelement,itag"
+			capname="divtag"
+			id="58b059d4-4416-4f16-ac8f-927e2734b80e"
+			name="Copy_of_CarpetaCreada"
+			refimgid="393b8b15-9a61-4393-9fc0-24ffc96c119f"
+			searchtimeout="0ms">
+				/dom[@domain~'live.com']//div[@data-automationid='PruebaWebinear']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="09daedd1-42c6-4eb7-92cb-51317bda0488"
+			name="Copy_of_PruebaWebinear"
+			refimgid="fe4b15dc-20d6-49c7-a507-bf40e2c339bf"
+			searchtimeout="0ms">
+				/dom[@domain~'live.com']//div[#'appRoot']//div[@id='appRoot']///a[@href&gt;'https://onedrive.live.com']//span[@innertext='PruebaWebinear']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="ce4fe7dd-2dd5-4b24-b4c1-83c8e36b5298"
+			name="Copy_of_PruebaWebTxt"
+			refimgid="14b67823-1ebf-4e37-980e-3fb545a68ed5"
+			searchtimeout="0ms">
+				/dom[@domain~'live.com']//div[#'appRoot']//main//a[@href&gt;'https://onedrive.live.com']//span[@innertext='pruebaWeb.txt']
+			</item>
+			<basepath>
+				/dom[@domain~'live.com']
+			</basepath>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="71c3c745-a87c-4440-a406-daa0e93fa6f5"
+		isrooted="True"
+		name="PersonalCloudStorageMicrosoftOneDri"
+		refpath="/dom[@domain='www.microsoft.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="84324fc2-b0ca-4b88-8b86-807fea3a1487"
+			name="HttpsGoMicrosoftComFwlinkPLinkID"
+			refimgid="f3df00a6-96b5-4e01-9a59-768c1e764d0d"
+			refpath="/dom[@domain='www.microsoft.com']//div[#'heroregion']/div/section/div/div/div/div/div/div/div[1]/a[@href>'https://go.microsoft.com/']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.microsoft.com']//div[#'heroregion']/?/?/section/div/div/div/div/div/div/div[1]/a[@href&gt;'https://go.microsoft.com/']
+			</item>
+			<basepath>
+				/dom[@domain='www.microsoft.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="1362989b-eaf3-4e1f-9238-2790078eaa5c"
+		isrooted="True"
+		name="Abrir"
+		refimgid="059d0618-67c1-4f7b-8169-2991de18e4d7"
+		refpath="/form[@title='Abrir']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="c952640b-4d34-4bc1-b9bf-7e9b1d610280"
+			name="Escritorio"
+			refimgid="3abe058a-a4a9-4675-8504-dd880648fded"
+			refpath="/form[@title='Abrir']/element[@class='WorkerW']/container/element[@controlid='41477']/progressbar/element/toolbar/button[@text='Escritorio']"
+			searchtimeout="30000ms">
+				/form[@title='Abrir']/element[@class='WorkerW']/container[@controlid='40965']//toolbar[@controlid='1001']/button[@text='Escritorio']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="d6513251-e68e-47f4-ae1f-53a3ada7871e"
+			name="Text1148"
+			refimgid="93469b8f-67bf-4524-a91b-1024ce444985"
+			refpath="/form[@title='Abrir']/combobox[@controlid='1148']/text[@controlid='1148']"
+			searchtimeout="30000ms">
+				/form[@title='Abrir']/?/?/text[@controlid='1148']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="bde753be-6f85-4df1-8ac7-115715604dcf"
+			name="ButtonAbrir"
+			refimgid="3a617e5d-78dc-46c3-b796-917b34b7a5ad"
+			refpath="/form[@title='Abrir']/button[@text='&amp;Abrir']"
+			searchtimeout="30000ms">
+				/form[@title='Abrir']/button[@text='&amp;Abrir']
+			</item>
+			<basepath>
+				/form[@title='Abrir']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJMSURBVDhPrZJLTxNhFIbnD8CmgqDiJbKQlUsT
+pbTTaaWt9EYVlaGUFht0ISsT117QqGw06o5eMYArSNSNxHgtKIylBMXYmWkxxii40WkkKp3X+YYZ
+sVFX+ibP7nvec07yUf89H1l7pdjmOC+22WdFv0MSfM2S6LNmea+tb8m9u0J79ufkD7ns+bZ9bwR/
+M4TWvRB8NggeBrybBt9iBu+iFwSXxaY9Lw/nsTLCAYcs7rdDLSCy16oUWFYLXKTEBN5hlHl7I6Np
+q6m/c7yyr9f7dk4R1AJteo71loQT/rzQY+KFSBMvRsw5MWIkpMvOqR86em7XtcDKXece5DxKSfgg
+hAcTuPlEwvBjCfmXaSze8uDz7UYsj5vw/X4TSpPMWU2nqK03ume3DUZw5KQHzxxGiA8n0Hm9CFd/
+ES2XimCvFvEuPwk8t2kwkDk6o+lKwWC3tCXVjR0DIQwHWjCiTNVl58VVhh5JKGVaFdkKcKTAImk6
+RdUlQ9LmVBgEtj+oFvwqOy7oBX5VBmchG6wVbEp2ZTcmukCoS4Tk9PzrJbK2Lh++UsSr/PwHfbpW
+sHZCbSp4ZkMiCEKtws7hXoy9yKhTCaNZDu+n2K+6DI5GiaNPaTpFGUbDFTWx4EJNvBOE9fGASsPQ
+MTQke3B5zPtzsipPWwryvLv8V1YnAtbqeEBWAKEq1oF1MRbbB9qxPGWTdVnmzLI8Q1s0rTyGGMtU
+RQMFQ5SFzvg957e1yebCX2U95BxDvOO0Ido+Q4+0L355ynxamTZnyM2/rf3voagf2nKwO/rr1QsA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

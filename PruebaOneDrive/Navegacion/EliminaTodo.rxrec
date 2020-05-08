@@ -1,0 +1,1186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ad99971d-4e04-4b85-b2a3-d6db03e4b972"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="EliminaTodo"
+	namespace="PruebaOneDrive.Navegacion">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="06704bd5-059c-466b-b31d-3bbafd25ee79"
+		sx="86"
+		sy="222"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d194ab17-26a9-4e05-a6b6-fba07dbc17fb"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="48,215,79,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						LeftNav-linkText
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Mis archivos
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						LeftNav-linkText
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Mis archivos
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-bind"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain~'live.com']//div[#'appRoot']/div/div[2]/div[4]/nav/div/div[1]/div/div/div/div/div[2]/div/a[1]/?/?/span[@title='Mis archivos']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="8f564592-6752-4b13-8e3e-19e03870ba4d">
+				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
+32shyGYnkEev1qaiigAooooAKKKKAP/Z
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="4ed9b915-12c9-403f-864c-59545c2f3b65"
+		waitaction="Exists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="11edaa83-03ac-4588-8b47-34c396112219"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="0,0,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-automationid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain~'live.com']//div[#'appRoot']/div/div[2]/div[5]/main/div/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div[1]/div/div[1]/div/div/div/a[@href&gt;'https://onedrive.live.com']/span[3]/span[1]//span[@innertext='Almac&#233;n personal']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="a125013b-0b7d-4084-8ad7-24440e560ce8"
+		sx="970"
+		sy="271"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="76343086-b6c0-44f6-8cdb-b525c0798e7e"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, itag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="itag"
+				rect="965,263,18,18"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						ms-Icon root-44 css-33 ms-Check-check check-80
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						&#61758;
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						check-80 css-33 ms-Check-check ms-Icon root-44
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						i
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-hidden"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-icon-name"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain~'live.com']//div[#'appRoot']/div/div[2]/div[5]/main/div/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div[1]/div/div[4]/div/div/div/span/?/?/i[@innertext='&#61758;']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="d027a805-6f4d-4c3f-be26-62d030c2759e">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAAyADIDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKZu
+NQ3d4tpEJJAxBbb8oFJuw4xcnZFmisv+3Lf+5L/3yP8AGj+3Lf8AuS/98j/Glzx7m31er/KalFZ9
+tqsNzcLCiyBm6ZAx/OtCmmnsZThKDtJBRRRTJGVm67/x5J/10H8jWlWbrv8Ax5J/10H8jUz+Fm+H
+/ixLkcAmUSXA3FuQh6KPpQ8KxhmtsK6clAeD7Y7VVu0S9S0icsjCXDbWwVYIxBH4gEUsNy9sGtLl
+f9IwTGwHE/v7H1H9KpmBG7B9dtWHQxZH5NWtWQU8vWrNP7sWP0atepjuzartH0/zCiiiqMRlUdWt
+5bi1VIV3MHBxkDjBq0JMnGKkqE4zWhpGTpyUjJ8y6F7ay3sMUSK7fOCP7je/Sm318l7DGsUBffJt
+VmfyyjYypGfUcitSWGKZQs0aSKDnDqCM1BLYRy3Pn73QkoWVcYYqcjPGapaEylzO9ipaw376hbz3
+cajYu1mBHPB56+prZpg6in0JWKnNztpsFFFFMzKg6ip6KK56GzNJi0UUV0GYDqKfRRQAUUUUAf/Z
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="d693b095-720a-43e0-83bd-8f33a3350293"
+		waitaction="Exists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="17e5b949-17d0-41a6-abd3-7397d4db0470"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain~'live.com']//div[#'appRoot']//button[@title='Eliminar']//span[@innertext='Eliminar']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="1d58fe18-a0c1-4a6a-8b95-15ba06612d6b"
+		sx="502"
+		sy="138"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="17e5b949-17d0-41a6-abd3-7397d4db0470"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="488,134,49,14"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						ms-Button-label label-63
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						id__797
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Eliminar
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						label-63 ms-Button-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain~'live.com']//div[#'appRoot']/div/div[2]/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div[1]/div[3]/button[@title='Eliminar']/span/span/span[@innertext='Eliminar']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="41c0e2c2-72e4-46d1-a668-346f6ba8ea16">
+				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
+2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="b56eb26e-2924-4ec4-a0f7-8cf4e9bd6da7"
+		waitaction="NotExists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2e885f9a-48a1-4fe1-861f-857d919fa0a0"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="812,257,176,171"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						ms-Tile od-ItemTile2 od--hasContextMenu fluent-folder-icon od-ItemTile2--isLarge tile_6798cc8b ms-Tile--isLarge isLarge_6798cc8b ms-Tile--isSelectable selectable_6798cc8b ms-Tile--invokable invokable_6798cc8b
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						fluent-folder-icon invokable_6798cc8b isLarge_6798cc8b ms-Tile ms-Tile--invokable ms-Tile--isLarge ms-Tile--isSelectable od--hasContextMenu od-ItemTile2 od-ItemTile2--isLarge selectable_6798cc8b tile_6798cc8b
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-describedby"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-labelledby"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-posinset"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-selected"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-setsize"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-automationid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-disable-click-on-enter"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-is-draggable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-is-focusable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-is-sub-focuszone"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-selection-index"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain~'live.com']//div[#'appRoot']//div[@data-automationid='PruebaWebinear']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="6d668f7d-e9da-4008-a9ee-d2ae1d48c9e5">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="0eeb4161-e186-4735-a998-3698d44bba42"
+		sx="81"
+		sy="373"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2a304d2c-b8dd-46d4-9508-e3c51714a8d8"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="48,359,126,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						LeftNav-linkText
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Papelera de reciclaje
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						LeftNav-linkText
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Papelera de reciclaje
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-bind"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain~'live.com']//div[#'appRoot']/div/div[2]/div[4]/nav/div/div[1]/div/div/div/div/div[2]/div/a[5]/?/?/span[@title='Papelera de reciclaje']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="1213a271-9ce6-4ca9-9a39-201760ae94bb">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="7b445ee8-5010-495e-91c1-ecd2988c08b0">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="dc185151-7df3-4cb8-94c2-f8a57194f683"
+		waitaction="Exists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d7c397e5-cdd9-493c-9304-e0e631b3eaa7"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, h1tag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="h1tag"
+				rect="260,210,186,27"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						od-FolderItemContent-title od-ItemContent-title
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Papelera de reciclaje
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						od-FolderItemContent-title od-ItemContent-title
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						h1
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-bind"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain~'live.com']//div[#'appRoot']//main//h1[@innertext='Papelera de reciclaje']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="a9d4da3e-64aa-43b8-a538-e38b84205264"
+		sx="354"
+		sy="143"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bbafddfb-93e3-4ff0-a657-3c3c5921f21c"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="284,134,168,14"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						ms-Button-label label-63
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						id__2155
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Vaciar papelera de reciclaje
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						label-63 ms-Button-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain~'live.com']//div[#'appRoot']/div/div[2]/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div[1]/div[1]/button[@title&gt;'Vaciar papelera de recicl']/span/span/span[@innertext&gt;'Vaciar papelera de recicl']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="95250194-9bcc-46f1-adf2-cb802decc847">
+				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
+/wB9ij7TB/z3j/77FAH/2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="ac6b168f-0c28-4936-87ff-e1a0998df5d8"
+		waitaction="Exists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="33b1d8ea-62cc-43aa-9f41-61f6183242a8"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, ptag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="ptag"
+				rect="537,350,247,27"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						od-Dialog-title
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						od-Dialog-title
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Vaciar papelera de reciclaje
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						od-Dialog-title
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						p
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-label"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-bind"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain~'live.com']//p[@innertext='Vaciar papelera de reciclaje']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="f3c1d509-fc59-4d23-8fb6-cd1a4f16ad40"
+		sx="706"
+		sy="476"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4e8b6282-75c9-498f-bc09-0d84414c76c1"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="695,464,11,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						od-Button-label
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						S&#237;
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						od-Button-label
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-bind"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain~'live.com']//div[#'appRoot']/div/div[5]/div/div/div/div/div[2]/div/div/div[2]/div[2]//span[@innertext='S&#237;']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="dcab0fb6-bf5c-41f3-873a-143ca5fe36b6">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAA0AFQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKje
+RhJsRQxAyctj+ntSeZN/zzT/AL7P+FAEtFReZN/zzT/vs/4UeZN/zzT/AL7P+FAEtFUZtTjhlMcm
+xXHUZY/+y0z+2IP7yfm3/wATS5l3NFSqNXUX9xo0VUt74XO7yQjbcZ+Yj+a1N5k3/PNP++z/AIU7
+3IacXZktFReZN/zzT/vs/wCFHmTf880/77P+FAiWimROXDZGCpwRnPv/AFooAYf+Pl/9xf5mn0w/
+8fL/AO4v8zT6ACiiigDJxEdbuTOqFFjB+cZA4WrapYsjN5CAL13Q7f5jmqbrG2r3azNtQxjJzjH3
+ake4lNtKom81UK7Zk4zk9OKiK3OitJpxs+iDSQBdXoUYUOMDGMcmtOsvSCzXFzIUZBLtlTdjlWLY
+PBrUpxVkTWkpTuvL8goooqjEbB96X/f/APZRRRB96X/f/wDZRRQAh/4+X/3F/mafSPGxk3owUkYO
+Vz/X3pPLm/56J/3wf8aAHUU3y5v+eif98H/Gjy5v+eif98H/ABoAyJLpLTWp5JAxBQL8v0FTf23b
+c4inOAWOEzgDqetaPlzf89E/74P+NVb6C4CrcxOGmgywVVI3juvU9cenXFSotdTeVSMkvd19SpBH
+c+TBLbu6H7PbL9wMrfMc578A54Iq1Z3c0sxhnjUN8+2RDw21tp46jt61ZgeI2sRg/wBVsGz6Y4qo
+rvPq5WPaFhhO5jzgsRgYz6LmqMC/RTfLm/56J/3wf8aPLm/56J/3wf8AGgAg+9L/AL//ALKKKdEh
+QNk5LHJOMe39KKAH0UUUAFFFFABRRRQBTXTxGpWG5mijySEUJhcnOB8vTmpbW0S2MjBmd5GBZ3Ay
+cDAHAHFFFMCeiiikAUUUUAf/2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="d782541e-8213-42fd-80cc-aeb638df4ab1"
+		waitaction="Exists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c5f478cc-17b3-4d01-a935-c0d9c98055cb"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="573,497,432,40"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						EmptyFolder-title
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						La papelera de reciclaje est&#225; vac&#237;a
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						EmptyFolder-title
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-bind"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain~'live.com']//div[#'appRoot']//main///div[@innertext='La papelera de reciclaje est&#225; vac&#237;a']
+				</path>
+			</info>
+		</WaitForRecordItem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="8c725696-18b5-4614-8f5c-aed9efe3ed9c">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="1d4b3990-54fe-4f7c-ba4c-7aaab296298c"
+	name="PruebaOneDriveRepository"
+	relativepath="..\PruebaOneDriveRepository.rxrep">
+		<codegen
+		classname="PruebaOneDriveRepository"
+		namespace="PruebaOneDrive">
+		</codegen>
+		<rootfolder
+		id="f575972e-29da-43e5-81d3-98a25a6ca7ab"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		EliminaTodo.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

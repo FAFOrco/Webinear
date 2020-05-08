@@ -1,13 +1,13 @@
 ﻿<repository
-id="575d513e-8011-4438-a210-cf6902154483"
-name="WebinearRepository">
+id="864b2692-9165-4da7-97d7-948126133449"
+name="WebRepository">
 	<codegen
-	classname="WebinearRepository"
-	namespace="Webinear">
+	classname="WebRepository"
+	namespace="Web">
 	</codegen>
 	<rootfolder
 	capname="unknown"
-	id="7c05e38d-ab39-4bf6-a397-03adedef6f29"
+	id="06fb0bcf-3770-45c2-a755-52da37adeb54"
 	isrooted="True"
 	name="Root"
 	searchtimeout="0ms"
@@ -15,14 +15,14 @@ name="WebinearRepository">
 		<appfolder
 		addcaps="container,webdocument"
 		capname="webdocument"
-		id="ab06e985-e727-4101-a7d5-b6f7becc30e2"
+		id="7e31385b-8c33-4635-9632-48cc1a64e5d9"
 		isrooted="True"
 		name="ApplicationUnderTest"
 		searchtimeout="30000ms"
 		usecache="False">
 			<folder
 			capname="divtag"
-			id="ddeb0015-73ae-43c1-a54e-bdb8de78fd21"
+			id="16c4dcc6-326c-4d08-a78f-f96933d793d5"
 			isrooted="True"
 			name="SomeDivTag"
 			searchtimeout="30000ms"
@@ -30,9 +30,9 @@ name="WebinearRepository">
 				<item
 				addcaps="unknown,webelement,inputtag"
 				capname="inputtag"
-				id="a04f3fb6-5d1e-43c6-bb7b-46c2cfce194b"
+				id="17aa4547-a969-488a-9bd2-f665d7bd2f56"
 				name="Email"
-				refimgid="3195f117-edb1-4663-b24f-90182bd8bb76"
+				refimgid="9ea329c2-4c5f-4740-9427-12a439a5cb49"
 				refpath="/dom[@domain='onedrive.live.com']//section[#'mainContent']/iframe/body/div[2]/div/main/div[2]/div[2]/div/input[@type='email']"
 				searchtimeout="30000ms">
 					/dom[@domain='onedrive.live.com']//section[#'mainContent']/iframe[@src='https://odc.officeapps.live.com/odc/v2.0/hrd?rs=en-us&amp;Ver=16&amp;app=23&amp;p=6&amp;hm=0']/body/div[2]/?/?/main/div[2]/div[2]/?/?/input[@type='email']
@@ -40,9 +40,9 @@ name="WebinearRepository">
 				<item
 				addcaps="unknown,webelement,divtag"
 				capname="divtag"
-				id="000d72b9-c9fc-4257-8bac-a83ece67a260"
+				id="61684cab-29f2-48e7-8167-9f2010eab360"
 				name="PersonalAccount"
-				refimgid="a0542aba-aa8d-4247-9507-33feac31c8c0"
+				refimgid="190c5b13-4fca-4304-bf06-f82fa1396950"
 				refpath="/dom[@domain='onedrive.live.com']//section[#'mainContent']/iframe/body/div[2]/div/main/div[2]/div[3]/div[2]/div[@innertext='Personal account']"
 				searchtimeout="30000ms">
 					/dom[@domain='onedrive.live.com']//section[#'mainContent']/iframe[@src='https://odc.officeapps.live.com/odc/v2.0/hrd?rs=en-us&amp;Ver=16&amp;app=23&amp;p=6&amp;hm=0']/body/div[2]/?/?/main/div[2]/div[3]/?/?/div[@innertext='Personal account']
@@ -50,9 +50,9 @@ name="WebinearRepository">
 				<item
 				addcaps="unknown,webelement,inputtag"
 				capname="inputtag"
-				id="7262f51a-b9b3-4ca1-8095-25bfb56b8ab4"
+				id="9c1483c9-ee52-4964-a9bb-4f59585d0184"
 				name="Submit"
-				refimgid="e47ae7c9-0940-4ff2-bc74-cdf0bda562da"
+				refimgid="f4579d8e-7d41-421e-8504-7829e27961b9"
 				refpath="/dom[@domain='onedrive.live.com']//section[#'mainContent']/iframe/body/div[2]/div/main/div[2]/div[4]/input[@type='submit']"
 				searchtimeout="30000ms">
 					/dom[@domain='onedrive.live.com']//section[#'mainContent']/iframe[@src='https://odc.officeapps.live.com/odc/v2.0/hrd?rs=en-us&amp;Ver=16&amp;app=23&amp;p=6&amp;hm=0']/body/div[2]/?/?/main/div[2]/div[4]/input[@type='submit']
@@ -62,70 +62,58 @@ name="WebinearRepository">
 				</basepath>
 			</folder>
 			<item
-			addcaps="unknown,webelement,h1tag"
-			capname="h1tag"
-			id="fdd98b2f-a234-4a63-8822-8e20a8733ea5"
-			name="MisArchivos"
-			refimgid="ae1f184e-5f3f-4cd3-a9f8-ffffb357165b"
-			refpath="/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[2]/div[5]/main/div/div/div[2]/div[1]/h1[@innertext='Mis archivos']"
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="b77633e1-5b60-47ba-a66a-aebf949bbf6b"
+			name="AlmacenPersonal"
+			refimgid="fcb06ad6-9de3-4296-a4c7-da4061e16ceb"
+			refpath="/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[2]/div[5]/main/div/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div[1]/div/div[1]/div/div/div/a/span[3]/span[1]/span/span/span[@innertext='Almacén personal']"
 			searchtimeout="30000ms">
-				/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[2]/div[5]/main//h1[@innertext='Mis archivos']
+				/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[2]/div[5]/main/div/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div[1]/div/div[1]/div/div/div/a[@href&gt;'https://onedrive.live.com']/span[3]/span[1]//span[@innertext='Almac&#233;n personal']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
 			capname="spantag"
-			id="874c4bcd-72ce-422e-ae8c-e822cf1be9a3"
+			id="d092a16d-ce63-4c3e-be1c-018625b37133"
 			name="Carpeta"
-			refimgid="0bf7b6b8-ac37-4cf7-a8d8-86fa3dec1b61"
+			refimgid="b6df557d-e164-4911-8550-65a33d82fde6"
 			refpath="/dom[@domain='onedrive.live.com']/body/div[3]/div/div/div/div/div/div/ul/li[@title='Carpeta']/button/div/span[@innertext='Carpeta']"
 			searchtimeout="30000ms">
 				/dom[@domain='onedrive.live.com']/body/div[3]/div//ul/li[@title='Carpeta']/button[@title='Carpeta']/?/?/span[@innertext='Carpeta']
 			</item>
 			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="7d148092-434a-46e4-b111-c21662bd9254"
+			name="OdDialogTitle"
+			refimgid="de719fc1-1ac7-41a8-bcd5-a923c73dbb52"
+			refpath="/dom[@domain='onedrive.live.com']//p[#'od-Dialog-title']"
+			searchtimeout="30000ms">
+				/dom[@domain='onedrive.live.com']//p[#'od-Dialog-title']
+			</item>
+			<item
 			addcaps="unknown,webelement,inputtag"
 			capname="inputtag"
-			id="884ce380-329d-40f6-ba68-adca3cb750c9"
+			id="4542044a-2ae5-43a6-a8e2-af75a60727bc"
 			name="Text"
-			refimgid="8d1e7023-ddb5-47a8-a48c-9f5bed7362ff"
+			refimgid="729a6561-4b99-4c94-944c-5b50899da3b3"
 			refpath="/dom[@domain='onedrive.live.com']//div[#'od-Dialog-content']/div/div[1]/input[@type='text']"
 			searchtimeout="30000ms">
 				/dom[@domain='onedrive.live.com']//div[#'od-Dialog-content']//input[@type='text']
 			</item>
-			<item
-			addcaps="unknown,webelement,spantag"
-			capname="spantag"
-			id="7ef60b90-7f93-4834-b6e6-efd8b0b76b1f"
-			name="Crear"
-			refimgid="973624f9-5581-4232-961a-b093bfe7d5a7"
-			refpath="/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[5]/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/button/span[@innertext='Crear']"
-			searchtimeout="30000ms">
-				/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[5]/div/div/div/div/div[2]/div/div/div[2]/div[2]//span[@innertext='Crear']
-			</item>
-			<item
-			addcaps="unknown,webelement,spantag"
-			capname="spantag"
-			id="aac94574-a57c-49f6-9013-9485ff8bd75c"
-			name="Archivos"
-			refimgid="49ebbdd7-c1a4-4028-85f8-433d5e832ac9"
-			refpath="/dom[@domain='onedrive.live.com']/body/div[3]/div/div/div/div/div/div/ul/li[@title='Archivos']/button/div/span[@innertext='Archivos']"
-			searchtimeout="30000ms">
-				/dom[@domain='onedrive.live.com']/body/div[3]/div//ul/li[@title='Archivos']/button[@title='Archivos']/?/?/span[@innertext='Archivos']
-			</item>
 			<folder
-			addcaps="unknown,webelement,divtag"
 			capname="divtag"
-			id="afa0188d-c2ad-4217-bbdf-4b6f473642dd"
+			id="4f423320-e609-48e5-9556-5a8154ff3cd9"
 			isrooted="True"
-			name="OdBasePageBelowHeaderOdBasePageBelo"
-			refpath="/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[2]"
+			name="OdBasePageOdBasePageLeftNavVisibleO"
 			searchtimeout="30000ms"
 			usecache="False">
 				<item
 				addcaps="unknown,webelement,spantag"
 				capname="spantag"
-				id="329ac363-6f12-41dd-a909-80d734e5c88f"
+				id="5926fc75-d1e2-4b3e-bf49-9f24fdd21c8a"
 				name="Nuevo"
-				refimgid="292711a9-5bbf-418a-9343-17d97cf04786"
+				refimgid="84b5b063-23cc-4caa-9340-a3cafb142f26"
 				refpath="/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[2]/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div[1]/div[1]/button/span/span/span[@innertext='Nuevo']"
 				searchtimeout="30000ms">
 					/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[2]/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div[1]/div[1]/button[@title&gt;'Crear una carpeta o un documento']/span/span/span[@innertext='Nuevo']
@@ -133,61 +121,82 @@ name="WebinearRepository">
 				<item
 				addcaps="unknown,webelement,spantag"
 				capname="spantag"
-				id="77d4c652-6d01-4882-85d6-39fe5bbff17f"
+				id="5378b173-6c89-4a7f-a61d-3684f4b14858"
+				name="PruebaWebinear"
+				refimgid="2d198c72-b780-4cdc-bab7-d8f6838c1af6"
+				refpath="/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[2]/div[5]/main/div/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div[1]/div/div[4]/div/div/div/a/span[3]/span[1]/span/span[2]/span[@innertext='PruebaWebinear']"
+				searchtimeout="30000ms">
+					/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[2]/div[5]/main/div/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div[1]/div/div[4]//a[@href&gt;'https://onedrive.live.com']/span[3]/span[1]/span/span[2]/span[@innertext='PruebaWebinear']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="0ee20c3b-9e92-4970-9d3d-bae286b384f6"
+				name="Crear"
+				refimgid="3d8dcd59-8c92-4555-a9f6-e9c0677d3a5b"
+				refpath="/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[5]/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/button/span[@innertext='Crear']"
+				searchtimeout="30000ms">
+					/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[5]/div/div/div/div/div[2]/div/div/div[2]/div[2]//span[@innertext='Crear']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="unknown"
+				id="294f3e8b-fec1-4744-82de-ad2359f55c27"
 				name="Cargar"
-				refimgid="dbca9859-fc7b-47e2-b708-47f00f312971"
-				refpath="/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[2]/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div[1]/div[2]/button/span/span/span[@innertext='Cargar']"
+				refimgid="e6fb58e7-54e4-4d17-ab02-1e3491680301"
 				searchtimeout="30000ms">
-					/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[2]/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div[1]/div[2]/button[@title&gt;'Cargar archivos de tu equipo']/span/span/span[@innertext='Cargar']
+					/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[2]/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div[1]/div[2]/button[@title&gt;'Cargar archivos de tu equipo']/span/span/*[@innertext='Cargar']
 				</item>
 				<item
 				addcaps="unknown,webelement,spantag"
 				capname="spantag"
-				id="bbd760b1-32df-42c5-a238-9a7716c4fb8e"
-				name="Prueba1"
-				refimgid="5013521d-a61d-4534-8168-bf442b48adaf"
-				refpath="/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[2]/div[5]/main/div/div/div/div[1]/div/nav/ul/li[2]/span[@title='Prueba']"
+				id="97e03dfb-d0a8-4189-868f-55615948d767"
+				name="PruebaWebTxt"
+				refimgid="ede08709-c2c5-45d1-b647-acc6164ee096"
+				refpath="/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[2]/div[5]/main/div/div/div/div[2]/div/div/div/div/div/div/div/div/div/div/div/div/div/div/a/span[3]/span[1]/span/span[2]/span[@innertext='pruebaWeb.txt']"
 				searchtimeout="30000ms">
-					/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[2]/div[5]/main//nav/ul/?/?/span[@title='Prueba']
+					/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[2]/div[5]/main/div/div/div/div[2]/div/div/div/div/div/div/div/div/div/div/div/div/div/div/a[@href&gt;'https://onedrive.live.com']/span[3]/span[1]/span/span[2]/span[@innertext='pruebaWeb.txt']
+				</item>
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="98aafe01-98b5-4938-8f6b-6be70a53befc"
+				name="ImgTagF"
+				refimgid="79d7212a-43af-4fd1-80f6-7238e22a494a"
+				refpath="/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[1]/div/div[1]/div[3]/div[1]/button/div/div[2]/div/div/div/div/div[2]/img[@alt='F']"
+				searchtimeout="30000ms">
+					/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[1]/div/div[1]/div[3]/div[1]/button[@title&gt;'Administrador de cuenta para']/div/div[2]//img[@alt='F']
 				</item>
 				<item
 				addcaps="unknown,webelement,spantag"
 				capname="spantag"
-				id="913d4461-d693-4add-addb-7c7a7997a250"
-				name="PruebaTxt"
-				refimgid="5b150074-db89-4452-9438-421b38baaee6"
+				id="ea44f883-c1b5-4eca-9f58-6dedc3a4c8ed"
+				name="Cargar_Bis"
+				refimgid="734aadec-625d-4758-90d9-8457b102f693"
+				refpath="/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[2]/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div[1]/div[2]/button[@title='Cargar archivos de tu equipo en esta ubicación']/span"
 				searchtimeout="30000ms">
-					/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[2]/div[5]/main/div/div/div/div[2]/div/div/div/div/div/div/div/div/div/div/div/div//a[@href&gt;'https://onedrive.live.com']/span[3]/span[1]/span/span[2]/span[@innertext='prueba.txt']
-				</item>
-				<item
-				addcaps="unknown,webelement,spantag"
-				capname="spantag"
-				id="075b741b-f718-4019-8b2f-163fce576fce"
-				name="Prueba"
-				refimgid="672d162b-bdc6-4c57-abde-46f87db676c9"
-				searchtimeout="30000ms">
-					/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[2]/div[5]/main/div/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div[1]//a[@href&gt;'https://onedrive.live.com']/span[3]/span[1]/span/span[2]/span[@innertext='Prueba']
+					/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[2]/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div[1]/div[2]/button[@title&gt;'Cargar archivos de tu equipo']/span
 				</item>
 				<basepath>
-					/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[2]
+					/dom[@domain='onedrive.live.com']//div[#'appRoot']/div
 				</basepath>
 			</folder>
 			<item
-			addcaps="unknown,webelement,imgtag"
-			capname="imgtag"
-			id="a492356a-c3a9-4e00-926e-b26327f8e855"
-			name="ImgTagF"
-			refimgid="7f2393ce-d20a-4f0a-bbed-3a1865b452f0"
-			refpath="/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[1]/div/div[1]/div[3]/div[1]/button/div/div[2]/div/div/div/div/div[2]/img[@alt='F']"
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="04e14dde-174f-46c6-9833-7cd8b035d160"
+			name="Archivos"
+			refimgid="ad372645-3d8a-47f8-ae78-7cbed76b327f"
+			refpath="/dom[@domain='onedrive.live.com']/body/div[3]/div/div/div/div/div/div/ul/li[@title='Archivos']/button/div/span[@innertext='Archivos']"
 			searchtimeout="30000ms">
-				/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[1]/div/div[1]/div[3]/div[1]/button[@title&gt;'Administrador de cuenta para']/div/div[2]//img[@alt='F']
+				/dom[@domain='onedrive.live.com']/body/div[3]/div//ul/li[@title='Archivos']/button[@title='Archivos']/?/?/span[@innertext='Archivos']
 			</item>
 			<item
 			addcaps="unknown,webelement,atag"
 			capname="atag"
-			id="f81a20db-3052-4552-9cdc-7bb03c87c0d6"
+			id="7066587e-7468-4405-9953-b8af7b3300bb"
 			name="MeControlSignoutLink"
-			refimgid="5dd92404-a5ee-40e1-bbf5-81563b136023"
+			refimgid="ecdc4eb8-a331-4971-afa8-4c6c60f916fe"
 			refpath="/dom[@domain='onedrive.live.com']//a[#'meControlSignoutLink']"
 			searchtimeout="30000ms">
 				/dom[@domain='onedrive.live.com']//a[#'meControlSignoutLink']
@@ -214,7 +223,7 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		<appfolder
 		addcaps="container,webdocument"
 		capname="webdocument"
-		id="964008ba-e1ff-45d9-9e35-987aa75f258b"
+		id="17a4b5a8-b2d1-4398-b096-e1fdb5a65637"
 		isrooted="True"
 		name="OneDrive"
 		refpath="/dom[@domain='login.live.com']"
@@ -223,28 +232,29 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			<item
 			addcaps="unknown,webelement,divtag"
 			capname="divtag"
-			id="da95b3bb-fa4a-45b7-adaf-972c09fbc51c"
-			name="SomeDivTag"
-			refimgid="f0407c78-628c-484e-bb1a-74ef92a8144b"
-			refpath="/dom[@domain='login.live.com']/body/div/form[@name='f1']/div/div/div[1]/div[3]/div"
+			id="3f477fa6-220d-416e-abf3-f3e522ef64f0"
+			name="FadeInLightboxInner"
+			refimgid="830710ad-76e1-4ef0-bede-13ccdeecaf6f"
+			refpath="/dom[@domain='login.live.com']/body/div/form[@name='f1']/div/div/div[1]"
 			searchtimeout="30000ms">
-				/dom[@domain='login.live.com']//form[@name='f1']/div/div/div[1]/div[3]/div
+				/dom[@domain='login.live.com']/body/?/?/form[@name='f1']/div/div/div[1]
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
 			capname="inputtag"
-			id="e9149842-e18e-4c52-92ce-7f6700bc8c8a"
+			id="b59a77ad-43dc-460d-a5cb-3c99ba672001"
 			name="Passwd"
-			refimgid="f7c79d2c-8d0e-4e01-9d02-fad87a927545"
+			refimgid="d1dcab7a-4659-4395-b86c-f1577b56f11e"
+			refpath="/dom[@domain='login.live.com']/body/div/form[@name='f1']/div/div/div[1]/div[2]/div[2]/div/div[2]/div/div[2]/div/div[2]/input[@name='passwd']"
 			searchtimeout="30000ms">
-				/dom[@domain='login.live.com']/body/?/?/form[@name='f1']/div/div/div[1]//div/div[2]/div/div[2]//input[@name='passwd']
+				/dom[@domain='login.live.com']/body/?/?/form[@name='f1']/div/div/div[1]/div[2]/div[2]/div/div[2]/div/div[2]//input[@name='passwd']
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
 			capname="inputtag"
-			id="c9e6d337-fffb-46f7-a623-fb665c72faca"
+			id="0d89cd7f-47b3-4d55-b242-d9888d519740"
 			name="IdSIButton9"
-			refimgid="842da24a-4173-4e25-a5b3-36add6c271fe"
+			refimgid="079f607e-131b-413b-82e9-545ce1245ba5"
 			refpath="/dom[@domain='login.live.com']//input[#'idSIButton9']"
 			searchtimeout="30000ms">
 				/dom[@domain='login.live.com']//input[#'idSIButton9']
@@ -271,19 +281,19 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		<appfolder
 		addcaps="form,nativewindow"
 		capname="form"
-		id="b51da30f-7e31-41a0-8865-e10814e4fea4"
+		id="cf913e62-8f8e-4082-ba1b-5c37430d3067"
 		isrooted="True"
 		name="Abrir"
-		refimgid="65f60028-3b21-442a-90f8-7d3373b7a687"
+		refimgid="455241b9-f077-4c3c-b22f-6baadc85ed39"
 		refpath="/form[@title='Abrir']"
 		searchtimeout="30000ms"
 		usecache="True">
 			<item
 			addcaps="button,nativeitem,checkable"
 			capname="button"
-			id="d47191ea-cd7c-46fc-a1b3-75b92b2055f3"
+			id="e69d8a44-58de-45d7-813d-04e226514d5a"
 			name="Escritorio"
-			refimgid="26dff8f7-a489-4afc-a11d-c415c1789da0"
+			refimgid="13135eb5-8f56-4114-92f6-274bb5731f26"
 			refpath="/form[@title='Abrir']/element[@class='WorkerW']/container/element[@controlid='41477']/progressbar/element/toolbar/button[@text='Escritorio']"
 			searchtimeout="30000ms">
 				/form[@title='Abrir']/element[@class='WorkerW']/container[@controlid='40965']//toolbar[@controlid='1001']/button[@text='Escritorio']
@@ -291,9 +301,9 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			<item
 			addcaps="text,nativewindow"
 			capname="text"
-			id="be108905-7299-4897-bf61-741bc3e3db6a"
+			id="525f55bf-9c5a-435e-8157-df18241dead8"
 			name="Text1148"
-			refimgid="9d54a9de-dc76-4fbd-a4e4-ae76bbb21edb"
+			refimgid="4410e306-bfc4-45c3-b05a-ad4873da4782"
 			refpath="/form[@title='Abrir']/combobox[@controlid='1148']/text[@controlid='1148']"
 			searchtimeout="30000ms">
 				/form[@title='Abrir']/?/?/text[@controlid='1148']
@@ -301,9 +311,9 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			<item
 			addcaps="button,nativewindow"
 			capname="button"
-			id="f3f366a6-e5c6-478e-a832-aa09fb1132bb"
+			id="aa1be551-6969-4dfd-a8bb-294968063c87"
 			name="ButtonAbrir"
-			refimgid="80a5a759-d22b-4f7e-9baf-40a7de7c32d0"
+			refimgid="f6628844-8055-48bc-bb7f-205a4ee2420d"
 			refpath="/form[@title='Abrir']/button[@text='&amp;Abrir']"
 			searchtimeout="30000ms">
 				/form[@title='Abrir']/button[@text='&amp;Abrir']
@@ -330,22 +340,24 @@ AAAASUVORK5CYII=
 		<appfolder
 		addcaps="container,webdocument"
 		capname="webdocument"
-		id="9a32e70c-b44e-47a7-a973-0d4959bc9e3e"
+		id="8a14f62c-1266-41bc-80bb-32bb9c9e33f8"
 		isrooted="True"
 		name="PersonalCloudStorageMicrosoftOneDri"
+		refpath="/dom[@domain='www.microsoft.com']"
 		searchtimeout="30000ms"
 		usecache="False">
 			<item
-			addcaps="unknown,webelement,spantag"
-			capname="spantag"
-			id="bbfe3c0e-1099-4977-a203-8d31002dc951"
-			name="SpanTagSignIn"
-			refimgid="2b62ac31-350f-4c08-b5b9-048ecb26facd"
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="f09ec31d-ca36-4a53-948e-90341aa3865a"
+			name="HttpsGoMicrosoftComFwlinkPLinkID"
+			refimgid="87f146f6-22b4-4e4e-a58a-f788832fbd80"
+			refpath="/dom[@domain='www.microsoft.com']//div[#'heroregion']/div/section/div/div/div/div/div/div/div[1]/a[@href='https://go.microsoft.com/fwlink/p/?LinkID=2119709&amp;clcid=0x409&amp;culture=en-us&amp;country=US']"
 			searchtimeout="30000ms">
-				/dom[@domain~'microsoft']//div[#'heroregion']/?/?/section/div/div/div/div/div/div//a[@href&gt;'https://go.microsoft.com/']/span[@innertext~'Sign in']
+				/dom[@domain='www.microsoft.com']//div[#'heroregion']/?/?/section/div/div/div/div/div/div/div[1]/a[@href&gt;'https://go.microsoft.com/']
 			</item>
 			<basepath>
-				/dom[@domain~'microsoft']
+				/dom[@domain='www.microsoft.com']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN

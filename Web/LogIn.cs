@@ -20,33 +20,33 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace Webinear.Generales
+namespace Web
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Login recording.
+    ///The LogIn recording.
     /// </summary>
-    [TestModule("f054724d-12aa-4b01-9e81-840fa659cb77", ModuleType.Recording, 1)]
-    public partial class Login : ITestModule
+    [TestModule("01baea00-3f8e-45f5-a181-fbc60e914d2b", ModuleType.Recording, 1)]
+    public partial class LogIn : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the global::Webinear.WebinearRepository repository.
+        /// Holds an instance of the WebRepository repository.
         /// </summary>
-        public static global::Webinear.WebinearRepository repo = global::Webinear.WebinearRepository.Instance;
+        public static WebRepository repo = WebRepository.Instance;
 
-        static Login instance = new Login();
+        static LogIn instance = new LogIn();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Login()
+        public LogIn()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Login Instance
+        public static LogIn Instance
         {
             get { return instance; }
         }
@@ -79,8 +79,8 @@ namespace Webinear.Generales
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SomeDivTag.Email' at Center.", repo.ApplicationUnderTest.SomeDivTag.EmailInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.SomeDivTag.Email.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.SomeDivTag.Email' at CenterLeft.", repo.ApplicationUnderTest.SomeDivTag.EmailInfo, new RecordItemIndex(0));
+            repo.ApplicationUnderTest.SomeDivTag.Email.Click(Location.CenterLeft);
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'fernando_figliola@itrsa.com.ar' with focus on 'ApplicationUnderTest.SomeDivTag.Email'.", repo.ApplicationUnderTest.SomeDivTag.EmailInfo, new RecordItemIndex(1));
@@ -95,20 +95,20 @@ namespace Webinear.Generales
             repo.ApplicationUnderTest.SomeDivTag.PersonalAccount.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OneDrive.Passwd' at Center.", repo.OneDrive.PasswdInfo, new RecordItemIndex(4));
-            repo.OneDrive.Passwd.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OneDrive.Passwd' at CenterLeft.", repo.OneDrive.PasswdInfo, new RecordItemIndex(4));
+            repo.OneDrive.Passwd.Click(Location.CenterLeft);
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '●●●●●●●●●●●●●●' with focus on 'OneDrive.Passwd'.", repo.OneDrive.PasswdInfo, new RecordItemIndex(5));
-            repo.OneDrive.Passwd.PressKeys("unaPass_123321");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '●●●●●●●●●' with focus on 'OneDrive.Passwd'.", repo.OneDrive.PasswdInfo, new RecordItemIndex(5));
+            repo.OneDrive.Passwd.PressKeys("M3ng4n0_!");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OneDrive.IdSIButton9' at 45;16.", repo.OneDrive.IdSIButton9Info, new RecordItemIndex(6));
-            repo.OneDrive.IdSIButton9.Click("45;16");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'OneDrive.IdSIButton9' at Center.", repo.OneDrive.IdSIButton9Info, new RecordItemIndex(6));
+            repo.OneDrive.IdSIButton9.Click();
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'ApplicationUnderTest.MisArchivos'", repo.ApplicationUnderTest.MisArchivosInfo, new ActionTimeout(30000), new RecordItemIndex(7));
-            repo.ApplicationUnderTest.MisArchivosInfo.WaitForExists(30000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 40s to exist. Associated repository item: 'ApplicationUnderTest.AlmacenPersonal'", repo.ApplicationUnderTest.AlmacenPersonalInfo, new ActionTimeout(40000), new RecordItemIndex(7));
+            repo.ApplicationUnderTest.AlmacenPersonalInfo.WaitForExists(40000);
             
         }
 

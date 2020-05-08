@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="PruebaOneDrive"
+      id="7ec2bf1f-b8ff-4726-9eb7-76d5852ce0f2"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="PruebaOneDrive"
+      id="7ec2bf1f-b8ff-4726-9eb7-76d5852ce0f2"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

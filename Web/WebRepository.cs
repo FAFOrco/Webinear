@@ -16,27 +16,27 @@ using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 
-namespace Webinear
+namespace Web
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    /// The class representing the WebinearRepository element repository.
+    /// The class representing the WebRepository element repository.
     /// </summary>
     [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
-    [RepositoryFolder("7c05e38d-ab39-4bf6-a397-03adedef6f29")]
-    public partial class WebinearRepository : RepoGenBaseFolder
+    [RepositoryFolder("06fb0bcf-3770-45c2-a755-52da37adeb54")]
+    public partial class WebRepository : RepoGenBaseFolder
     {
-        static WebinearRepository instance = new WebinearRepository();
-        WebinearRepositoryFolders.ApplicationUnderTestAppFolder _applicationundertest;
-        WebinearRepositoryFolders.OneDriveAppFolder _onedrive;
-        WebinearRepositoryFolders.AbrirAppFolder _abrir;
-        WebinearRepositoryFolders.PersonalCloudStorageMicrosoftOneDriAppFolder _personalcloudstoragemicrosoftonedri;
+        static WebRepository instance = new WebRepository();
+        WebRepositoryFolders.ApplicationUnderTestAppFolder _applicationundertest;
+        WebRepositoryFolders.OneDriveAppFolder _onedrive;
+        WebRepositoryFolders.AbrirAppFolder _abrir;
+        WebRepositoryFolders.PersonalCloudStorageMicrosoftOneDriAppFolder _personalcloudstoragemicrosoftonedri;
 
         /// <summary>
-        /// Gets the singleton class instance representing the WebinearRepository element repository.
+        /// Gets the singleton class instance representing the WebRepository element repository.
         /// </summary>
-        [RepositoryFolder("7c05e38d-ab39-4bf6-a397-03adedef6f29")]
-        public static WebinearRepository Instance
+        [RepositoryFolder("06fb0bcf-3770-45c2-a755-52da37adeb54")]
+        public static WebRepository Instance
         {
             get { return instance; }
         }
@@ -44,13 +44,13 @@ namespace Webinear
         /// <summary>
         /// Repository class constructor.
         /// </summary>
-        public WebinearRepository() 
-            : base("WebinearRepository", "/", null, 0, false, "7c05e38d-ab39-4bf6-a397-03adedef6f29", ".\\RepositoryImages\\WebinearRepository7c05e38d.rximgres")
+        public WebRepository() 
+            : base("WebRepository", "/", null, 0, false, "06fb0bcf-3770-45c2-a755-52da37adeb54", ".\\RepositoryImages\\WebRepository06fb0bcf.rximgres")
         {
-            _applicationundertest = new WebinearRepositoryFolders.ApplicationUnderTestAppFolder(this);
-            _onedrive = new WebinearRepositoryFolders.OneDriveAppFolder(this);
-            _abrir = new WebinearRepositoryFolders.AbrirAppFolder(this);
-            _personalcloudstoragemicrosoftonedri = new WebinearRepositoryFolders.PersonalCloudStorageMicrosoftOneDriAppFolder(this);
+            _applicationundertest = new WebRepositoryFolders.ApplicationUnderTestAppFolder(this);
+            _onedrive = new WebRepositoryFolders.OneDriveAppFolder(this);
+            _abrir = new WebRepositoryFolders.AbrirAppFolder(this);
+            _personalcloudstoragemicrosoftonedri = new WebRepositoryFolders.PersonalCloudStorageMicrosoftOneDriAppFolder(this);
         }
 
 #region Variables
@@ -60,7 +60,7 @@ namespace Webinear
         /// <summary>
         /// The Self item info.
         /// </summary>
-        [RepositoryItemInfo("7c05e38d-ab39-4bf6-a397-03adedef6f29")]
+        [RepositoryItemInfo("06fb0bcf-3770-45c2-a755-52da37adeb54")]
         public virtual RepoItemInfo SelfInfo
         {
             get
@@ -72,8 +72,8 @@ namespace Webinear
         /// <summary>
         /// The ApplicationUnderTest folder.
         /// </summary>
-        [RepositoryFolder("ab06e985-e727-4101-a7d5-b6f7becc30e2")]
-        public virtual WebinearRepositoryFolders.ApplicationUnderTestAppFolder ApplicationUnderTest
+        [RepositoryFolder("7e31385b-8c33-4635-9632-48cc1a64e5d9")]
+        public virtual WebRepositoryFolders.ApplicationUnderTestAppFolder ApplicationUnderTest
         {
             get { return _applicationundertest; }
         }
@@ -81,8 +81,8 @@ namespace Webinear
         /// <summary>
         /// The OneDrive folder.
         /// </summary>
-        [RepositoryFolder("964008ba-e1ff-45d9-9e35-987aa75f258b")]
-        public virtual WebinearRepositoryFolders.OneDriveAppFolder OneDrive
+        [RepositoryFolder("17a4b5a8-b2d1-4398-b096-e1fdb5a65637")]
+        public virtual WebRepositoryFolders.OneDriveAppFolder OneDrive
         {
             get { return _onedrive; }
         }
@@ -90,8 +90,8 @@ namespace Webinear
         /// <summary>
         /// The Abrir folder.
         /// </summary>
-        [RepositoryFolder("b51da30f-7e31-41a0-8865-e10814e4fea4")]
-        public virtual WebinearRepositoryFolders.AbrirAppFolder Abrir
+        [RepositoryFolder("cf913e62-8f8e-4082-ba1b-5c37430d3067")]
+        public virtual WebRepositoryFolders.AbrirAppFolder Abrir
         {
             get { return _abrir; }
         }
@@ -99,8 +99,8 @@ namespace Webinear
         /// <summary>
         /// The PersonalCloudStorageMicrosoftOneDri folder.
         /// </summary>
-        [RepositoryFolder("9a32e70c-b44e-47a7-a973-0d4959bc9e3e")]
-        public virtual WebinearRepositoryFolders.PersonalCloudStorageMicrosoftOneDriAppFolder PersonalCloudStorageMicrosoftOneDri
+        [RepositoryFolder("8a14f62c-1266-41bc-80bb-32bb9c9e33f8")]
+        public virtual WebRepositoryFolders.PersonalCloudStorageMicrosoftOneDriAppFolder PersonalCloudStorageMicrosoftOneDri
         {
             get { return _personalcloudstoragemicrosoftonedri; }
         }
@@ -110,45 +110,43 @@ namespace Webinear
     /// Inner folder classes.
     /// </summary>
     [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
-    public partial class WebinearRepositoryFolders
+    public partial class WebRepositoryFolders
     {
         /// <summary>
         /// The ApplicationUnderTestAppFolder folder.
         /// </summary>
-        [RepositoryFolder("ab06e985-e727-4101-a7d5-b6f7becc30e2")]
+        [RepositoryFolder("7e31385b-8c33-4635-9632-48cc1a64e5d9")]
         public partial class ApplicationUnderTestAppFolder : RepoGenBaseFolder
         {
-            WebinearRepositoryFolders.SomeDivTagFolder _somedivtag;
-            WebinearRepositoryFolders.OdBasePageBelowHeaderOdBasePageBeloFolder _odbasepagebelowheaderodbasepagebelo;
-            RepoItemInfo _misarchivosInfo;
+            WebRepositoryFolders.SomeDivTagFolder _somedivtag;
+            WebRepositoryFolders.OdBasePageOdBasePageLeftNavVisibleOFolder _odbasepageodbasepageleftnavvisibleo;
+            RepoItemInfo _almacenpersonalInfo;
             RepoItemInfo _carpetaInfo;
+            RepoItemInfo _oddialogtitleInfo;
             RepoItemInfo _textInfo;
-            RepoItemInfo _crearInfo;
             RepoItemInfo _archivosInfo;
-            RepoItemInfo _imgtagfInfo;
             RepoItemInfo _mecontrolsignoutlinkInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
             /// </summary>
             public ApplicationUnderTestAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("ApplicationUnderTest", "/dom[@domain='onedrive.live.com']", parentFolder, 30000, null, false, "ab06e985-e727-4101-a7d5-b6f7becc30e2", "")
+                    base("ApplicationUnderTest", "/dom[@domain='onedrive.live.com']", parentFolder, 30000, null, false, "7e31385b-8c33-4635-9632-48cc1a64e5d9", "")
             {
-                _somedivtag = new WebinearRepositoryFolders.SomeDivTagFolder(this);
-                _odbasepagebelowheaderodbasepagebelo = new WebinearRepositoryFolders.OdBasePageBelowHeaderOdBasePageBeloFolder(this);
-                _misarchivosInfo = new RepoItemInfo(this, "MisArchivos", ".//div[#'appRoot']/div/div[2]/div[5]/main//h1[@innertext='Mis archivos']", 30000, null, "fdd98b2f-a234-4a63-8822-8e20a8733ea5");
-                _carpetaInfo = new RepoItemInfo(this, "Carpeta", "body/div[3]/div//ul/li[@title='Carpeta']/button[@title='Carpeta']/?/?/span[@innertext='Carpeta']", 30000, null, "874c4bcd-72ce-422e-ae8c-e822cf1be9a3");
-                _textInfo = new RepoItemInfo(this, "Text", ".//div[#'od-Dialog-content']//input[@type='text']", 30000, null, "884ce380-329d-40f6-ba68-adca3cb750c9");
-                _crearInfo = new RepoItemInfo(this, "Crear", ".//div[#'appRoot']/div/div[5]/div/div/div/div/div[2]/div/div/div[2]/div[2]//span[@innertext='Crear']", 30000, null, "7ef60b90-7f93-4834-b6e6-efd8b0b76b1f");
-                _archivosInfo = new RepoItemInfo(this, "Archivos", "body/div[3]/div//ul/li[@title='Archivos']/button[@title='Archivos']/?/?/span[@innertext='Archivos']", 30000, null, "aac94574-a57c-49f6-9013-9485ff8bd75c");
-                _imgtagfInfo = new RepoItemInfo(this, "ImgTagF", ".//div[#'appRoot']/div/div[1]/div/div[1]/div[3]/div[1]/button[@title>'Administrador de cuenta para']/div/div[2]//img[@alt='F']", 30000, null, "a492356a-c3a9-4e00-926e-b26327f8e855");
-                _mecontrolsignoutlinkInfo = new RepoItemInfo(this, "MeControlSignoutLink", ".//a[#'meControlSignoutLink']", 30000, null, "f81a20db-3052-4552-9cdc-7bb03c87c0d6");
+                _somedivtag = new WebRepositoryFolders.SomeDivTagFolder(this);
+                _odbasepageodbasepageleftnavvisibleo = new WebRepositoryFolders.OdBasePageOdBasePageLeftNavVisibleOFolder(this);
+                _almacenpersonalInfo = new RepoItemInfo(this, "AlmacenPersonal", ".//div[#'appRoot']/div/div[2]/div[5]/main/div/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div[1]/div/div[1]/div/div/div/a[@href>'https://onedrive.live.com']/span[3]/span[1]//span[@innertext='Almacén personal']", 30000, null, "b77633e1-5b60-47ba-a66a-aebf949bbf6b");
+                _carpetaInfo = new RepoItemInfo(this, "Carpeta", "body/div[3]/div//ul/li[@title='Carpeta']/button[@title='Carpeta']/?/?/span[@innertext='Carpeta']", 30000, null, "d092a16d-ce63-4c3e-be1c-018625b37133");
+                _oddialogtitleInfo = new RepoItemInfo(this, "OdDialogTitle", ".//p[#'od-Dialog-title']", 30000, null, "7d148092-434a-46e4-b111-c21662bd9254");
+                _textInfo = new RepoItemInfo(this, "Text", ".//div[#'od-Dialog-content']//input[@type='text']", 30000, null, "4542044a-2ae5-43a6-a8e2-af75a60727bc");
+                _archivosInfo = new RepoItemInfo(this, "Archivos", "body/div[3]/div//ul/li[@title='Archivos']/button[@title='Archivos']/?/?/span[@innertext='Archivos']", 30000, null, "04e14dde-174f-46c6-9833-7cd8b035d160");
+                _mecontrolsignoutlinkInfo = new RepoItemInfo(this, "MeControlSignoutLink", ".//a[#'meControlSignoutLink']", 30000, null, "7066587e-7468-4405-9953-b8af7b3300bb");
             }
 
             /// <summary>
             /// The Self item.
             /// </summary>
-            [RepositoryItem("ab06e985-e727-4101-a7d5-b6f7becc30e2")]
+            [RepositoryItem("7e31385b-8c33-4635-9632-48cc1a64e5d9")]
             public virtual Ranorex.WebDocument Self
             {
                 get
@@ -160,7 +158,7 @@ namespace Webinear
             /// <summary>
             /// The Self item info.
             /// </summary>
-            [RepositoryItemInfo("ab06e985-e727-4101-a7d5-b6f7becc30e2")]
+            [RepositoryItemInfo("7e31385b-8c33-4635-9632-48cc1a64e5d9")]
             public virtual RepoItemInfo SelfInfo
             {
                 get
@@ -170,33 +168,33 @@ namespace Webinear
             }
 
             /// <summary>
-            /// The MisArchivos item.
+            /// The AlmacenPersonal item.
             /// </summary>
-            [RepositoryItem("fdd98b2f-a234-4a63-8822-8e20a8733ea5")]
-            public virtual Ranorex.H1Tag MisArchivos
+            [RepositoryItem("b77633e1-5b60-47ba-a66a-aebf949bbf6b")]
+            public virtual Ranorex.SpanTag AlmacenPersonal
             {
                 get
                 {
-                    return _misarchivosInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                    return _almacenpersonalInfo.CreateAdapter<Ranorex.SpanTag>(true);
                 }
             }
 
             /// <summary>
-            /// The MisArchivos item info.
+            /// The AlmacenPersonal item info.
             /// </summary>
-            [RepositoryItemInfo("fdd98b2f-a234-4a63-8822-8e20a8733ea5")]
-            public virtual RepoItemInfo MisArchivosInfo
+            [RepositoryItemInfo("b77633e1-5b60-47ba-a66a-aebf949bbf6b")]
+            public virtual RepoItemInfo AlmacenPersonalInfo
             {
                 get
                 {
-                    return _misarchivosInfo;
+                    return _almacenpersonalInfo;
                 }
             }
 
             /// <summary>
             /// The Carpeta item.
             /// </summary>
-            [RepositoryItem("874c4bcd-72ce-422e-ae8c-e822cf1be9a3")]
+            [RepositoryItem("d092a16d-ce63-4c3e-be1c-018625b37133")]
             public virtual Ranorex.SpanTag Carpeta
             {
                 get
@@ -208,7 +206,7 @@ namespace Webinear
             /// <summary>
             /// The Carpeta item info.
             /// </summary>
-            [RepositoryItemInfo("874c4bcd-72ce-422e-ae8c-e822cf1be9a3")]
+            [RepositoryItemInfo("d092a16d-ce63-4c3e-be1c-018625b37133")]
             public virtual RepoItemInfo CarpetaInfo
             {
                 get
@@ -218,9 +216,33 @@ namespace Webinear
             }
 
             /// <summary>
+            /// The OdDialogTitle item.
+            /// </summary>
+            [RepositoryItem("7d148092-434a-46e4-b111-c21662bd9254")]
+            public virtual Ranorex.PTag OdDialogTitle
+            {
+                get
+                {
+                    return _oddialogtitleInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The OdDialogTitle item info.
+            /// </summary>
+            [RepositoryItemInfo("7d148092-434a-46e4-b111-c21662bd9254")]
+            public virtual RepoItemInfo OdDialogTitleInfo
+            {
+                get
+                {
+                    return _oddialogtitleInfo;
+                }
+            }
+
+            /// <summary>
             /// The Text item.
             /// </summary>
-            [RepositoryItem("884ce380-329d-40f6-ba68-adca3cb750c9")]
+            [RepositoryItem("4542044a-2ae5-43a6-a8e2-af75a60727bc")]
             public virtual Ranorex.InputTag Text
             {
                 get
@@ -232,7 +254,7 @@ namespace Webinear
             /// <summary>
             /// The Text item info.
             /// </summary>
-            [RepositoryItemInfo("884ce380-329d-40f6-ba68-adca3cb750c9")]
+            [RepositoryItemInfo("4542044a-2ae5-43a6-a8e2-af75a60727bc")]
             public virtual RepoItemInfo TextInfo
             {
                 get
@@ -242,33 +264,9 @@ namespace Webinear
             }
 
             /// <summary>
-            /// The Crear item.
-            /// </summary>
-            [RepositoryItem("7ef60b90-7f93-4834-b6e6-efd8b0b76b1f")]
-            public virtual Ranorex.SpanTag Crear
-            {
-                get
-                {
-                    return _crearInfo.CreateAdapter<Ranorex.SpanTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Crear item info.
-            /// </summary>
-            [RepositoryItemInfo("7ef60b90-7f93-4834-b6e6-efd8b0b76b1f")]
-            public virtual RepoItemInfo CrearInfo
-            {
-                get
-                {
-                    return _crearInfo;
-                }
-            }
-
-            /// <summary>
             /// The Archivos item.
             /// </summary>
-            [RepositoryItem("aac94574-a57c-49f6-9013-9485ff8bd75c")]
+            [RepositoryItem("04e14dde-174f-46c6-9833-7cd8b035d160")]
             public virtual Ranorex.SpanTag Archivos
             {
                 get
@@ -280,7 +278,7 @@ namespace Webinear
             /// <summary>
             /// The Archivos item info.
             /// </summary>
-            [RepositoryItemInfo("aac94574-a57c-49f6-9013-9485ff8bd75c")]
+            [RepositoryItemInfo("04e14dde-174f-46c6-9833-7cd8b035d160")]
             public virtual RepoItemInfo ArchivosInfo
             {
                 get
@@ -290,33 +288,9 @@ namespace Webinear
             }
 
             /// <summary>
-            /// The ImgTagF item.
-            /// </summary>
-            [RepositoryItem("a492356a-c3a9-4e00-926e-b26327f8e855")]
-            public virtual Ranorex.ImgTag ImgTagF
-            {
-                get
-                {
-                    return _imgtagfInfo.CreateAdapter<Ranorex.ImgTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The ImgTagF item info.
-            /// </summary>
-            [RepositoryItemInfo("a492356a-c3a9-4e00-926e-b26327f8e855")]
-            public virtual RepoItemInfo ImgTagFInfo
-            {
-                get
-                {
-                    return _imgtagfInfo;
-                }
-            }
-
-            /// <summary>
             /// The MeControlSignoutLink item.
             /// </summary>
-            [RepositoryItem("f81a20db-3052-4552-9cdc-7bb03c87c0d6")]
+            [RepositoryItem("7066587e-7468-4405-9953-b8af7b3300bb")]
             public virtual Ranorex.ATag MeControlSignoutLink
             {
                 get
@@ -328,7 +302,7 @@ namespace Webinear
             /// <summary>
             /// The MeControlSignoutLink item info.
             /// </summary>
-            [RepositoryItemInfo("f81a20db-3052-4552-9cdc-7bb03c87c0d6")]
+            [RepositoryItemInfo("7066587e-7468-4405-9953-b8af7b3300bb")]
             public virtual RepoItemInfo MeControlSignoutLinkInfo
             {
                 get
@@ -340,26 +314,26 @@ namespace Webinear
             /// <summary>
             /// The SomeDivTag folder.
             /// </summary>
-            [RepositoryFolder("ddeb0015-73ae-43c1-a54e-bdb8de78fd21")]
-            public virtual WebinearRepositoryFolders.SomeDivTagFolder SomeDivTag
+            [RepositoryFolder("16c4dcc6-326c-4d08-a78f-f96933d793d5")]
+            public virtual WebRepositoryFolders.SomeDivTagFolder SomeDivTag
             {
                 get { return _somedivtag; }
             }
 
             /// <summary>
-            /// The OdBasePageBelowHeaderOdBasePageBelo folder.
+            /// The OdBasePageOdBasePageLeftNavVisibleO folder.
             /// </summary>
-            [RepositoryFolder("afa0188d-c2ad-4217-bbdf-4b6f473642dd")]
-            public virtual WebinearRepositoryFolders.OdBasePageBelowHeaderOdBasePageBeloFolder OdBasePageBelowHeaderOdBasePageBelo
+            [RepositoryFolder("4f423320-e609-48e5-9556-5a8154ff3cd9")]
+            public virtual WebRepositoryFolders.OdBasePageOdBasePageLeftNavVisibleOFolder OdBasePageOdBasePageLeftNavVisibleO
             {
-                get { return _odbasepagebelowheaderodbasepagebelo; }
+                get { return _odbasepageodbasepageleftnavvisibleo; }
             }
         }
 
         /// <summary>
         /// The SomeDivTagFolder folder.
         /// </summary>
-        [RepositoryFolder("ddeb0015-73ae-43c1-a54e-bdb8de78fd21")]
+        [RepositoryFolder("16c4dcc6-326c-4d08-a78f-f96933d793d5")]
         public partial class SomeDivTagFolder : RepoGenBaseFolder
         {
             RepoItemInfo _emailInfo;
@@ -370,17 +344,17 @@ namespace Webinear
             /// Creates a new SomeDivTag  folder.
             /// </summary>
             public SomeDivTagFolder(RepoGenBaseFolder parentFolder) :
-                    base("SomeDivTag", ".//section[#'mainContent']/iframe[@src='https://odc.officeapps.live.com/odc/v2.0/hrd?rs=en-us&Ver=16&app=23&p=6&hm=0']/body/div[2]/?/?/main/div[2]", parentFolder, 30000, null, false, "ddeb0015-73ae-43c1-a54e-bdb8de78fd21", "")
+                    base("SomeDivTag", ".//section[#'mainContent']/iframe[@src='https://odc.officeapps.live.com/odc/v2.0/hrd?rs=en-us&Ver=16&app=23&p=6&hm=0']/body/div[2]/?/?/main/div[2]", parentFolder, 30000, null, false, "16c4dcc6-326c-4d08-a78f-f96933d793d5", "")
             {
-                _emailInfo = new RepoItemInfo(this, "Email", "div[2]/?/?/input[@type='email']", 30000, null, "a04f3fb6-5d1e-43c6-bb7b-46c2cfce194b");
-                _personalaccountInfo = new RepoItemInfo(this, "PersonalAccount", "div[3]/?/?/div[@innertext='Personal account']", 30000, null, "000d72b9-c9fc-4257-8bac-a83ece67a260");
-                _submitInfo = new RepoItemInfo(this, "Submit", "div[4]/input[@type='submit']", 30000, null, "7262f51a-b9b3-4ca1-8095-25bfb56b8ab4");
+                _emailInfo = new RepoItemInfo(this, "Email", "div[2]/?/?/input[@type='email']", 30000, null, "17aa4547-a969-488a-9bd2-f665d7bd2f56");
+                _personalaccountInfo = new RepoItemInfo(this, "PersonalAccount", "div[3]/?/?/div[@innertext='Personal account']", 30000, null, "61684cab-29f2-48e7-8167-9f2010eab360");
+                _submitInfo = new RepoItemInfo(this, "Submit", "div[4]/input[@type='submit']", 30000, null, "9c1483c9-ee52-4964-a9bb-4f59585d0184");
             }
 
             /// <summary>
             /// The Self item.
             /// </summary>
-            [RepositoryItem("ddeb0015-73ae-43c1-a54e-bdb8de78fd21")]
+            [RepositoryItem("16c4dcc6-326c-4d08-a78f-f96933d793d5")]
             public virtual Ranorex.DivTag Self
             {
                 get
@@ -392,7 +366,7 @@ namespace Webinear
             /// <summary>
             /// The Self item info.
             /// </summary>
-            [RepositoryItemInfo("ddeb0015-73ae-43c1-a54e-bdb8de78fd21")]
+            [RepositoryItemInfo("16c4dcc6-326c-4d08-a78f-f96933d793d5")]
             public virtual RepoItemInfo SelfInfo
             {
                 get
@@ -404,7 +378,7 @@ namespace Webinear
             /// <summary>
             /// The Email item.
             /// </summary>
-            [RepositoryItem("a04f3fb6-5d1e-43c6-bb7b-46c2cfce194b")]
+            [RepositoryItem("17aa4547-a969-488a-9bd2-f665d7bd2f56")]
             public virtual Ranorex.InputTag Email
             {
                 get
@@ -416,7 +390,7 @@ namespace Webinear
             /// <summary>
             /// The Email item info.
             /// </summary>
-            [RepositoryItemInfo("a04f3fb6-5d1e-43c6-bb7b-46c2cfce194b")]
+            [RepositoryItemInfo("17aa4547-a969-488a-9bd2-f665d7bd2f56")]
             public virtual RepoItemInfo EmailInfo
             {
                 get
@@ -428,7 +402,7 @@ namespace Webinear
             /// <summary>
             /// The PersonalAccount item.
             /// </summary>
-            [RepositoryItem("000d72b9-c9fc-4257-8bac-a83ece67a260")]
+            [RepositoryItem("61684cab-29f2-48e7-8167-9f2010eab360")]
             public virtual Ranorex.DivTag PersonalAccount
             {
                 get
@@ -440,7 +414,7 @@ namespace Webinear
             /// <summary>
             /// The PersonalAccount item info.
             /// </summary>
-            [RepositoryItemInfo("000d72b9-c9fc-4257-8bac-a83ece67a260")]
+            [RepositoryItemInfo("61684cab-29f2-48e7-8167-9f2010eab360")]
             public virtual RepoItemInfo PersonalAccountInfo
             {
                 get
@@ -452,7 +426,7 @@ namespace Webinear
             /// <summary>
             /// The Submit item.
             /// </summary>
-            [RepositoryItem("7262f51a-b9b3-4ca1-8095-25bfb56b8ab4")]
+            [RepositoryItem("9c1483c9-ee52-4964-a9bb-4f59585d0184")]
             public virtual Ranorex.InputTag Submit
             {
                 get
@@ -464,7 +438,7 @@ namespace Webinear
             /// <summary>
             /// The Submit item info.
             /// </summary>
-            [RepositoryItemInfo("7262f51a-b9b3-4ca1-8095-25bfb56b8ab4")]
+            [RepositoryItemInfo("9c1483c9-ee52-4964-a9bb-4f59585d0184")]
             public virtual RepoItemInfo SubmitInfo
             {
                 get
@@ -475,34 +449,38 @@ namespace Webinear
         }
 
         /// <summary>
-        /// The OdBasePageBelowHeaderOdBasePageBeloFolder folder.
+        /// The OdBasePageOdBasePageLeftNavVisibleOFolder folder.
         /// </summary>
-        [RepositoryFolder("afa0188d-c2ad-4217-bbdf-4b6f473642dd")]
-        public partial class OdBasePageBelowHeaderOdBasePageBeloFolder : RepoGenBaseFolder
+        [RepositoryFolder("4f423320-e609-48e5-9556-5a8154ff3cd9")]
+        public partial class OdBasePageOdBasePageLeftNavVisibleOFolder : RepoGenBaseFolder
         {
             RepoItemInfo _nuevoInfo;
+            RepoItemInfo _pruebawebinearInfo;
+            RepoItemInfo _crearInfo;
             RepoItemInfo _cargarInfo;
-            RepoItemInfo _prueba1Info;
-            RepoItemInfo _pruebatxtInfo;
-            RepoItemInfo _pruebaInfo;
+            RepoItemInfo _pruebawebtxtInfo;
+            RepoItemInfo _imgtagfInfo;
+            RepoItemInfo _cargar_bisInfo;
 
             /// <summary>
-            /// Creates a new OdBasePageBelowHeaderOdBasePageBelo  folder.
+            /// Creates a new OdBasePageOdBasePageLeftNavVisibleO  folder.
             /// </summary>
-            public OdBasePageBelowHeaderOdBasePageBeloFolder(RepoGenBaseFolder parentFolder) :
-                    base("OdBasePageBelowHeaderOdBasePageBelo", ".//div[#'appRoot']/div/div[2]", parentFolder, 30000, null, false, "afa0188d-c2ad-4217-bbdf-4b6f473642dd", "")
+            public OdBasePageOdBasePageLeftNavVisibleOFolder(RepoGenBaseFolder parentFolder) :
+                    base("OdBasePageOdBasePageLeftNavVisibleO", ".//div[#'appRoot']/div", parentFolder, 30000, null, false, "4f423320-e609-48e5-9556-5a8154ff3cd9", "")
             {
-                _nuevoInfo = new RepoItemInfo(this, "Nuevo", "div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div[1]/div[1]/button[@title>'Crear una carpeta o un documento']/span/span/span[@innertext='Nuevo']", 30000, null, "329ac363-6f12-41dd-a909-80d734e5c88f");
-                _cargarInfo = new RepoItemInfo(this, "Cargar", "div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div[1]/div[2]/button[@title>'Cargar archivos de tu equipo']/span/span/span[@innertext='Cargar']", 30000, null, "77d4c652-6d01-4882-85d6-39fe5bbff17f");
-                _prueba1Info = new RepoItemInfo(this, "Prueba1", "div[5]/main//nav/ul/?/?/span[@title='Prueba']", 30000, null, "bbd760b1-32df-42c5-a238-9a7716c4fb8e");
-                _pruebatxtInfo = new RepoItemInfo(this, "PruebaTxt", "div[5]/main/div/div/div/div[2]/div/div/div/div/div/div/div/div/div/div/div/div//a[@href>'https://onedrive.live.com']/span[3]/span[1]/span/span[2]/span[@innertext='prueba.txt']", 30000, null, "913d4461-d693-4add-addb-7c7a7997a250");
-                _pruebaInfo = new RepoItemInfo(this, "Prueba", "div[5]/main/div/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div[1]//a[@href>'https://onedrive.live.com']/span[3]/span[1]/span/span[2]/span[@innertext='Prueba']", 30000, null, "075b741b-f718-4019-8b2f-163fce576fce");
+                _nuevoInfo = new RepoItemInfo(this, "Nuevo", "div[2]/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div[1]/div[1]/button[@title>'Crear una carpeta o un documento']/span/span/span[@innertext='Nuevo']", 30000, null, "5926fc75-d1e2-4b3e-bf49-9f24fdd21c8a");
+                _pruebawebinearInfo = new RepoItemInfo(this, "PruebaWebinear", "div[2]/div[5]/main/div/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div[1]/div/div[4]//a[@href>'https://onedrive.live.com']/span[3]/span[1]/span/span[2]/span[@innertext='PruebaWebinear']", 30000, null, "5378b173-6c89-4a7f-a61d-3684f4b14858");
+                _crearInfo = new RepoItemInfo(this, "Crear", "div[5]/div/div/div/div/div[2]/div/div/div[2]/div[2]//span[@innertext='Crear']", 30000, null, "0ee20c3b-9e92-4970-9d3d-bae286b384f6");
+                _cargarInfo = new RepoItemInfo(this, "Cargar", "div[2]/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div[1]/div[2]/button[@title>'Cargar archivos de tu equipo']/span/span/*[@innertext='Cargar']", 30000, null, "294f3e8b-fec1-4744-82de-ad2359f55c27");
+                _pruebawebtxtInfo = new RepoItemInfo(this, "PruebaWebTxt", "div[2]/div[5]/main/div/div/div/div[2]/div/div/div/div/div/div/div/div/div/div/div/div/div/div/a[@href>'https://onedrive.live.com']/span[3]/span[1]/span/span[2]/span[@innertext='pruebaWeb.txt']", 30000, null, "97e03dfb-d0a8-4189-868f-55615948d767");
+                _imgtagfInfo = new RepoItemInfo(this, "ImgTagF", "div[1]/div/div[1]/div[3]/div[1]/button[@title>'Administrador de cuenta para']/div/div[2]//img[@alt='F']", 30000, null, "98aafe01-98b5-4938-8f6b-6be70a53befc");
+                _cargar_bisInfo = new RepoItemInfo(this, "Cargar_Bis", "div[2]/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div[1]/div[2]/button[@title>'Cargar archivos de tu equipo']/span", 30000, null, "ea44f883-c1b5-4eca-9f58-6dedc3a4c8ed");
             }
 
             /// <summary>
             /// The Self item.
             /// </summary>
-            [RepositoryItem("afa0188d-c2ad-4217-bbdf-4b6f473642dd")]
+            [RepositoryItem("4f423320-e609-48e5-9556-5a8154ff3cd9")]
             public virtual Ranorex.DivTag Self
             {
                 get
@@ -514,7 +492,7 @@ namespace Webinear
             /// <summary>
             /// The Self item info.
             /// </summary>
-            [RepositoryItemInfo("afa0188d-c2ad-4217-bbdf-4b6f473642dd")]
+            [RepositoryItemInfo("4f423320-e609-48e5-9556-5a8154ff3cd9")]
             public virtual RepoItemInfo SelfInfo
             {
                 get
@@ -526,7 +504,7 @@ namespace Webinear
             /// <summary>
             /// The Nuevo item.
             /// </summary>
-            [RepositoryItem("329ac363-6f12-41dd-a909-80d734e5c88f")]
+            [RepositoryItem("5926fc75-d1e2-4b3e-bf49-9f24fdd21c8a")]
             public virtual Ranorex.SpanTag Nuevo
             {
                 get
@@ -538,7 +516,7 @@ namespace Webinear
             /// <summary>
             /// The Nuevo item info.
             /// </summary>
-            [RepositoryItemInfo("329ac363-6f12-41dd-a909-80d734e5c88f")]
+            [RepositoryItemInfo("5926fc75-d1e2-4b3e-bf49-9f24fdd21c8a")]
             public virtual RepoItemInfo NuevoInfo
             {
                 get
@@ -548,21 +526,69 @@ namespace Webinear
             }
 
             /// <summary>
-            /// The Cargar item.
+            /// The PruebaWebinear item.
             /// </summary>
-            [RepositoryItem("77d4c652-6d01-4882-85d6-39fe5bbff17f")]
-            public virtual Ranorex.SpanTag Cargar
+            [RepositoryItem("5378b173-6c89-4a7f-a61d-3684f4b14858")]
+            public virtual Ranorex.SpanTag PruebaWebinear
             {
                 get
                 {
-                    return _cargarInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                    return _pruebawebinearInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PruebaWebinear item info.
+            /// </summary>
+            [RepositoryItemInfo("5378b173-6c89-4a7f-a61d-3684f4b14858")]
+            public virtual RepoItemInfo PruebaWebinearInfo
+            {
+                get
+                {
+                    return _pruebawebinearInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Crear item.
+            /// </summary>
+            [RepositoryItem("0ee20c3b-9e92-4970-9d3d-bae286b384f6")]
+            public virtual Ranorex.SpanTag Crear
+            {
+                get
+                {
+                    return _crearInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Crear item info.
+            /// </summary>
+            [RepositoryItemInfo("0ee20c3b-9e92-4970-9d3d-bae286b384f6")]
+            public virtual RepoItemInfo CrearInfo
+            {
+                get
+                {
+                    return _crearInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Cargar item.
+            /// </summary>
+            [RepositoryItem("294f3e8b-fec1-4744-82de-ad2359f55c27")]
+            public virtual Ranorex.Unknown Cargar
+            {
+                get
+                {
+                    return _cargarInfo.CreateAdapter<Ranorex.Unknown>(true);
                 }
             }
 
             /// <summary>
             /// The Cargar item info.
             /// </summary>
-            [RepositoryItemInfo("77d4c652-6d01-4882-85d6-39fe5bbff17f")]
+            [RepositoryItemInfo("294f3e8b-fec1-4744-82de-ad2359f55c27")]
             public virtual RepoItemInfo CargarInfo
             {
                 get
@@ -572,74 +598,74 @@ namespace Webinear
             }
 
             /// <summary>
-            /// The Prueba1 item.
+            /// The PruebaWebTxt item.
             /// </summary>
-            [RepositoryItem("bbd760b1-32df-42c5-a238-9a7716c4fb8e")]
-            public virtual Ranorex.SpanTag Prueba1
+            [RepositoryItem("97e03dfb-d0a8-4189-868f-55615948d767")]
+            public virtual Ranorex.SpanTag PruebaWebTxt
             {
                 get
                 {
-                    return _prueba1Info.CreateAdapter<Ranorex.SpanTag>(true);
+                    return _pruebawebtxtInfo.CreateAdapter<Ranorex.SpanTag>(true);
                 }
             }
 
             /// <summary>
-            /// The Prueba1 item info.
+            /// The PruebaWebTxt item info.
             /// </summary>
-            [RepositoryItemInfo("bbd760b1-32df-42c5-a238-9a7716c4fb8e")]
-            public virtual RepoItemInfo Prueba1Info
+            [RepositoryItemInfo("97e03dfb-d0a8-4189-868f-55615948d767")]
+            public virtual RepoItemInfo PruebaWebTxtInfo
             {
                 get
                 {
-                    return _prueba1Info;
+                    return _pruebawebtxtInfo;
                 }
             }
 
             /// <summary>
-            /// The PruebaTxt item.
+            /// The ImgTagF item.
             /// </summary>
-            [RepositoryItem("913d4461-d693-4add-addb-7c7a7997a250")]
-            public virtual Ranorex.SpanTag PruebaTxt
+            [RepositoryItem("98aafe01-98b5-4938-8f6b-6be70a53befc")]
+            public virtual Ranorex.ImgTag ImgTagF
             {
                 get
                 {
-                    return _pruebatxtInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                    return _imgtagfInfo.CreateAdapter<Ranorex.ImgTag>(true);
                 }
             }
 
             /// <summary>
-            /// The PruebaTxt item info.
+            /// The ImgTagF item info.
             /// </summary>
-            [RepositoryItemInfo("913d4461-d693-4add-addb-7c7a7997a250")]
-            public virtual RepoItemInfo PruebaTxtInfo
+            [RepositoryItemInfo("98aafe01-98b5-4938-8f6b-6be70a53befc")]
+            public virtual RepoItemInfo ImgTagFInfo
             {
                 get
                 {
-                    return _pruebatxtInfo;
+                    return _imgtagfInfo;
                 }
             }
 
             /// <summary>
-            /// The Prueba item.
+            /// The Cargar_Bis item.
             /// </summary>
-            [RepositoryItem("075b741b-f718-4019-8b2f-163fce576fce")]
-            public virtual Ranorex.SpanTag Prueba
+            [RepositoryItem("ea44f883-c1b5-4eca-9f58-6dedc3a4c8ed")]
+            public virtual Ranorex.SpanTag Cargar_Bis
             {
                 get
                 {
-                    return _pruebaInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                    return _cargar_bisInfo.CreateAdapter<Ranorex.SpanTag>(true);
                 }
             }
 
             /// <summary>
-            /// The Prueba item info.
+            /// The Cargar_Bis item info.
             /// </summary>
-            [RepositoryItemInfo("075b741b-f718-4019-8b2f-163fce576fce")]
-            public virtual RepoItemInfo PruebaInfo
+            [RepositoryItemInfo("ea44f883-c1b5-4eca-9f58-6dedc3a4c8ed")]
+            public virtual RepoItemInfo Cargar_BisInfo
             {
                 get
                 {
-                    return _pruebaInfo;
+                    return _cargar_bisInfo;
                 }
             }
         }
@@ -647,10 +673,10 @@ namespace Webinear
         /// <summary>
         /// The OneDriveAppFolder folder.
         /// </summary>
-        [RepositoryFolder("964008ba-e1ff-45d9-9e35-987aa75f258b")]
+        [RepositoryFolder("17a4b5a8-b2d1-4398-b096-e1fdb5a65637")]
         public partial class OneDriveAppFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _somedivtagInfo;
+            RepoItemInfo _fadeinlightboxinnerInfo;
             RepoItemInfo _passwdInfo;
             RepoItemInfo _idsibutton9Info;
 
@@ -658,17 +684,17 @@ namespace Webinear
             /// Creates a new OneDrive  folder.
             /// </summary>
             public OneDriveAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("OneDrive", "/dom[@domain='login.live.com']", parentFolder, 30000, null, false, "964008ba-e1ff-45d9-9e35-987aa75f258b", "")
+                    base("OneDrive", "/dom[@domain='login.live.com']", parentFolder, 30000, null, false, "17a4b5a8-b2d1-4398-b096-e1fdb5a65637", "")
             {
-                _somedivtagInfo = new RepoItemInfo(this, "SomeDivTag", ".//form[@name='f1']/div/div/div[1]/div[3]/div", 30000, null, "da95b3bb-fa4a-45b7-adaf-972c09fbc51c");
-                _passwdInfo = new RepoItemInfo(this, "Passwd", "body/?/?/form[@name='f1']/div/div/div[1]//div/div[2]/div/div[2]//input[@name='passwd']", 30000, null, "e9149842-e18e-4c52-92ce-7f6700bc8c8a");
-                _idsibutton9Info = new RepoItemInfo(this, "IdSIButton9", ".//input[#'idSIButton9']", 30000, null, "c9e6d337-fffb-46f7-a623-fb665c72faca");
+                _fadeinlightboxinnerInfo = new RepoItemInfo(this, "FadeInLightboxInner", "body/?/?/form[@name='f1']/div/div/div[1]", 30000, null, "3f477fa6-220d-416e-abf3-f3e522ef64f0");
+                _passwdInfo = new RepoItemInfo(this, "Passwd", "body/?/?/form[@name='f1']/div/div/div[1]/div[2]/div[2]/div/div[2]/div/div[2]//input[@name='passwd']", 30000, null, "b59a77ad-43dc-460d-a5cb-3c99ba672001");
+                _idsibutton9Info = new RepoItemInfo(this, "IdSIButton9", ".//input[#'idSIButton9']", 30000, null, "0d89cd7f-47b3-4d55-b242-d9888d519740");
             }
 
             /// <summary>
             /// The Self item.
             /// </summary>
-            [RepositoryItem("964008ba-e1ff-45d9-9e35-987aa75f258b")]
+            [RepositoryItem("17a4b5a8-b2d1-4398-b096-e1fdb5a65637")]
             public virtual Ranorex.WebDocument Self
             {
                 get
@@ -680,7 +706,7 @@ namespace Webinear
             /// <summary>
             /// The Self item info.
             /// </summary>
-            [RepositoryItemInfo("964008ba-e1ff-45d9-9e35-987aa75f258b")]
+            [RepositoryItemInfo("17a4b5a8-b2d1-4398-b096-e1fdb5a65637")]
             public virtual RepoItemInfo SelfInfo
             {
                 get
@@ -690,33 +716,33 @@ namespace Webinear
             }
 
             /// <summary>
-            /// The SomeDivTag item.
+            /// The FadeInLightboxInner item.
             /// </summary>
-            [RepositoryItem("da95b3bb-fa4a-45b7-adaf-972c09fbc51c")]
-            public virtual Ranorex.DivTag SomeDivTag
+            [RepositoryItem("3f477fa6-220d-416e-abf3-f3e522ef64f0")]
+            public virtual Ranorex.DivTag FadeInLightboxInner
             {
                 get
                 {
-                    return _somedivtagInfo.CreateAdapter<Ranorex.DivTag>(true);
+                    return _fadeinlightboxinnerInfo.CreateAdapter<Ranorex.DivTag>(true);
                 }
             }
 
             /// <summary>
-            /// The SomeDivTag item info.
+            /// The FadeInLightboxInner item info.
             /// </summary>
-            [RepositoryItemInfo("da95b3bb-fa4a-45b7-adaf-972c09fbc51c")]
-            public virtual RepoItemInfo SomeDivTagInfo
+            [RepositoryItemInfo("3f477fa6-220d-416e-abf3-f3e522ef64f0")]
+            public virtual RepoItemInfo FadeInLightboxInnerInfo
             {
                 get
                 {
-                    return _somedivtagInfo;
+                    return _fadeinlightboxinnerInfo;
                 }
             }
 
             /// <summary>
             /// The Passwd item.
             /// </summary>
-            [RepositoryItem("e9149842-e18e-4c52-92ce-7f6700bc8c8a")]
+            [RepositoryItem("b59a77ad-43dc-460d-a5cb-3c99ba672001")]
             public virtual Ranorex.InputTag Passwd
             {
                 get
@@ -728,7 +754,7 @@ namespace Webinear
             /// <summary>
             /// The Passwd item info.
             /// </summary>
-            [RepositoryItemInfo("e9149842-e18e-4c52-92ce-7f6700bc8c8a")]
+            [RepositoryItemInfo("b59a77ad-43dc-460d-a5cb-3c99ba672001")]
             public virtual RepoItemInfo PasswdInfo
             {
                 get
@@ -740,7 +766,7 @@ namespace Webinear
             /// <summary>
             /// The IdSIButton9 item.
             /// </summary>
-            [RepositoryItem("c9e6d337-fffb-46f7-a623-fb665c72faca")]
+            [RepositoryItem("0d89cd7f-47b3-4d55-b242-d9888d519740")]
             public virtual Ranorex.InputTag IdSIButton9
             {
                 get
@@ -752,7 +778,7 @@ namespace Webinear
             /// <summary>
             /// The IdSIButton9 item info.
             /// </summary>
-            [RepositoryItemInfo("c9e6d337-fffb-46f7-a623-fb665c72faca")]
+            [RepositoryItemInfo("0d89cd7f-47b3-4d55-b242-d9888d519740")]
             public virtual RepoItemInfo IdSIButton9Info
             {
                 get
@@ -765,7 +791,7 @@ namespace Webinear
         /// <summary>
         /// The AbrirAppFolder folder.
         /// </summary>
-        [RepositoryFolder("b51da30f-7e31-41a0-8865-e10814e4fea4")]
+        [RepositoryFolder("cf913e62-8f8e-4082-ba1b-5c37430d3067")]
         public partial class AbrirAppFolder : RepoGenBaseFolder
         {
             RepoItemInfo _escritorioInfo;
@@ -776,17 +802,17 @@ namespace Webinear
             /// Creates a new Abrir  folder.
             /// </summary>
             public AbrirAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("Abrir", "/form[@title='Abrir']", parentFolder, 30000, null, true, "b51da30f-7e31-41a0-8865-e10814e4fea4", "")
+                    base("Abrir", "/form[@title='Abrir']", parentFolder, 30000, null, true, "cf913e62-8f8e-4082-ba1b-5c37430d3067", "")
             {
-                _escritorioInfo = new RepoItemInfo(this, "Escritorio", "element[@class='WorkerW']/container[@controlid='40965']//toolbar[@controlid='1001']/button[@text='Escritorio']", 30000, null, "d47191ea-cd7c-46fc-a1b3-75b92b2055f3");
-                _text1148Info = new RepoItemInfo(this, "Text1148", "?/?/text[@controlid='1148']", 30000, null, "be108905-7299-4897-bf61-741bc3e3db6a");
-                _buttonabrirInfo = new RepoItemInfo(this, "ButtonAbrir", "button[@text='&Abrir']", 30000, null, "f3f366a6-e5c6-478e-a832-aa09fb1132bb");
+                _escritorioInfo = new RepoItemInfo(this, "Escritorio", "element[@class='WorkerW']/container[@controlid='40965']//toolbar[@controlid='1001']/button[@text='Escritorio']", 30000, null, "e69d8a44-58de-45d7-813d-04e226514d5a");
+                _text1148Info = new RepoItemInfo(this, "Text1148", "?/?/text[@controlid='1148']", 30000, null, "525f55bf-9c5a-435e-8157-df18241dead8");
+                _buttonabrirInfo = new RepoItemInfo(this, "ButtonAbrir", "button[@text='&Abrir']", 30000, null, "aa1be551-6969-4dfd-a8bb-294968063c87");
             }
 
             /// <summary>
             /// The Self item.
             /// </summary>
-            [RepositoryItem("b51da30f-7e31-41a0-8865-e10814e4fea4")]
+            [RepositoryItem("cf913e62-8f8e-4082-ba1b-5c37430d3067")]
             public virtual Ranorex.Form Self
             {
                 get
@@ -798,7 +824,7 @@ namespace Webinear
             /// <summary>
             /// The Self item info.
             /// </summary>
-            [RepositoryItemInfo("b51da30f-7e31-41a0-8865-e10814e4fea4")]
+            [RepositoryItemInfo("cf913e62-8f8e-4082-ba1b-5c37430d3067")]
             public virtual RepoItemInfo SelfInfo
             {
                 get
@@ -810,7 +836,7 @@ namespace Webinear
             /// <summary>
             /// The Escritorio item.
             /// </summary>
-            [RepositoryItem("d47191ea-cd7c-46fc-a1b3-75b92b2055f3")]
+            [RepositoryItem("e69d8a44-58de-45d7-813d-04e226514d5a")]
             public virtual Ranorex.Button Escritorio
             {
                 get
@@ -822,7 +848,7 @@ namespace Webinear
             /// <summary>
             /// The Escritorio item info.
             /// </summary>
-            [RepositoryItemInfo("d47191ea-cd7c-46fc-a1b3-75b92b2055f3")]
+            [RepositoryItemInfo("e69d8a44-58de-45d7-813d-04e226514d5a")]
             public virtual RepoItemInfo EscritorioInfo
             {
                 get
@@ -834,7 +860,7 @@ namespace Webinear
             /// <summary>
             /// The Text1148 item.
             /// </summary>
-            [RepositoryItem("be108905-7299-4897-bf61-741bc3e3db6a")]
+            [RepositoryItem("525f55bf-9c5a-435e-8157-df18241dead8")]
             public virtual Ranorex.Text Text1148
             {
                 get
@@ -846,7 +872,7 @@ namespace Webinear
             /// <summary>
             /// The Text1148 item info.
             /// </summary>
-            [RepositoryItemInfo("be108905-7299-4897-bf61-741bc3e3db6a")]
+            [RepositoryItemInfo("525f55bf-9c5a-435e-8157-df18241dead8")]
             public virtual RepoItemInfo Text1148Info
             {
                 get
@@ -858,7 +884,7 @@ namespace Webinear
             /// <summary>
             /// The ButtonAbrir item.
             /// </summary>
-            [RepositoryItem("f3f366a6-e5c6-478e-a832-aa09fb1132bb")]
+            [RepositoryItem("aa1be551-6969-4dfd-a8bb-294968063c87")]
             public virtual Ranorex.Button ButtonAbrir
             {
                 get
@@ -870,7 +896,7 @@ namespace Webinear
             /// <summary>
             /// The ButtonAbrir item info.
             /// </summary>
-            [RepositoryItemInfo("f3f366a6-e5c6-478e-a832-aa09fb1132bb")]
+            [RepositoryItemInfo("aa1be551-6969-4dfd-a8bb-294968063c87")]
             public virtual RepoItemInfo ButtonAbrirInfo
             {
                 get
@@ -883,24 +909,24 @@ namespace Webinear
         /// <summary>
         /// The PersonalCloudStorageMicrosoftOneDriAppFolder folder.
         /// </summary>
-        [RepositoryFolder("9a32e70c-b44e-47a7-a973-0d4959bc9e3e")]
+        [RepositoryFolder("8a14f62c-1266-41bc-80bb-32bb9c9e33f8")]
         public partial class PersonalCloudStorageMicrosoftOneDriAppFolder : RepoGenBaseFolder
         {
-            RepoItemInfo _spantagsigninInfo;
+            RepoItemInfo _httpsgomicrosoftcomfwlinkplinkidInfo;
 
             /// <summary>
             /// Creates a new PersonalCloudStorageMicrosoftOneDri  folder.
             /// </summary>
             public PersonalCloudStorageMicrosoftOneDriAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("PersonalCloudStorageMicrosoftOneDri", "/dom[@domain~'microsoft']", parentFolder, 30000, null, false, "9a32e70c-b44e-47a7-a973-0d4959bc9e3e", "")
+                    base("PersonalCloudStorageMicrosoftOneDri", "/dom[@domain='www.microsoft.com']", parentFolder, 30000, null, false, "8a14f62c-1266-41bc-80bb-32bb9c9e33f8", "")
             {
-                _spantagsigninInfo = new RepoItemInfo(this, "SpanTagSignIn", ".//div[#'heroregion']/?/?/section/div/div/div/div/div/div//a[@href>'https://go.microsoft.com/']/span[@innertext~'Sign in']", 30000, null, "bbfe3c0e-1099-4977-a203-8d31002dc951");
+                _httpsgomicrosoftcomfwlinkplinkidInfo = new RepoItemInfo(this, "HttpsGoMicrosoftComFwlinkPLinkID", ".//div[#'heroregion']/?/?/section/div/div/div/div/div/div/div[1]/a[@href>'https://go.microsoft.com/']", 30000, null, "f09ec31d-ca36-4a53-948e-90341aa3865a");
             }
 
             /// <summary>
             /// The Self item.
             /// </summary>
-            [RepositoryItem("9a32e70c-b44e-47a7-a973-0d4959bc9e3e")]
+            [RepositoryItem("8a14f62c-1266-41bc-80bb-32bb9c9e33f8")]
             public virtual Ranorex.WebDocument Self
             {
                 get
@@ -912,7 +938,7 @@ namespace Webinear
             /// <summary>
             /// The Self item info.
             /// </summary>
-            [RepositoryItemInfo("9a32e70c-b44e-47a7-a973-0d4959bc9e3e")]
+            [RepositoryItemInfo("8a14f62c-1266-41bc-80bb-32bb9c9e33f8")]
             public virtual RepoItemInfo SelfInfo
             {
                 get
@@ -922,26 +948,26 @@ namespace Webinear
             }
 
             /// <summary>
-            /// The SpanTagSignIn item.
+            /// The HttpsGoMicrosoftComFwlinkPLinkID item.
             /// </summary>
-            [RepositoryItem("bbfe3c0e-1099-4977-a203-8d31002dc951")]
-            public virtual Ranorex.SpanTag SpanTagSignIn
+            [RepositoryItem("f09ec31d-ca36-4a53-948e-90341aa3865a")]
+            public virtual Ranorex.ATag HttpsGoMicrosoftComFwlinkPLinkID
             {
                 get
                 {
-                    return _spantagsigninInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                    return _httpsgomicrosoftcomfwlinkplinkidInfo.CreateAdapter<Ranorex.ATag>(true);
                 }
             }
 
             /// <summary>
-            /// The SpanTagSignIn item info.
+            /// The HttpsGoMicrosoftComFwlinkPLinkID item info.
             /// </summary>
-            [RepositoryItemInfo("bbfe3c0e-1099-4977-a203-8d31002dc951")]
-            public virtual RepoItemInfo SpanTagSignInInfo
+            [RepositoryItemInfo("f09ec31d-ca36-4a53-948e-90341aa3865a")]
+            public virtual RepoItemInfo HttpsGoMicrosoftComFwlinkPLinkIDInfo
             {
                 get
                 {
-                    return _spantagsigninInfo;
+                    return _httpsgomicrosoftcomfwlinkplinkidInfo;
                 }
             }
         }
