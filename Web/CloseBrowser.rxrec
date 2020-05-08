@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="da3ec411-594e-441f-9b57-983cd266cde5"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="Web">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="26594588-4188-4c15-bb51-7cbb45bfeaeb">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="8a14f62c-1266-41bc-80bb-32bb9c9e33f8"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.microsoft.com']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="864b2692-9165-4da7-97d7-948126133449"
+	name="WebRepository"
+	relativepath="WebRepository.rxrep">
+		<codegen
+		classname="WebRepository"
+		namespace="Web">
+		</codegen>
+		<rootfolder
+		id="06fb0bcf-3770-45c2-a755-52da37adeb54"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

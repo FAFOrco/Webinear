@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="2b565c3c-4eff-4011-b7bf-3534149c7c17"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="FileCheckPoint"
+	namespace="PruebaOneDrive.CheckPoints">
+	</codegen>
+	<variables>
+		<var
+		id="ec43fd09-5459-447d-9b01-5ff4d3a98d70"
+		name="P_CHKFILE">
+			NULL
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="7d9961e7-7825-4225-a9c7-29d57b5eb8d2"
+		sx="716"
+		sy="342"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2e885f9a-48a1-4fe1-861f-857d919fa0a0"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, divtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="divtag"
+				rect="628,257,176,171"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						ms-Tile od-ItemTile2 od--hasContextMenu fluent-folder-icon od-ItemTile2--isLarge tile_6798cc8b ms-Tile--isLarge isLarge_6798cc8b ms-Tile--isSelectable selectable_6798cc8b ms-Tile--invokable invokable_6798cc8b
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						fluent-folder-icon invokable_6798cc8b isLarge_6798cc8b ms-Tile ms-Tile--invokable ms-Tile--isLarge ms-Tile--isSelectable od--hasContextMenu od-ItemTile2 od-ItemTile2--isLarge selectable_6798cc8b tile_6798cc8b
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						div
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-describedby"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-labelledby"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-posinset"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-selected"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-setsize"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-automationid"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-disable-click-on-enter"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-is-draggable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-is-focusable"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-is-sub-focuszone"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-selection-index"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="role"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain~'live.com']//div[#'appRoot']//div[@data-automationid='PruebaWebinear']
+				</path>
+			</info>
+		</mouseitem>
+		<getvaluerecorditem
+		attrname="InnerText"
+		enabled="True"
+		optional="True"
+		searchpropertyid="b18cd1c7-6eee-4449-90ae-13ebf9e45610"
+		varname="P_CHKFILE">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ce4fe7dd-2dd5-4b24-b4c1-83c8e36b5298"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain~'live.com']//div[#'appRoot']//main//a[@href&gt;'https://onedrive.live.com']//span[@innertext='pruebaWeb.txt']
+				</path>
+			</info>
+		</getvaluerecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="3cbcdbab-0bef-485c-b939-d0568c8af9c6">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="P_CHKFILE">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="1d4b3990-54fe-4f7c-ba4c-7aaab296298c"
+	name="PruebaOneDriveRepository"
+	relativepath="..\PruebaOneDriveRepository.rxrep">
+		<codegen
+		classname="PruebaOneDriveRepository"
+		namespace="PruebaOneDrive">
+		</codegen>
+		<rootfolder
+		id="f575972e-29da-43e5-81d3-98a25a6ca7ab"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		FileCheckPoint.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

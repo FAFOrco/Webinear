@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="2ed78445-cf03-4358-ad77-80a03d63a3c3"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="LogOut"
+	namespace="Web">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="47a55614-8ae8-4a30-ac8e-7b36df053b75"
+		sx="1338"
+		sy="99"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="98aafe01-98b5-4938-8f6b-6be70a53befc"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, imgtag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="imgtag"
+				rect="1326,81,32,32"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						img
+					</attribute>
+					<attribute
+					name="alt"
+					type="System.String">
+						F
+					</attribute>
+					<attribute
+					name="height"
+					type="System.String">
+						32
+					</attribute>
+					<attribute
+					name="hspace"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="src"
+					type="System.String">
+						https://storage.live.com/mydata/myprofile/expressionprofile/profilephoto:UserTileStatic,UserTileSmall/MeControlMediumUserTile?ck=1&amp;ex=24&amp;fofoff=1&amp;sc=1588962242752
+					</attribute>
+					<attribute
+					name="vspace"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="width"
+					type="System.String">
+						32
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[1]/div/div[1]/div[3]/div[1]/button[@title&gt;'Administrador de cuenta para']/div/div[2]//img[@alt='F']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="42934bec-9a0f-45ea-9a01-032aab681279">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABEADoDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDo9y/3
+h+dG5f7w/OuTqvJ/rDXQ6Fupzxr3drHabl/vD86Ny/3h+dcTg+lGD6VnyLua3n/Kztty/wB4fnRu
+X+8PzricH0owfSjkXcLz/lZ225f7w/Ojcv8AeH51xOD6UU1TT2ZLqNbotVA/+tqeoH/1tdNT4Tno
+/GhCTuwKcFPc0KOSakRS7qg6scCuDSySR21q1VVZJSe76jMU1tw78VZngEJZTNGzqcFV3Z/UVD1o
+jZdDJ1638z+9kecqabTsYUj3ptb0ra27l4luXI32/VlqoH/1tT1A/wDra6KnwnJR+NDhUkJYTxbQ
+CxkUAE4GSQKh3YY+lWLVJGnhkWNjGtxGpcYwDkGuBRaSZ01letL1f5jrqbzJpQ0EcbiRgxVmPIJH
+f/CoK1LvSWKyzKsiviZztbO5t2UGOeoz0rMuEe3nkhkKl0bGV6EYyD+tNRbdkROLWpG3RvrTKcPu
+Gm1vSVrrzNMRtD0/VlqoJP8AWmuv2z/89Y/+/Z/+Ko2z/wDPWP8A79n/AOKolW5laxnCjyu9zjzt
+J61Y065WzvUdj+6chZM9OvB/A/1rqNs//PWP/v2f/iqbLFLLE8cjxlHUqw2HkH/gVY9LanVKpzNt
+xV36/wCY53rkZ5hc3M05PDuduB2HA/QV0n9m5/5bP/38l/8Ai6sRRSxRJHG8YRFCqNh4A/4FQSnb
+on6nInG3ANNrsWFztO2SIntmM/41JC/mQpJjG5QcemaqMuUmreo03pbTQy/7Tn+xyTbY9yybRwcY
+/Or/AJrfZPN43bN3tnFFFQMovqUy6elwFTez7SMHH86lub2WGSNVCENtzkeuf8KKKYEljdSXJm3h
+RsfaMColvpTcXUeExCpK8HnHrRRSAs2kzTW6yNgEk9PYkVThuZFhRQRgKBRRQB//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="26336b89-a965-406b-8414-0ce73579b428"
+		sx="1197"
+		sy="299"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7066587e-7468-4405-9953-b8af7b3300bb"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="1160,288,80,19"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						o365sx-neutral-accent-link
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						meControlSignoutLink
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Cerrar sesi&#243;n
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						o365sx-neutral-accent-link
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://onedrive.live.com/?id=5A461E59D90B3A84%21144&amp;cid=5A461E59D90B3A84#
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='onedrive.live.com']//a[#'meControlSignoutLink']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="789540b5-3740-4fe8-a50a-d9fd98e9272c">
+				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
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="6bd036f9-f942-4c48-af49-bc3bcc12d263"
+		waitaction="Exists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f09ec31d-ca36-4a53-948e-90341aa3865a"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="113,407,230,43"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						c-button f-primary xs-ow-mr-0 ow-mt-25 ow-txt-trans-upper
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						c-button f-primary ow-mt-25 ow-txt-trans-upper xs-ow-mr-0
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://go.microsoft.com/fwlink/p/?LinkID=2119709&amp;clcid=0x409&amp;culture=en-us&amp;country=US
+					</attribute>
+					<attribute
+					name="target"
+					type="System.String">
+						_blank
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="aria-label"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="data-m"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='www.microsoft.com']//div[#'heroregion']/?/?/section/div/div/div/div/div/div/div[1]/a[@href&gt;'https://go.microsoft.com/']
+				</path>
+			</info>
+		</WaitForRecordItem>
+	</recorditems>
+	<repository
+	id="864b2692-9165-4da7-97d7-948126133449"
+	name="WebRepository"
+	relativepath="WebRepository.rxrep">
+		<codegen
+		classname="WebRepository"
+		namespace="Web">
+		</codegen>
+		<rootfolder
+		id="06fb0bcf-3770-45c2-a755-52da37adeb54"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		LogOut.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -5,8 +5,15 @@
   <Array name="bookmarks" />
   <Array name="files" />
   <SerializedValue name="ModuleBrowserState">
-    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>{AA5DAB1F-070D-4054-9D4E-B68EE3589E76}</string>
+      <string>178aaf8a-8ff1-43a2-8786-ffb01d093ae0</string>
+      <string>c0ac5cef-cbb5-4c09-84b1-b67165acc398</string>
+      <string>{DD262A33-E6F5-4F91-A02A-67C5D2241A95}</string>
+      <string>17ea4b72-f55d-45b1-8492-188669d66e32</string>
+    </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution Webinear[]]&#xD;&#xA;Solution Webinear\Mobile&#xD;&#xA;Solution Webinear" />
+  <ProjectBrowserState value="[Solution Webinear[]]&#xD;&#xA;Solution Webinear\Webinear&#xD;&#xA;Solution Webinear" />
   <StartupProject value="{DD262A33-E6F5-4F91-A02A-67C5D2241A95}" />
 </Properties>

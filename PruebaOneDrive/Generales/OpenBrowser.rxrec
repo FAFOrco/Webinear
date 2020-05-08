@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="22c04d47-1d6e-4ebd-a084-e251411e8544"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="PruebaOneDrive.Generales">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="Chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="True"
+		instrument="True"
+		killexisting="False"
+		maximized="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://onedrive.live.com/about/en-us/signin/
+			</url>
+		</openwebsiterecorditem>
+		<WaitForRecordItem
+		enabled="True"
+		optional="False"
+		searchpropertyid="d5af453d-6a74-4892-a96b-923aa76877fd"
+		waitaction="Exists"
+		waittimeout="30000ms">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5eb8b652-e534-4e06-9dbd-38530483d1a7"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain~'live.com']//section[#'mainContent']/iframe[@src='https://odc.officeapps.live.com/odc/v2.0/hrd?rs=en-us&amp;Ver=16&amp;app=23&amp;p=6&amp;hm=0']/body/div[2]//h1[@innertext='Sign in']
+				</path>
+			</info>
+		</WaitForRecordItem>
+	</recorditems>
+	<repository
+	id="1d4b3990-54fe-4f7c-ba4c-7aaab296298c"
+	name="PruebaOneDriveRepository"
+	relativepath="..\PruebaOneDriveRepository.rxrep">
+		<codegen
+		classname="PruebaOneDriveRepository"
+		namespace="PruebaOneDrive">
+		</codegen>
+		<rootfolder
+		id="f575972e-29da-43e5-81d3-98a25a6ca7ab"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
