@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="919343c3-d856-4043-a662-36cc9f86f35e"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="DemoWeb">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="True"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://onedrive.live.com/about/en-us/signin/
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="dc17c104-724b-494d-8ed0-e050ec746a41"
+	name="DemoWebRepository"
+	relativepath="DemoWebRepository.rxrep">
+		<codegen
+		classname="DemoWebRepository"
+		namespace="DemoWeb">
+		</codegen>
+		<rootfolder
+		id="480b6d1f-38df-4e50-9052-80754d92f698"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
