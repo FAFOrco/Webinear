@@ -1,0 +1,217 @@
+﻿<repository
+id="dc17c104-724b-494d-8ed0-e050ec746a41"
+name="DemoWebRepository">
+	<codegen
+	classname="DemoWebRepository"
+	namespace="DemoWeb">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="480b6d1f-38df-4e50-9052-80754d92f698"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="a2c89581-3502-484d-b25d-24f2bb1a5914"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="bb086b8c-e23a-492c-b742-2da6d2a8ac9a"
+			isrooted="True"
+			name="Outer"
+			refpath="/dom[@domain='onedrive.live.com']//section[#'mainContent']/iframe[@src='https://odc.officeapps.live.com/odc/v2.0/hrd?rs=en-us&amp;Ver=16&amp;app=23&amp;p=6&amp;hm=0']/body/div[2]"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,h1tag"
+				capname="h1tag"
+				id="d97a176a-1024-4b50-8188-7e0373b154c8"
+				name="SignIn"
+				refimgid="b4f6b8b9-08a4-4c82-bd26-f2110a47732a"
+				refpath="/dom[@domain='onedrive.live.com']//section[#'mainContent']/iframe/body/div[2]/div/main/div[2]/h1[@innertext='Sign in']"
+				searchtimeout="30000ms">
+					/dom[@domain='onedrive.live.com']//section[#'mainContent']/iframe[@src='https://odc.officeapps.live.com/odc/v2.0/hrd?rs=en-us&amp;Ver=16&amp;app=23&amp;p=6&amp;hm=0']/body/div[2]//h1[@innertext='Sign in']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="6014a13f-f9f5-4ad9-bdd3-4fa1504d1651"
+				name="Email"
+				refimgid="9e5128b2-0ce3-4a1e-b224-c19e2953ea3d"
+				refpath="/dom[@domain='onedrive.live.com']//section[#'mainContent']/iframe/body/div[2]/div/main/div[2]/div[2]/div/input[@type='email']"
+				searchtimeout="30000ms">
+					/dom[@domain='onedrive.live.com']//section[#'mainContent']/iframe[@src='https://odc.officeapps.live.com/odc/v2.0/hrd?rs=en-us&amp;Ver=16&amp;app=23&amp;p=6&amp;hm=0']/body/div[2]/?/?/main/div[2]/div[2]/?/?/input[@type='email']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="deaadca1-b920-4a75-8def-caea1921ecec"
+				name="Submit"
+				refimgid="66054f26-b5ad-438d-bc8f-a95bf9b98dbf"
+				refpath="/dom[@domain='onedrive.live.com']//section[#'mainContent']/iframe/body/div[2]/div/main/div[2]/div[4]/input[@type='submit']"
+				searchtimeout="30000ms">
+					/dom[@domain='onedrive.live.com']//section[#'mainContent']/iframe[@src='https://odc.officeapps.live.com/odc/v2.0/hrd?rs=en-us&amp;Ver=16&amp;app=23&amp;p=6&amp;hm=0']/body/div[2]/?/?/main/div[2]/div[4]/input[@type='submit']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="4e73e5e7-e84f-4bb5-85ad-5d7291f5f914"
+				name="PersonalAccount"
+				refimgid="c357c7ec-89cd-4bf7-9d24-4bf2b671b365"
+				refpath="/dom[@domain='onedrive.live.com']//section[#'mainContent']/iframe/body/div[2]/div/main/div[2]/div[3]/div[2]/div[@innertext='Personal account']"
+				searchtimeout="30000ms">
+					/dom[@domain='onedrive.live.com']//section[#'mainContent']/iframe[@src='https://odc.officeapps.live.com/odc/v2.0/hrd?rs=en-us&amp;Ver=16&amp;app=23&amp;p=6&amp;hm=0']/body/div[2]/?/?/main/div[2]/div[3]/?/?/div[@innertext='Personal account']
+				</item>
+				<basepath>
+					/dom[@domain='onedrive.live.com']//section[#'mainContent']/iframe[@src='https://odc.officeapps.live.com/odc/v2.0/hrd?rs=en-us&amp;Ver=16&amp;app=23&amp;p=6&amp;hm=0']/body/div[2]
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="8eb5d080-f163-4538-ba01-c09115fe8e46"
+			name="HttpsSpoprodAAkamaihdNetFilesFab"
+			refimgid="71e6d14c-ad18-46c9-874f-c2a8103a7cd2"
+			refpath="/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[2]/div[5]/main/div/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div[1]/div/div[1]/div/div/div/a[@href='https://onedrive.live.com/?id=root&amp;cid=5A461E59D90B3A84#id=5A461E59D90B3A84%21105&amp;cid=5A461E59D90B3A84']/span[2]/span/span/span/div/i/img[@src='https://spoprod-a.akamaihd.net/files/fabric/office-ui-fabric-react-assets/foldericons/vault-lg.svg']"
+			searchtimeout="30000ms">
+				/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[2]/div[5]/main/div/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div[1]/div/div[1]/div/div/div/a[@href&gt;'https://onedrive.live.com']/span[2]/span/span//img[@src='https://spoprod-a.akamaihd.net/files/fabric/office-ui-fabric-react-assets/foldericons/vault-lg.svg']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="dc929210-adb9-4cfb-8f12-80ee8e762585"
+			name="ImgTagF"
+			refimgid="f14f449b-4eac-473c-ba10-8530a7ebb4e5"
+			refpath="/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[1]/div/div[1]/div[3]/div[1]/button/div/div[2]/div/div/div/div/div[2]/img[@alt='F']"
+			searchtimeout="30000ms">
+				/dom[@domain='onedrive.live.com']//div[#'appRoot']/div/div[1]/div/div[1]/div[3]/div[1]/button[@title&gt;'Administrador de cuenta para']/div/div[2]//img[@alt='F']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="55f5866d-87ec-407c-b3f7-7f14621b93b0"
+			name="MeControlSignoutLink"
+			refimgid="66c6b579-6ca3-43cb-93ef-8308be8f5a92"
+			refpath="/dom[@domain='onedrive.live.com']//a[#'meControlSignoutLink']"
+			searchtimeout="30000ms">
+				/dom[@domain='onedrive.live.com']//a[#'meControlSignoutLink']
+			</item>
+			<basepath>
+				/dom[@domain='onedrive.live.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="47fb193a-2e02-4088-a2b5-1390f0234c28"
+		isrooted="True"
+		name="OneDrive"
+		refpath="/dom[@domain='login.live.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="382926de-c6f9-46ec-b133-3bb9d0e5965d"
+			name="Passwd"
+			refimgid="59832f23-f2f0-4d2d-b580-4f2db1f15db3"
+			refpath="/dom[@domain='login.live.com']/body/div/form[@name='f1']/div/div/div[1]/div[2]/div[2]/div/div[2]/div/div[2]/div/div[2]/input[@name='passwd']"
+			searchtimeout="30000ms">
+				/dom[@domain='login.live.com']/body/?/?/form[@name='f1']/div/div/div[1]/div[2]/div[2]/div/div[2]/div/div[2]//input[@name='passwd']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="67116216-594f-49c3-adba-6b0071037248"
+			name="IdSIButton9"
+			refimgid="28feba0c-7992-4985-bdd0-c5ba27455407"
+			refpath="/dom[@domain='login.live.com']//input[#'idSIButton9']"
+			searchtimeout="30000ms">
+				/dom[@domain='login.live.com']//input[#'idSIButton9']
+			</item>
+			<basepath>
+				/dom[@domain='login.live.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="e17f31a9-8dbd-4029-8062-f21f23fd9b91"
+		isrooted="True"
+		name="PersonalCloudStorageMicrosoftOneDri"
+		refimgid="4f29b20a-793c-48ee-8d74-6aa1f541ea27"
+		refpath="/dom[@domain='www.microsoft.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="056c1494-a9e7-4057-b50d-c5a48e473473"
+			name="OneDrive"
+			refimgid="93926560-cf42-4f2d-93cb-f756913997a1"
+			refpath="/dom[@domain='www.microsoft.com']//div[#'heroregion']/div[1]/section/div/div[1]/div/div/div/h1[@innertext='OneDrive']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.microsoft.com']//div[#'heroregion']/div[1]/section/div/div[1]//h1[@innertext='OneDrive']
+			</item>
+			<basepath>
+				/dom[@domain='www.microsoft.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

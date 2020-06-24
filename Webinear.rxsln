@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaOneDrive", "PruebaOneDrive\PruebaOneDrive.csproj", "{B2E2BA79-5D74-4A91-B64A-0F3570D9D349}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWeb", "DemoWeb\DemoWeb.csproj", "{7A6E22F1-020A-4E41-AC3A-27CE24B066A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -51,5 +53,9 @@ Global
 		{B2E2BA79-5D74-4A91-B64A-0F3570D9D349}.Debug|x86.ActiveCfg = Debug|x86
 		{B2E2BA79-5D74-4A91-B64A-0F3570D9D349}.Release|x86.Build.0 = Release|x86
 		{B2E2BA79-5D74-4A91-B64A-0F3570D9D349}.Release|x86.ActiveCfg = Release|x86
+		{7A6E22F1-020A-4E41-AC3A-27CE24B066A4}.Debug|x86.Build.0 = Debug|x86
+		{7A6E22F1-020A-4E41-AC3A-27CE24B066A4}.Debug|x86.ActiveCfg = Debug|x86
+		{7A6E22F1-020A-4E41-AC3A-27CE24B066A4}.Release|x86.Build.0 = Release|x86
+		{7A6E22F1-020A-4E41-AC3A-27CE24B066A4}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 EndGlobal
