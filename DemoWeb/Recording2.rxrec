@@ -271,7 +271,7 @@ AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA//Z
 		optional="False"
 		searchpropertyid="0df04fe3-dbb9-4262-a706-b1fb6dcfadc2"
 		waitaction="Exists"
-		waittimeout="30000ms">
+		waittimeout="60000ms">
 			<comment>
 			</comment>
 			<bindings>

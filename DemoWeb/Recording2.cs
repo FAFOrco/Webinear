@@ -87,8 +87,8 @@ namespace DemoWeb
             repo.ApplicationUnderTest.MeControlSignoutLink.Click("44;9");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Wait", "Waiting 30s to exist. Associated repository item: 'PersonalCloudStorageMicrosoftOneDri.OneDrive'", repo.PersonalCloudStorageMicrosoftOneDri.OneDriveInfo, new ActionTimeout(30000), new RecordItemIndex(2));
-            repo.PersonalCloudStorageMicrosoftOneDri.OneDriveInfo.WaitForExists(30000);
+            Report.Log(ReportLevel.Info, "Wait", "Waiting 1m to exist. Associated repository item: 'PersonalCloudStorageMicrosoftOneDri.OneDrive'", repo.PersonalCloudStorageMicrosoftOneDri.OneDriveInfo, new ActionTimeout(60000), new RecordItemIndex(2));
+            repo.PersonalCloudStorageMicrosoftOneDri.OneDriveInfo.WaitForExists(60000);
             
         }
 
